@@ -3,7 +3,7 @@ title: Somatic Balance | Dental Jekyll Theme
 description: "A responsive Jekyll theme for dental clinics."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the name of your domain
-logo_url: svg/min/logo.svg
+logo_url: img/logo.png
 
 # Hero
 hero: 
