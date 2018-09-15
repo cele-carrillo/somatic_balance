@@ -8,7 +8,13 @@ module.exports = function (grunt) {
                 separator: "\n\n"
             },
             dist: {
-                src: ['js/bootstrap.js', 'js/owl.carousel.js', 'js/jquery.magnific-popup.js', 'js/gmap3.js', 'js/custom.js'],
+                src: [
+                    'js/bootstrap.js',
+                    'js/owl.carousel.js',
+                    'js/jquery.magnific-popup.js',
+                    'js/gmap3.js',
+                    'js/custom.js'
+                ],
                 dest: 'js/all.js'
             } 
         },
@@ -104,4 +110,4 @@ module.exports = function (grunt) {
     // Define the tasks
     grunt.registerTask('serve', ['shell:jekyllServe']);
     grunt.registerTask('default', ['watch']);
-}
+};

@@ -8586,6 +8586,10 @@ $.fn.gmap3 = function () {
         });
         
     });
-          
+
+    $('.open-modal-window').magnificPopup({
+        type:'inline',
+        midClick: true
+    });
 })(jQuery);
 
