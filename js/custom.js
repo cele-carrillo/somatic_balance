@@ -97,7 +97,13 @@
                 options: {
                     mapTypeId: google.maps.MapTypeId.ROADMAP,
                     zoom: data_zoom,
-                    scrollwheel: false
+                    scrollwheel: false,
+                    styles: [
+                        {
+                            featureType: 'poi.business',
+                            stylers: [{visibility: 'off'}]
+                        }
+                    ]
                 }
             }
         });
