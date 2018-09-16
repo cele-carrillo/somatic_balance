@@ -35,6 +35,7 @@ testimonials:
 
 # Map
 map:
+    api_key: AIzaSyDzB8G0Ol_wvkWDR6VBjKMSk38kgFi_CYc
     zoom: 17
     address: Von schroeders 273, Viña del mar, Chile
     address_details: svg/min/logo.svg
@@ -65,4 +66,4 @@ exclude: [
 
 # Theme Settings
 analytics: 
-google_verification:
+google_verification: _OPZ1XDKeZd_sGEquv49trtNSd9YNLtugRWaLbTvAiY

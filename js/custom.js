@@ -67,6 +67,7 @@
         }   
         
         $(this).gmap3({
+            key: $(this).attr("data-api-key"),
             marker: {
                 values: [{
                     address: $(this).attr("data-address"),
