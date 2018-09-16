@@ -38,7 +38,7 @@ map:
     api_key: AIzaSyDzB8G0Ol_wvkWDR6VBjKMSk38kgFi_CYc
     zoom: 17
     address: 33 Foster st, Surry Hills - NSW - Australia
-    address_details: svg/min/logo.svg
+    address_details: details when clicking on the map marker
 
 # Social settings
 facebook: http://facebook.com
