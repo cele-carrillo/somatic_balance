@@ -19,11 +19,11 @@
   .location-item {
     padding: 15px 0 15px 0;
     &:nth-child(1) {
-      background: lighten($colorPrimary, 2%);
+      background: lighten($colorPrimary, 12%);
       height: 225px;
     }
     &:nth-child(2) {
-      background: $colorPrimary;
+      background: lighten($colorPrimary, 8%);
       height: 225px;
     }
 

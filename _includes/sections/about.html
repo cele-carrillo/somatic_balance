@@ -1,47 +1,52 @@
-<div id="about" class="about">
+<div id="about" class="about" style="background: url('/img/about.jpg') no-repeat; background-size: cover;">
     <div class="container-fluid">
         <h2 class="section-title">About Us</h2>
-
+        <div class="row">
+            <div class="col-sm-10">
+                <h3>Deepening the body-mind-emotion connection</h3>
+                <p>
+                    More often than not, we try to deal with the body from a very surface level. We see what's wrong on
+                    the outside and we try to fix it but the truth is - the body isn't meant to be 'fixed',
+                    <strong>it's meant to be freed</strong>.
+                </p>
+                <p>
+                    This is why Somatic Balance was created - our aim is to go beyond the surface and gain a deeper understanding
+                    into who we are and what we need. We are here to help people work with the body instead of against it, to begin understanding
+                    how the physical body, mind and emotions are one.
+                </p>
+            </div>
+        </div>
+        <h4>
+            Somatic Balance is for anyone who wants to:
+        </h4>
         <div class="row">
             <div class="col-sm-6">
-                <h3>Welcome to Somatic Balance</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis nostrum ab vero temporibus magnam, delectus!</p>
-
+                {% for bullet in site.data.about.bullet_group1 %}
                 <div class="media">
                     <div class="media-left">
                         <div class="boxed-icon">
-                            <svg class="icon icon-heart"><use xlink:href="#icon-heart"></use></svg>
+                            <svg class="icon icon-somatic-person"><use xlink:href="#icon-somatic-person"></use></svg>
                         </div>
                     </div>
                     <div class="media-body">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam explicabo unde doloremque quo, fugit, nisi.</p>
+                        <p>{{ bullet.text }}</p>
                     </div>
                 </div>
-
-                <div class="media">
-                    <div class="media-left">
-                        <div class="boxed-icon">
-                            <svg class="icon icon-medkit"><use xlink:href="#icon-medkit"></use></svg>
-                        </div>
-                    </div>
-                    <div class="media-body">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam explicabo unde doloremque quo, fugit, nisi.</p>
-                    </div>
-                </div>
-
-                <div class="media">
-                    <div class="media-left">
-                        <div class="boxed-icon">
-                            <svg class="icon icon-star"><use xlink:href="#icon-star"></use></svg>
-                        </div>
-                    </div>
-                    <div class="media-body">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam explicabo unde doloremque quo, fugit, nisi.</p>
-                    </div>
-                </div>
+                {% endfor %}
             </div>
             <div class="col-sm-6">
-                <img src="img/about.jpg" alt="...">
+                {% for bullet in site.data.about.bullet_group2 %}
+                <div class="media">
+                    <div class="media-left">
+                        <div class="boxed-icon">
+                            <svg class="icon icon-somatic-person"><use xlink:href="#icon-somatic-person"></use></svg>
+                        </div>
+                    </div>
+                    <div class="media-body">
+                        <p>{{ bullet.text }}</p>
+                    </div>
+                </div>
+                {% endfor %}
             </div>
         </div>
     </div>
