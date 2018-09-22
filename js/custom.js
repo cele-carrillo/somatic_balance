@@ -61,15 +61,23 @@
     $(".map").each(function(){
             
         var data_zoom = 17;
-        
+        var center = undefined;
+
         if ($(this).attr("data-zoom") !== undefined) {
             data_zoom = parseInt($(this).attr("data-zoom"),10);
-        }   
+        }
+        if ($(this).attr("data-lat") !== undefined && $(this).attr("data-lng") !== undefined) {
+            center = [
+                Number($(this).attr("data-lat")),
+                Number($(this).attr("data-lng"))
+            ];
+        }
         
         $(this).gmap3({
             marker: {
                 values: [{
                     address: $(this).attr("data-address"),
+                    position: center,
                     data: $(this).attr("data-address-details")
                 }],
                 options:{

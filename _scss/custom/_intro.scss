@@ -1,6 +1,16 @@
 .intro {
+  @extend %clearfix;
+  @extend %align-center;
+  display: block;
+  background: $colorPrimary;
+  color: $white;
+
+  padding: $space*2 $space*3;
+
+  .icon {
+    font-size: 2rem;
+  }
   p {
-    color: $white;
     font-size: 1.125rem;
   }
 }

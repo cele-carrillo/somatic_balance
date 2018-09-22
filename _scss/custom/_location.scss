@@ -1,0 +1,48 @@
+.location {
+  @extend %clearfix;
+  @extend %align-center;
+  display: block;
+
+  background: $colorPrimary;
+
+  .row {
+    margin-left: 0;
+    margin-right: 0;
+
+    [class^="col-"] {
+      padding: 0;
+    }
+    height: 450px;
+  }
+
+
+  .location-item {
+    padding: 15px 0 15px 0;
+    &:nth-child(1) {
+      background: lighten($colorPrimary, 2%);
+      height: 225px;
+    }
+    &:nth-child(2) {
+      background: $colorPrimary;
+      height: 225px;
+    }
+
+    color: $white;
+
+    .icon {
+      font-size: 2rem;
+      color: $white;
+    }
+    h3 {
+      color: $white;
+    }
+
+    ul {
+      @extend %no-bullet;
+    }
+  }
+}
+
+.map {
+  height: 450px;
+}

@@ -7,21 +7,24 @@ logo_url: img/logo.png
 
 # Hero
 hero: 
-    hero_img: hero.jpg
-    hero_title: Somatic Balance
-    hero_description: A somatic experience built around your needs.
+  hero_img: hero.jpg
+  hero_title: Somatic Balance
+  hero_description: Get back to being your best self
 
 # Contact form
 api_token: # Enter API token here
 
 # Contact info
 contact:
-    phone: xxx xxx xxx 
-    emergency: xxx xxx xxx
-    email: hello@somaticbalance.com
-    address: 33 Foster st, Surry Hills - NSW - Australia
+  phone: xxx xxx xxx
+  emergency: xxx xxx xxx
+  email: hello@somaticbalance.com
+  address: 33 Foster st, Surry Hills - NSW - Australia
 
-intro: If you want to clear your mind, increase body awareness, and find long-term improvement in the quality of well-being, this is for you.
+intro:
+  - Our bodies hold the stories of who we are but more often than not, we find ourselves struggling to even understand what’s really going on within us. We’re physically stressed and emotionally exhausted.
+  - It’s time for that to change.
+
 # Opening hours
 opening_hours:
   - weekday: Monday – Tuesday
@@ -31,14 +34,16 @@ opening_hours:
 
 # Testimonials
 testimonials:
-    testimonials_img: parallax.jpg
+  testimonials_img: parallax.jpg
 
 # Map
 map:
-    api_key: AIzaSyDzB8G0Ol_wvkWDR6VBjKMSk38kgFi_CYc
-    zoom: 17
-    address: 33 Foster st, Surry Hills - NSW - Australia
-    address_details: details when clicking on the map marker
+  api_key: AIzaSyDzB8G0Ol_wvkWDR6VBjKMSk38kgFi_CYc
+  zoom: 16
+  lat: -33.880361
+  lng: 151.2052403
+  address: 33 Foster st, Surry Hills - NSW - Australia
+  address_details: 33 Foster st, Surry Hills
 
 # Social settings
 facebook: http://facebook.com
@@ -55,13 +60,13 @@ copyright: © 2018 Somatic Balance - All rights reserved
 markdown: kramdown
 
 exclude: [
-    package.json,
-    Gruntfile.js,
-    node_modules,
-    .sass-cache,
-    Gemfile,
-    Gemfile.lock,
-    .gitignore
+  package.json,
+  Gruntfile.js,
+  node_modules,
+  .sass-cache,
+  Gemfile,
+  Gemfile.lock,
+  .gitignore
 ]
 
 # Theme Settings
