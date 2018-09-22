@@ -11,6 +11,12 @@ hero:
   hero_title: Somatic Balance
   hero_description: Get back to being your best self
 
+promo:
+  enabled: true
+  close_cookie_timeout: 1800
+  closable: false
+  img: '/img/mind-body-spirit.png'
+
 # Contact form
 api_token: # Enter API token here
 
