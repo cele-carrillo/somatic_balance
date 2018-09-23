@@ -13,7 +13,8 @@ module.exports = function (grunt) {
                     'js/owl.carousel.js',
                     'js/jquery.magnific-popup.js',
                     'js/gmap3.js',
-                    'js/custom.js'
+                    'js/custom.js',
+                    'js/sb-custom.js'
                 ],
                 dest: 'js/all.js'
             } 

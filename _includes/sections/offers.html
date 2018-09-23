@@ -1,0 +1,27 @@
+<div id="offers" class="offers">
+    <div class="container-fluid">
+        <h2 class="section-title">What we offer</h2>
+
+        <div class="row">
+            {% for offer in site.data.offers %}
+            {% assign details = offer[1] %}
+            {% assign id = offer[0] %}
+            <div class="col-sm-6 col-md-4">
+                <div class="offer-box open-modal-window" data-mfp-src="#offer-{{id}}">
+                    <div class="offer-box-top">
+                        <span>Learn more</span>
+                    </div>
+                    <div class="icon-box offer-box-bottom">
+                        <svg class="icon {{ details.icon }}"><use xlink:href="#{{ details.icon }}"></use></svg>
+                        <h4>{{ details.title }}</h4>
+                        <p>{{ details.summary }}</p>
+                    </div>
+                </div>
+                <div id="offer-{{id}}" class="white-popup mfp-hide">
+                    {% include offers/{{id}}.html data=details %}
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>

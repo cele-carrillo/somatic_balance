@@ -1,19 +1,19 @@
 
-.treatment-box {
+.offer-box {
   position: relative;
   padding: 0;
   text-align: center;
   cursor:pointer;
 }
 
-.treatment-box-top {
+.offer-box-top {
   @extend %clearfix;
   position: absolute;
   width: 100%;
   background: darken($colorPrimary, 5%);
   transform: translate(0px, 0px) perspective(10000px) rotateX(-90deg);
   transition: transform 250ms linear;
-  .treatment-box:hover & {
+  .offer-box:hover & {
     transform: translate(0px, -15px) perspective(10000px) rotateX(0);
   }
   span {
@@ -36,10 +36,10 @@
   }
 }
 
-.treatment-box-bottom {
+.offer-box-bottom {
   transform: translate(0px, 0px);
   transition: transform 250ms linear;
-  .treatment-box:hover & {
+  .offer-box:hover & {
     transform: translate(0px, 15px);
   }
 }
