@@ -16,14 +16,10 @@ promo:
   closable: false
   img: '/img/mind-body-spirit.png'
 
-# Contact form
-api_token: # Enter API token here
-
 # Contact info
 contact:
-  phone: xxx xxx xxx
-  emergency: xxx xxx xxx
-  email: hello@somaticbalance.com
+  phone: '+61 402 144 408'
+  email: hello@somaticbalance.com.au
   address: 33 Foster st, Surry Hills - NSW - Australia
 
 intro:

@@ -1,5 +1,6 @@
 /* FORM
 -------------------------------------------------*/
+
 .form {
     padding: $spaceDouble $space;
     background: $colorBg;
@@ -20,6 +21,14 @@
     .form-field {
         margin-bottom: 10px;
     }
+
+    .emailjs-sending {
+        .btn {
+            cursor: not-allowed;
+            pointer-events: none;
+            background: $grey;
+        }
+    }
 }
 
 .form-highlight {
@@ -32,4 +41,31 @@
     opacity: 0.3;
     top: 0;
     left: 0;
+}
+
+.contact-form-result {
+    text-align: center;
+    position: relative;
+    background: #FFF;
+    padding: 20px;
+    width:100%;
+    max-width: 500px;
+    margin: 20px auto;
+
+    &.result-success {
+        h1 {
+            color: $colorPrimary;
+        }
+    }
+
+    &.result-error {
+        h1 {
+            color: $colorSecondary;
+        }
+    }
+
+    p {
+        font-size: 1.125rem;
+        padding: 20px;
+    }
 }

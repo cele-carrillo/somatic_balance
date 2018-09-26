@@ -25,7 +25,7 @@ function getCookie(cookieName) {
     return '';
 }
 
-$(window).load(function () {
+function showPromo() {
     var promo = $('#promo-window');
     if (!promo.length) {
         return
@@ -52,6 +52,43 @@ $(window).load(function () {
         }, 0);
         setCookie(cookieName, 'true', cookieExpires);
     }
+}
+
+$(window).load(function () {
+    showPromo();
+    emailjs.init('user_SGBCPD2S1ZJ01TaEQGzZR');
+});
+
+function onContactSuccess() {
+    $('#contact-form')[0].reset();
+    $.magnificPopup.open({
+        items: {
+            src: '#form-success',
+            type: 'inline',
+            midClick: true
+        }
+    });
+}
+
+function onContactError(error) {
+    console.log(error);
+    $.magnificPopup.open({
+        items: {
+            src: '#form-error',
+            type: 'inline',
+            midClick: true
+        }
+    });
+}
+
+$('#contact-form').submit(function (e) {
+    e.preventDefault();
+    emailjs.sendForm('default_service', 'contact_form', this)
+        .then(function () {
+            onContactSuccess();
+        }, function (error) {
+            onContactError(error);
+        });
 });
 
 $('.open-modal-window').magnificPopup({
@@ -60,7 +97,6 @@ $('.open-modal-window').magnificPopup({
 });
 
 $('.close-modal-window').click(function () {
-   console.log('here');
    $.magnificPopup.close();
 });
 
