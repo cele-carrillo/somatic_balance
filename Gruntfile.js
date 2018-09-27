@@ -12,6 +12,7 @@ module.exports = function (grunt) {
                     'js/bootstrap.js',
                     'js/owl.carousel.js',
                     'js/jquery.magnific-popup.js',
+                    'js/jquery.matchHeight.js',
                     'js/gmap3.js',
                     'js/custom.js',
                     'js/sb-custom.js'
