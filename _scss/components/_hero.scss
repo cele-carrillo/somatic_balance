@@ -14,11 +14,10 @@
 }
 
 .hero-content {
-    padding: $space 0;
-    background: rgba($white, 0.7);
+    background: rgba($white, 0.6);
     @include breakpoint(small) {
         position: absolute;
-        bottom: 0;
+        top: 0;
         left: 0;
         width: 100%;
     }
@@ -27,11 +26,9 @@
             width: 50%;
         }
     }
-    h1 {
-        margin: 0 0 5px;
-        color: $colorPrimary;
-    }
     p {
-        font-size: 1.125rem;
+        margin: 5px;
+        color: darken($colorPrimary, 10%);
+        font-size: 1.25rem;
     }
 }

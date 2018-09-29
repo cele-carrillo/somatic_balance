@@ -5,10 +5,6 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the name of your domain
 logo_url: img/logo.png
 
-# Hero
-hero: 
-  hero_title: Somatic Balance
-  hero_description: Get back to being your best self
 
 promo:
   enabled: true
@@ -21,10 +17,6 @@ contact:
   phone: '+61 402 144 408'
   email: hello@somaticbalance.com.au
   address: 33 Foster st, Surry Hills - NSW - Australia
-
-intro:
-  - Our bodies hold the stories of who we are but more often than not, we find ourselves struggling to even understand what’s really going on within us. We’re physically stressed and emotionally exhausted.
-  - It’s time for that to change.
 
 # Opening hours
 opening_hours:
