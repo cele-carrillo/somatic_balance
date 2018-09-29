@@ -91,7 +91,7 @@ $('#contact-form').submit(function (e) {
         });
 });
 
-$('.offer-box-bottom').matchHeight(true);
+$('.offer-box-top').matchHeight(true);
 
 $('.open-modal-window').magnificPopup({
     type:'inline',

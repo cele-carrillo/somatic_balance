@@ -7,14 +7,26 @@
 }
 
 .offer-box-top {
+  z-index: 10;
+  transform: translate(0px, 0px);
+  transition: transform 250ms linear;
+  .offer-box:hover & {
+    transform: translate(0px, -15px);
+    .more {
+      color: $colorPrimary;
+    }
+  }
+}
+
+.offer-box-bottom {
   @extend %clearfix;
   position: absolute;
   width: 100%;
   background: darken($colorPrimary, 5%);
-  transform: translate(0px, 0px) perspective(10000px) rotateX(-90deg);
+  transform: translate(0px, -60px) perspective(10000px) rotateX(-90deg);
   transition: transform 250ms linear;
   .offer-box:hover & {
-    transform: translate(0px, -15px) perspective(10000px) rotateX(0);
+    transform: translate(0px, -35px) perspective(10000px) rotateX(0);
   }
   span {
     position: relative;
@@ -27,19 +39,6 @@
     color: $white;
     text-align: center;
     text-decoration: none;
-    &:first-child {
-      background: darken($colorPrimary, 2%);
-    }
-    &:last-child {
-      background: lighten($colorPrimary, 4%);
-    }
   }
 }
 
-.offer-box-bottom {
-  transform: translate(0px, 0px);
-  transition: transform 250ms linear;
-  .offer-box:hover & {
-    transform: translate(0px, 15px);
-  }
-}

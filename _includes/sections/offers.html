@@ -8,17 +8,18 @@
             {% assign id = offer[0] %}
             <div class="col-sm-6 col-md-4">
                 <div class="offer-box open-modal-window" data-mfp-src="#offer-{{id}}">
-                    <div class="offer-box-top">
-                        <span>Learn more</span>
-                    </div>
-                    <div class="icon-box offer-box-bottom">
+                    <div class="icon-box offer-box-top">
                         <svg class="icon {{ details.icon }}"><use xlink:href="#{{ details.icon }}"></use></svg>
                         <h4>{{ details.title }}</h4>
                         <p>{{ details.summary }}</p>
+                        <svg class="icon more icon-expand"><use xlink:href="#icon-expand"></use></svg>
+                        <div id="offer-{{id}}" class="white-popup mfp-hide">
+                            {% include offers/{{id}}.html data=details %}
+                        </div>
                     </div>
-                </div>
-                <div id="offer-{{id}}" class="white-popup mfp-hide">
-                    {% include offers/{{id}}.html data=details %}
+                    <div class="offer-box-bottom">
+                        <span>Learn more</span>
+                    </div>
                 </div>
             </div>
             {% endfor %}
