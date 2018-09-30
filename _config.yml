@@ -9,22 +9,14 @@ logo_url: img/logo.png
 promo:
   enabled: true
   close_cookie_timeout: 1800
-  closable: false
+  closable: true
   img: '/img/mind-body-spirit.png'
 
 # Contact info
 contact:
   phone: '+61 402 144 408'
   email: hello@somaticbalance.com.au
-  address: 33 Foster st, Surry Hills - NSW - Australia
-
-# Opening hours
-opening_hours:
-  - weekday: Monday – Tuesday
-    time: 11:00 – 18:00
-  - weekday: Thursday - Friday
-    time: 11:00 – 18:00
-
+  address: Sydney - NSW - Australia
 
 # Map
 map:
@@ -36,12 +28,12 @@ map:
   address_details: 33 Foster st, Surry Hills
 
 # Social settings
-facebook: http://facebook.com
-twitter: http://twitter.com
-instagram: http://instagram.com
-youtube: http://youtube.com
-skype: skype:obaez_design?userinfo
-feed: yes
+#facebook: http://facebook.com
+#twitter: http://twitter.com
+#instagram: http://instagram.com
+#youtube: http://youtube.com
+#skype: skype:obaez_design?userinfo
+#feed: yes
 
 # Footer
 copyright: © 2018 Somatic Balance - All rights reserved

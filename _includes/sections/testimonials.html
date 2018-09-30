@@ -1,21 +1,15 @@
 <div id="testimonials" class="testimonials">
-    <div class="overlay-container">
-        <div class="overlay"></div>
-        <div class="container-fluid">
-            <div id="testimonial-carousel">
-                {% for testimonial in site.data.testimonials %}
-                <div class="testimonial-item">
-                    <svg class="icon icon-quote-left"><use xlink:href="#icon-quote-left"></use></svg>
-                    <blockquote>
-                        <p>{{ testimonial.description }}</p>
-                        <footer>
-                            {{ testimonial.name }}
-                            <small>{{ testimonial.title }}</small>
-                        </footer>
-                    </blockquote>
-                </div>
-                {% endfor %}
+    <div class="container-fluid">
+        <div id="testimonial-carousel">
+            {% for testimonial in site.data.testimonials %}
+            <div class="testimonial-item">
+                <svg class="icon icon-quote-left"><use xlink:href="#icon-quote-left"></use></svg>
+                <blockquote>
+                    <p>{{ testimonial.description }}</p>
+                    <footer>{{ testimonial.name }}</footer>
+                </blockquote>
             </div>
+            {% endfor %}
         </div>
     </div>
 </div>

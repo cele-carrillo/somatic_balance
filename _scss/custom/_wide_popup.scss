@@ -1,0 +1,26 @@
+
+.wide-popup {
+  position: relative;
+  background: #FFF;
+  width: auto;
+  max-width: 90%;
+  margin: 20px auto;
+  padding: $spaceDouble;
+
+
+  h1 {
+    color: $colorPrimary;
+  }
+
+  .row-content {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: $space;
+
+    a {
+      font-size: 1.125rem;
+      white-space: normal;
+    }
+
+  }
+}

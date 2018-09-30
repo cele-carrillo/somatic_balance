@@ -8899,12 +8899,11 @@ $.fn.gmap3 = function () {
     /* Testimonials slideshow
     ----------------------------------------------*/
     $("#testimonial-carousel").owlCarousel({
- 
-        autoPlay: 6000, //Set AutoPlay to 6 seconds
+        autoPlay: 10000, //Set AutoPlay to 6 seconds
+        stopOnHover: true,
  
         singleItem: true,
-        pagination : false
- 
+        pagination : true
     });
 
     /* Tooltip
@@ -9073,7 +9072,8 @@ $('#contact-form').submit(function (e) {
         });
 });
 
-$('.offer-box-top').matchHeight(true);
+$('.offer-box').matchHeight(true);
+$('.faq-box').matchHeight(true);
 
 $('.open-modal-window').magnificPopup({
     type:'inline',
@@ -9083,6 +9083,17 @@ $('.open-modal-window').magnificPopup({
 $('.close-modal-window').click(function () {
    $.magnificPopup.close();
 });
+
+function autoCollapse(groupId) {
+    $('.' + groupId).on('show.bs.collapse', function () {
+        $('.' + groupId +'.collapse.in').each(function(){
+            $(this).collapse('hide');
+        });
+    });
+}
+
+autoCollapse('rolfing-faqs');
+autoCollapse('yogestalt-faqs');
 
 $('.highlight-contact-form').click(function () {
     var contactForm = $('#contact-form');
