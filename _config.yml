@@ -25,9 +25,6 @@ opening_hours:
   - weekday: Thursday - Friday
     time: 11:00 – 18:00
 
-# Testimonials
-testimonials:
-  testimonials_img: parallax.jpg
 
 # Map
 map:

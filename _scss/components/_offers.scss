@@ -1,38 +1,65 @@
 /* OFFERS
 -------------------------------------------------*/
 .offers {
-    @extend %space;
-    background: url('/img/offers.jpg') no-repeat fixed;
-    background-size: cover;
+  @extend %space;
+  background: url('/img/offers.jpg') no-repeat fixed;
+  background-size: cover;
 
-    h1,h2 {
-        color: $white;
-        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  h1, h2 {
+    color: $white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+
+  .row {
+    @include breakpoint(small) {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }
+  [class^="col-"] {
+    @include breakpoint(small) {
+      display: flex;
+    }
+  }
+  .icon {
+    font-size: 2.5rem;
+    color: $colorPrimary;
+  }
+
+  .more {
+    transform: translateX(-50%);
+    font-size: 1rem;
+    color: $greyLight;
+    text-align: center;
+    position: absolute;
+    margin-bottom: 5px;
+    bottom: 0;
+  }
+}
+
+.offer-popup {
+  position: relative;
+  background: #FFF;
+  width: auto;
+  max-width: 90%;
+  margin: 20px auto;
+  padding: $spaceDouble;
+
+
+  .row-content {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: $space;
+
+    h1 {
+      color: $colorPrimary;
     }
 
-    .row {
-        @include breakpoint(small) {
-            display: flex;
-            flex-wrap: wrap;
-        }
-    }
-    [class^="col-"] {
-        @include breakpoint(small) {
-            display: flex; 
-        }
-    }
-    .icon {
-        font-size: 2.5rem;
-        color: $colorPrimary;
+    a {
+      font-size: 1.125rem;
+      white-space: normal;
     }
 
-    .more {
-        transform: translateX(-50%);
-        font-size: 1rem;
-        color: $greyLight;
-        text-align: center;
-        position: absolute;
-        margin-bottom: 5px;
-        bottom: 0;
-    }
+  }
 }

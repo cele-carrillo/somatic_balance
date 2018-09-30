@@ -13,8 +13,25 @@
                         <h4>{{ details.title }}</h4>
                         <p>{{ details.summary }}</p>
                         <svg class="icon more icon-expand"><use xlink:href="#icon-expand"></use></svg>
-                        <div id="offer-{{id}}" class="white-popup mfp-hide">
-                            {% include offers/{{id}}.html data=details %}
+                        <div id="offer-{{id}}" class="offer-popup mfp-hide">
+
+                            <div class="container-fluid">
+                                <div class="row row-content">
+                                    <h1>{{ details.title }}</h1>
+                                    <h4>{{ details.summary}}</h4>
+                                </div>
+                                <div class="row row-content">
+                                    <div class="col-md-8 col-sm-12">
+                                        {% include offers/{{id}}.html data=details %}
+                                    </div>
+                                    <div class="hidden-sm hidden-xs col-md-4">
+                                        <img src="{{ details.image }}" alt="{{details.title}}">
+                                    </div>
+                                </div>
+                                <div class="row row-content">
+                                    <a class="close-modal-window scroll highlight-contact-form btn btn-info" href="#top">{{ details.call-to-action }}</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="offer-box-bottom">
