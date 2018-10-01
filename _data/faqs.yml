@@ -8,7 +8,7 @@ rolfing:
   title: FAQ on Rolfing
   summary: Gain deeper insight into the world of Rolfing.
   icon: icon-rolfing
-  image: img/offer-rolfing.jpg
+  image: img/faq-rolfing.jpg
   faqs:
     - q: What is Rolfing® and how is it different from other forms of bodywork?
       a:
@@ -67,7 +67,7 @@ yogestalt:
   title: FAQ on Yogestalt
   summary: Gain deeper insight into the world of body-centred mindfulness.
   icon: icon-om
-  image: img/offer-yogestalt.jpg
+  image: img/faq-yogestalt.jpg
   faqs:
     - q: What is Yogestalt?
       a:
