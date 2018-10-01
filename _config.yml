@@ -10,7 +10,7 @@ promo:
   enabled: true
   close_cookie_timeout: 1800
   closable: true
-  img: '/img/mind-body-spirit.png'
+  img: '/img/mind-body-spirit.jpg'
 
 # Contact info
 contact:
