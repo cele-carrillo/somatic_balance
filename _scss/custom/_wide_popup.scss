@@ -7,7 +7,6 @@
   margin: 20px auto;
   padding: $spaceDouble;
 
-
   h1 {
     color: $colorPrimary;
   }
@@ -23,4 +22,8 @@
     }
 
   }
+}
+
+.full-height {
+  height: 95vh;
 }
