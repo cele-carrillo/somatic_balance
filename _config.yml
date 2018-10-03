@@ -27,6 +27,8 @@ map:
   address: 33 Foster st, Surry Hills - NSW - Australia
   address_details: 33 Foster st, Surry Hills
 
+bookings_enabled: false
+
 # Social settings
 #facebook: http://facebook.com
 #twitter: http://twitter.com

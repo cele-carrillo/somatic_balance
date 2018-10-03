@@ -7,7 +7,10 @@
 
     {% include header.html %}
     {% include promo.html %}
-    {% include cliniko.html %}
+
+    {% if site.bookings_enabled %}
+        {% include cliniko.html %}
+    {% endif %}
 
     {% include sections.html %}
         {{ content }}

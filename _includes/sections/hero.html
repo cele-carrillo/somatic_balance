@@ -10,8 +10,10 @@
     <div class="container-fluid">
 
         <div class="col-sm-6 col-sm-offset-6 col-md-4 col-md-offset-8 form">
+            {% if site.bookings_enabled %}
             <a href="#cliniko" class="btn btn-block btn-primary open-modal-window">BOOK A SESSION NOW</a>
             <hr/>
+            {% endif %}
             <h3><svg class="icon icon-envelope-o"><use xlink:href="#icon-envelope-o"></use></svg>Get in touch</h3>
             <form id="contact-form">
                 <div class="form-field">
