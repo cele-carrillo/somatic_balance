@@ -68,6 +68,7 @@ function onContactSuccess() {
             midClick: true
         }
     });
+    gtag('event', 'generate_lead', {event_label: 'success'});
 }
 
 function onContactError(error) {
@@ -79,6 +80,7 @@ function onContactError(error) {
             midClick: true
         }
     });
+    gtag('event', 'exception', {description: error});
 }
 
 $('#contact-form').submit(function (e) {
@@ -96,7 +98,12 @@ $('.faq-box').matchHeight(true);
 
 $('.open-modal-window').magnificPopup({
     type:'inline',
-    midClick: true
+    midClick: true,
+    callbacks: {
+        open: function () {
+            gtag('event', 'view_item', {event_label: this.currItem.src});
+        }
+    }
 });
 
 $('.close-modal-window').click(function () {
@@ -124,6 +131,7 @@ $('.highlight-contact-form').click(function () {
                 $(this).remove();
             });
     });
+    gtag('event', 'generate_lead', {event_label: 'interest'});
 });
 
 })(jQuery);
