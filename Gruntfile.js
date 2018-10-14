@@ -149,7 +149,7 @@ module.exports = function (grunt) {
         const email = grunt.config('cloudflare.email');
         const apiKey = grunt.config('cloudflare.apiKey');
         const content = `id=${id}\nemail=${email}\napikey=${apiKey}`;
-        grunt.file.write('~/.cloudflarerc', content);
+        grunt.file.write(`${process.env['HOME']}/.cloudflarerc`, content);
     });
 
     // Define the tasks
