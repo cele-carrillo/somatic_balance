@@ -104,13 +104,57 @@ module.exports = function (grunt) {
                 spawn : false,
                 livereload: true
             }
+        },
+
+        copy: {
+            githooks: {
+                options: {
+                    mode: '0755'
+                },
+                files: [
+                    {expand: true, src: ['_githooks/*'], dest: '.git/hooks/', filter: 'isFile', flatten: true}
+                ]
+            }
+        },
+
+        prompt: {
+            cloudflare: {
+                options: {
+                    questions: [
+                        {
+                            config: 'cloudflare.id',
+                            type: 'input',
+                            message: 'Cloudflare zone id'
+                        },
+                        {
+                            config: 'cloudflare.email',
+                            type: 'input',
+                            message: 'Cloudflare user email'
+                        },
+                        {
+                            config: 'cloudflare.apiKey',
+                            type: 'input',
+                            message: 'Cloudflare API Key'
+                        },
+                    ]
+                }
+            }
         }
     });
 
     require("load-grunt-tasks")(grunt);
 
+    grunt.registerTask('writeCloudflareConfig', function () {
+        const id = grunt.config('cloudflare.id');
+        const email = grunt.config('cloudflare.email');
+        const apiKey = grunt.config('cloudflare.apiKey');
+        const content = `id=${id}\nemail=${email}\napikey=${apiKey}`;
+        grunt.file.write('~/.cloudflarerc', content);
+    });
+
     // Define the tasks
     grunt.registerTask('compile', ['concat', 'uglify', 'sass', 'autoprefixer', 'svgmin', 'svgstore']);
     grunt.registerTask('serve', ['shell:jekyllServe']);
     grunt.registerTask('default', ['watch']);
+    grunt.registerTask('setup', ['prompt:cloudflare', 'writeCloudflareConfig', 'copy:githooks']);
 };

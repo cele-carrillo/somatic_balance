@@ -1,0 +1,24 @@
+#!/bin/bash
+
+if ! [ -f ~/.cloudflarerc ] ; then
+  echo "No ~/.cloudflarerc file found. Cloudflare clear cache SKIPPED."
+  exit 0
+fi
+
+. ~/.cloudflarerc
+
+echo -n "Clearing cloudflare cache ....."
+
+ret="$(curl -s -X DELETE "https://api.cloudflare.com/client/v4/zones/$id/purge_cache" \
+     -H "X-Auth-Email: $email" \
+     -H "X-Auth-Key: $apikey" \
+     -H "Content-Type: application/json" \
+     --data '{"purge_everything":true}')"
+
+if [ -n "$(echo $ret | grep success)" ] ; then
+  echo " Success!"
+else
+  echo " *** FAILED ***"
+  echo "Could not clear cloudflare's cache. Update will not proceed."
+  exit 1
+fi
