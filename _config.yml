@@ -14,20 +14,20 @@ promo:
 
 # Contact info
 contact:
-  phone: '+61 402 144 408'
+  # phone: '+61 402 144 408'
   email: hello@somaticbalance.com.au
-  address: Surry Hills - NSW - Australia
+  address: Elizabeth Bay - NSW - Australia
 
 # Map
 map:
   api_key: AIzaSyDzB8G0Ol_wvkWDR6VBjKMSk38kgFi_CYc
   zoom: 16
-  lat: -33.880361
-  lng: 151.2052403
-  address: 33 Foster st, Surry Hills - NSW - Australia
-  address_details: 33 Foster st, Surry Hills
+  lat: -33.8733834
+  lng: 151.2275197
+  address: Roslyn Gardens, Elizabeth Bay - NSW - Australia
+  address_details: Roslyn Gardens, Elizabeth Bay
 
-bookings_enabled: false
+bookings_enabled: true
 
 # Social settings
 #facebook: http://facebook.com
