@@ -1,0 +1,29 @@
+<div id="team" class="team">
+    <h2 class="section-title">Meet our practitioners</h2>
+    <div id="team-carousel">
+        {% for member in site.data.team %}
+        <div class="expandable-box open-modal-window" data-mfp-src="#team-{{member.profile}}">
+            <div class="expandable-box-top">
+                <img src="{{ member.image }}" alt="{{ member.name }}">
+                <h4>{{ member.name }}</h4>
+
+                <div id="team-{{member.profile}}" class="wide-popup mfp-hide">
+
+                    <div class="container-fluid">
+                        <div class="row">
+                            <h1>{{ member.name }}</h1>
+                            <h4>{{ member.summary}}</h4>
+                        </div>
+                        <div class="row row-content">
+                            {% include team/{{ member.profile }}.html %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="expandable-box-bottom">
+                <span>{{ member.summary }}</span>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>

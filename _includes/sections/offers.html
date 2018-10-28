@@ -20,12 +20,7 @@
                                     <h4>{{ details.summary}}</h4>
                                 </div>
                                 <div class="row row-content">
-                                    <div class="col-md-8 col-sm-12">
-                                        {% include offers/{{id}}.html data=details %}
-                                    </div>
-                                    <div class="hidden-sm hidden-xs col-md-4">
-                                        <img src="{{ details.image }}" alt="{{details.title}}">
-                                    </div>
+                                    {% include offers/offer.html data=details section=id %}
                                 </div>
                                 <div class="row row-content">
                                     <a class="close-modal-window scroll highlight-contact-form btn btn-primary" href="#top">{{ details.call-to-action }}</a>

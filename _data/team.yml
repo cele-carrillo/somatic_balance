@@ -1,0 +1,9 @@
+- name: Celeste
+  profile: celeste
+  summary: Learn more about our resident magic maker
+  image: img/cele.jpg
+
+- name: Georgia
+  profile: georgia
+  image: img/georgia.jpg
+  summary: tbd

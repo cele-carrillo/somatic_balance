@@ -4,6 +4,7 @@
     position: relative;
     padding: 0;
     text-align: center;
+    cursor:pointer;
 }
 
 .expandable-box-top {
@@ -19,7 +20,6 @@
     position: absolute;
     top: 100%;
     width: 100%;
-    background: darken($colorPrimary, 5%);
     transform: translate(0px, 0px) perspective(10000px) rotateX(-90deg);
     transform-origin: top;
     transition: transform 250ms linear;
@@ -37,15 +37,5 @@
         color: $white;
         text-align: center;
         text-decoration: none;
-        &:first-child {
-            background: darken($colorPrimary, 2%);
-        }
-        &:last-child {
-            background: lighten($colorPrimary, 4%);
-        }
-    }
-    .icon {
-        color: $white;
-        font-size: 1.5rem;
     }
 }
