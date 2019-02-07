@@ -8,11 +8,15 @@ npm install -g grunt-cli
 ```
 
 # Concat and minify JS
-`grunt concat && grunt uglify`
+`grunt concat uglify`
 
 # Compile SCSS
 
-`grunt sass && grunt autoprefixer`
+`grunt sass autoprefixer`
+
+# All the things
+
+`grunt concat uglify sass autoprefixer`
 
 # Run
 
