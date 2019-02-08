@@ -1,10 +1,11 @@
 # Site settings
-title: Somatic Balance
-description: Rolfing & Yogestalt. Holistic bodywork & body-centered mindfulness.
+title: Somatic Balance - Rolfing & Mindfulness
+description: Holistic bodywork - Rolfing & body-centered mindfulness in Sydney.
+tag_line: Get back to being your best self
+
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the name of your domain
 logo_url: img/logo.png
-
 
 promo:
   enabled: false
