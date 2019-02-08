@@ -80,7 +80,7 @@ function onContactError(error) {
             midClick: true
         }
     });
-    gtag('event', 'exception', {description: error});
+    gtag('event', 'exception', {description: error, fatal: true});
 }
 
 $('#contact-form').submit(function (e) {
