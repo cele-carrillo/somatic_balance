@@ -57,6 +57,7 @@ function showPromo() {
 $(window).load(function () {
     showPromo();
     emailjs.init('user_SGBCPD2S1ZJ01TaEQGzZR');
+    checkForPopUpAutoOpen();
 });
 
 function onContactSuccess() {
@@ -119,9 +120,9 @@ function autoCollapse(groupId) {
 }
 
 autoCollapse('rolfing-faqs');
-autoCollapse('yogestalt-faqs');
+autoCollapse('body-centred-mindfulness-faqs');
 
-$('.highlight-contact-form').click(function () {
+function scrollAndHighlightContactForm() {
     var contactForm = $('#contact-form');
 
     $('<div class="form-highlight"/>')
@@ -130,8 +131,31 @@ $('.highlight-contact-form').click(function () {
             $(this).fadeOut(2000, function(){
                 $(this).remove();
             });
-    });
+        });
     gtag('event', 'generate_lead', {event_label: 'interest'});
-});
+}
+
+$('.highlight-contact-form').click(scrollAndHighlightContactForm);
+
+function isValidPopupDiv(value) {
+    return $("div").find("[data-mfp-src='" + value + "']").length > 0;
+}
+
+function checkForPopUpAutoOpen() {
+    if (window.location.hash && isValidPopupDiv(window.location.hash)) {
+        $.magnificPopup.open({
+            items: {
+                src: window.location.hash
+            },
+            type:'inline',
+            midClick: true,
+            callbacks: {
+                open: function () {
+                    gtag('event', 'view_item', {event_label: this.currItem.src});
+                }
+            }
+        });
+    }
+}
 
 })(jQuery);
