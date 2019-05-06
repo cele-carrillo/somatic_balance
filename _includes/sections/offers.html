@@ -6,13 +6,13 @@
             {% assign details = offer[1] %}
             {% assign id = offer[0] %}
             <div class="col-sm-6 col-md-4">
-                <div class="popup-box open-modal-window" data-mfp-src="#offer-{{id}}">
+                <div class="popup-box open-modal-window" data-mfp-src="#offers-{{id}}">
                     <div class="icon-box popup-box-top offer-box">
                         <svg class="icon {{ details.icon }}"><use xlink:href="#{{ details.icon }}"></use></svg>
                         <h4>{{ details.title }}</h4>
                         <p>{{ details.summary }}</p>
                         <svg class="icon more icon-expand"><use xlink:href="#icon-expand"></use></svg>
-                        <div id="offer-{{id}}" class="wide-popup mfp-hide">
+                        <div id="offers-{{id}}" class="wide-popup mfp-hide">
 
                             <div class="container-fluid">
                                 <div class="row">

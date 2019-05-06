@@ -1,8 +1,8 @@
+const generatePseudoPages = require('./build/src/generate-pseudo-pages');
 module.exports = function (grunt) {
 
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
-
         concat: {
             options: {
                 separator: "\n\n"
@@ -150,6 +150,14 @@ module.exports = function (grunt) {
         const apiKey = grunt.config('cloudflare.apiKey');
         const content = `id=${id}\nemail=${email}\napikey=${apiKey}`;
         grunt.file.write(`${process.env['HOME']}/.cloudflarerc`, content);
+    });
+
+    grunt.registerTask('generatePseudoPages', function() {
+        const done = this.async();
+        generatePseudoPages().then(() => done()).catch((error) => {
+            console.log(error);
+            done(false);
+        })
     });
 
     // Define the tasks

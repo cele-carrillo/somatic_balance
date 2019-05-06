@@ -7,7 +7,7 @@ npm install
 npm install -g grunt-cli
 ```
 
-# Concat and minify JS and Compile SCSS
+# Concat and minify JS, Compile SCSS and generate pseudo pages
 `npm run build`
 
 # Run

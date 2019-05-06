@@ -4,8 +4,8 @@
   "description": "",
   "main": "Gruntfile.js",
   "scripts": {
-    "build": "grunt concat uglify sass autoprefixer",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "grunt concat uglify sass autoprefixer generatePseudoPages",
+    "test": "jasmine --config=build/jasmine.json"
   },
   "author": "",
   "license": "ISC",
@@ -21,7 +21,11 @@
     "grunt-shell": "^1.1.2",
     "grunt-svgmin": "^2.0.1",
     "grunt-svgstore": "^0.5.0",
-    "load-grunt-tasks": "^3.2.0"
+    "jasmine": "^3.3.1",
+    "js-yaml": "^3.12.2",
+    "load-grunt-tasks": "^3.2.0",
+    "lodash": "^4.17.11",
+    "mkdirp": "^0.5.1"
   },
   "dependencies": {}
 }

@@ -47,13 +47,15 @@ copyright: © 2018 Somatic Balance - All rights reserved
 markdown: kramdown
 
 exclude: [
-  package.json,
-  Gruntfile.js,
-  node_modules,
-  .sass-cache,
-  Gemfile,
-  Gemfile.lock,
-  .gitignore
+  'build/**/*',
+  'node_modules',
+  '.sass-cache',
+  'package.json',
+  'Gruntfile.js',
+  'Gemfile',
+  'jasmine.json',
+  'Gemfile.lock',
+  '.gitignore'
 ]
 
 # Theme Settings
