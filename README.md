@@ -3,6 +3,7 @@ The style of this site is based of DentistSmile Jekyll Theme. The content is pro
 # Setup
 ```
 bundle install
+nvm install
 npm install
 npm install -g grunt-cli
 ```
@@ -13,3 +14,7 @@ npm install -g grunt-cli
 # Run
 
 `bundle exec jekyll serve`
+
+or
+
+`npm run start`

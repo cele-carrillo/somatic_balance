@@ -4,6 +4,7 @@
   "description": "",
   "main": "Gruntfile.js",
   "scripts": {
+    "start": "bundle exec jekyll serve",
     "build": "grunt concat uglify sass autoprefixer generatePseudoPages",
     "test": "jasmine --config=build/jasmine.json"
   },
