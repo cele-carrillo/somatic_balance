@@ -3,24 +3,29 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
         <loc>https://{{site.domain}}/</loc>
-        <lastmod>{{ "now" | date: "%Y-%m-%dT%H:%M:%S+00:00" }}</lastmod>
+        <lastmod>{{ "now" | date: "%Y-%m-%d" }}</lastmod>
+        <priority>1</priority>
     </url>
     <url>
         <loc>https://{{site.domain}}/offers/</loc>
+        <priority>0.8</priority>
     </url>
     {% for entry in site.data.offers %}
     {% assign id = entry[0] %}
     <url>
         <loc>https://{{site.domain}}/offers/{{id}}</loc>
+        <priority>0.7</priority>
     </url>
     {% endfor %}
     <url>
         <loc>https://{{site.domain}}/faqs/</loc>
+        <priority>0.6</priority>
     </url>
     {% for entry in site.data.faqs %}
     {% assign id = entry[0] %}
     <url>
         <loc>https://{{site.domain}}/faqs/{{id}}</loc>
+        <priority>0.5</priority>
     </url>
     {% endfor %}
 </urlset>
