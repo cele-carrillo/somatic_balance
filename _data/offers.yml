@@ -6,12 +6,12 @@ rolfing:
   call-to-action: Rediscover a freer way of moving, living and being
   image: img/offer-rolfing.jpg
 
-somatic-counselling:
-  title: Somatic Counselling
-  summary: Begin a journey of self-discovery and deeper understanding of your body, thoughts and emotions, with Somatic counselling.
+embodied-counselling:
+  title: Embodied Counselling
+  summary: Begin a journey of self-discovery and deeper understanding of your body, thoughts and emotions, with Embodied counselling.
   icon: icon-om
   call-to-action: Begin your journey of true self-discovery
-  image: img/offer-somatic-counselling.jpg
+  image: img/offer-embodied-counselling.jpg
 
 workplaces:
   title: Helping Workplaces

@@ -63,16 +63,16 @@ rolfing:
         unsure, please consult with your General Practitioner before starting a session or talk to us if you need more
         information.
 
-somatic-counselling:
-  title: FAQ on Somatic Counselling
-  summary: Gain deeper insight into the world of somatic counselling.
+embodied-counselling:
+  title: FAQ on Embodied Counselling
+  summary: Gain deeper insight into the world of embodied counselling.
   icon: icon-om
-  image: img/faq-somatic-counselling.jpg
+  image: img/faq-embodied-counselling.jpg
   faqs:
-    - q: What is Somatic Counselling?
+    - q: What is Embodied Counselling?
       a:
       - >
-        Somatic Counselling is a modality and process which helps us develop a deeper understanding and
+        Embodied Counselling is a modality and process which helps us develop a deeper understanding and
         sense of trust in our own organic nature.
       - >
         The practice takes into the account the person as a whole being - understanding that through the process of
@@ -82,9 +82,9 @@ somatic-counselling:
     - q: Who is this practice for?
       a:
       - >
-        Somatic Counselling can help people of all ages, and with the most varied needs. If you're interested in
+        Embodied Counselling can help people of all ages, and with the most varied needs. If you're interested in
         improving your mind-body-emotions connection, increase your general well being, expand your body awareness and
-        possibilities of expression or seek a deeper understanding into your emotions, Somatic Counselling is for
+        possibilities of expression or seek a deeper understanding into your emotions, Embodied Counselling is for
         you.
 
     - q: What happens during a session?
@@ -113,6 +113,6 @@ somatic-counselling:
     - q: Are there contraindications?
       a:
       - >
-        Somatic Counselling is not psychological or medical treatment. If you are experiencing extreme anxiety,
+        Embodied Counselling is not psychological or medical treatment. If you are experiencing extreme anxiety,
         depression or severe trauma, please talk to your general practitioner or psychologist about seeking the right
         help for what you're going through.

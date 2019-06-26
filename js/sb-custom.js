@@ -120,7 +120,7 @@ function autoCollapse(groupId) {
 }
 
 autoCollapse('rolfing-faqs');
-autoCollapse('somatic-counselling-faqs');
+autoCollapse('embodied-counselling-faqs');
 
 function scrollAndHighlightContactForm() {
     var contactForm = $('#contact-form');
