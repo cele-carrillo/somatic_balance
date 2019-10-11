@@ -28,10 +28,23 @@
     $("#testimonial-carousel").owlCarousel({
         autoPlay: 10000, //Set AutoPlay to 6 seconds
         stopOnHover: true,
- 
+
         singleItem: true,
         pagination : true
     });
+
+    /* People slideshow
+    ----------------------------------------------*/
+    $("#people-carousel").owlCarousel({
+
+        autoPlay: 5000, //Set AutoPlay to 5 seconds
+
+        items : 4,
+        itemsDesktopSmall : [979,3],
+        stopOnHover: true
+
+    });
+
 
     /* Tooltip
     ----------------------------------------------*/

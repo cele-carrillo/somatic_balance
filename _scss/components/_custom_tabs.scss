@@ -1,0 +1,15 @@
+
+.custom-tabs li a {
+  outline: 0;
+  border-color: darkgray;
+  border-bottom-color: transparent;
+  background-color: #eee;
+}
+
+.custom-tabs li.active a {
+  background-color: #fff;
+}
+
+.custom-tab-pane {
+  padding-top: 20px;
+}

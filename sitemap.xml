@@ -17,15 +17,4 @@
         <priority>0.7</priority>
     </url>
     {% endfor %}
-    <url>
-        <loc>https://{{site.domain}}/faqs/</loc>
-        <priority>0.6</priority>
-    </url>
-    {% for entry in site.data.faqs %}
-    {% assign id = entry[0] %}
-    <url>
-        <loc>https://{{site.domain}}/faqs/{{id}}</loc>
-        <priority>0.5</priority>
-    </url>
-    {% endfor %}
 </urlset>
