@@ -2,10 +2,10 @@
     <div class="overlay-container">
         <div class="overlay"></div>
         <div class="container-fluid">
+            <svg class="icon icon-quote-left"><use xlink:href="#icon-quote-left"></use></svg>
             <div id="testimonial-carousel">
                 {% for testimonial in site.data.testimonials %}
                 <div class="testimonial-item">
-                    <svg class="icon icon-quote-left"><use xlink:href="#icon-quote-left"></use></svg>
                     <blockquote>
                         <p>{{ testimonial.description }}</p>
                         <footer>{{ testimonial.name }}</footer>

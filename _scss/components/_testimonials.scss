@@ -3,9 +3,9 @@
 .testimonials {
     color: $white;
     text-align: center;
-    background-image: url('/img/testimonials.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
+    //background-image: url('/img/testimonials.jpg');
+    //background-repeat: no-repeat;
+    //background-size: cover;
     @include breakpoint(large) {
         background-attachment: fixed;
     }
@@ -21,7 +21,8 @@
             right: 0;
             bottom: 0;
             z-index: 1;
-            background: rgba($colorPrimary, 0.5);
+            //background: rgba($colorPrimary, 0.5);
+            background: $colorPrimary;
         }
     }
     .container-fluid {
@@ -51,11 +52,10 @@
         }
     }
     .icon {
-        width: 35px;
-        height: 35px;
+        width: 50px;
+        height: 50px;
         display: inline-block;
-        //border: solid 2px $white;
         padding: 8px;
-        color: $white;
+        color: $colorSecondary;
     }
 }

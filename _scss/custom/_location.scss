@@ -24,7 +24,7 @@
       height: 225px;
     }
     &:nth-child(2) {
-      background: lighten($colorPrimary, 8%);
+      background: lighten($colorPrimary, 0%);
       height: 225px;
     }
 
@@ -32,7 +32,7 @@
 
     .icon {
       font-size: 2rem;
-      color: $white;
+      color: $colorSecondary;
     }
     h3 {
       color: $white;
