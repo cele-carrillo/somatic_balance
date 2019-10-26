@@ -14,7 +14,7 @@
 }
 
 .hero-content {
-  background: rgba($white, 0.6);
+  background: rgba($white, 0.75);
   @include breakpoint(small) {
     position: absolute;
     top: 0;
