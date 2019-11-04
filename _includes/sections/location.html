@@ -12,7 +12,7 @@
                 <svg class="icon icon-map-marker"><use xlink:href="#icon-map-marker"></use></svg>
                 <h3>Location</h3>
                 <p>
-                    {{ site.contact.address-intro }}:<br>
+                    Find us at <a href="https://www.centreofsense.com">Centre Of Sense</a>:<br>
                     {{ site.contact.address-1 }}<br>
                     {{ site.contact.address-2 }}
                 </p>
@@ -21,8 +21,16 @@
                 <svg class="icon icon-envelope"><use xlink:href="#icon-envelope"></use></svg>
                 <h3>Contact Us</h3>
                 <ul>
-                    {% if site.contact.phone %}<li><strong>Phone:</strong> {{ site.contact.phone }}</li>{% endif %}
-                    {% if site.contact.email %}<li><strong>Email:</strong> {{ site.contact.email }}</li>{% endif %}
+                    {% if site.contact.phone %}
+                    <li>
+                        <strong>Phone:</strong> {{ site.contact.phone }}
+                    </li>
+                    {% endif %}
+                    {% if site.contact.email %}
+                    <li>
+                        <strong>Email:</strong> <a href="mailto:{{ site.contact.email }}">{{ site.contact.email }}</a>
+                    </li>
+                    {% endif %}
                 </ul>
             </div>
         </div>
