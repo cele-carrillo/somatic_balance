@@ -10,7 +10,7 @@
             {% include offers/{{include.section}}/overview.html %}
         </div>
         <div class="hidden-sm hidden-xs col-md-4">
-            <img src="{{ include.data.overview-image }}" alt="{{include.data.title}}">
+            <img data-src="{{ include.data.overview-image }}" alt="{{include.data.title}}" class="lazyload">
         </div>
     </div>
     <div class="tab-pane custom-tab-pane" id="{{include.section}}-faqs">
@@ -19,7 +19,7 @@
                 {% include offers/faq.html data=include.data section=include.section %}
             </div>
             <div class="hidden-sm hidden-xs col-md-4">
-                <img src="{{ include.data.faq-image }}" alt="{{include.data.title}}">
+                <img data-src="{{ include.data.faq-image }}" alt="{{include.data.title}}" class="lazyload">
             </div>
         </div>
     </div>
@@ -28,7 +28,7 @@
             {% include offers/{{include.section}}/practitioner.html %}
         </div>
         <div class="hidden-sm hidden-xs col-md-4">
-            <img src="{{ include.data.practitioner-image }}" alt="{{include.data.title}}">
+            <img data-src="{{ include.data.practitioner-image }}" alt="{{include.data.title}}" class="lazyload">
         </div>
     </div>
 </div>
