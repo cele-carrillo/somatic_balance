@@ -18,17 +18,16 @@ promo:
 contact:
   # phone: '+61 402 144 408'
   email: hello@somaticbalance.com.au
-  address-1: Level 2 / 105 Crown Lane
-  address-2: Darlinghurst - NSW - Australia
-
+  address-1: 9 Telopea Street
+  address-2: Redfern - NSW - Australia
 # Map
 map:
   api_key: AIzaSyDzB8G0Ol_wvkWDR6VBjKMSk38kgFi_CYc
   zoom: 16
-  lat: -33.8749073
-  lng: 151.2155837
-  address: 105 Crown Street - Darlinghurst - NSW - Australia
-  address_details: Centre Of Sense - Level 2/105 Crown Lane, Darlinghurst
+  lat: -33.8946528
+  lng: 151.21089
+  address: 9 Telopea Street - Redfern - NSW - Australia
+  address_details: Somatic Balance - 9 Telopea Street, Redfern
 
 bookings_enabled: true
 
