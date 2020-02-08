@@ -1,0 +1,40 @@
+---
+title: Practitioners
+description: We've built an amazing team of developers, marketers, designers and sales people.
+image: /images/team.jpg
+---
+
+<section class="hero" style="background-image: url({% include relative-src.html src=page.image %})">
+	<div class="inner-hero text-container">
+		<div class="hero-text-container">
+			<h1 class="editable">Who we are</h1>
+			<p class="subtext editable">Our offering is grounded in awareness of people's needs. Our goal is to support our clients and enable them to respond in more organic ways.</p>
+		</div>
+	</div>
+    <div class="learn-more"><a href="#team">Meet the team <span class="arrow">&#x25BC;</span></a></div>
+</section>
+
+<section class="pad" id="team">
+	<div class="container">
+		<p class="editor-link"><a href="cloudcannon:collections/_practitioners" class="btn"><strong>&#9998;</strong> Manage Team</a></p>
+		<ul class="staff">
+			{% for person in site.practitioners %}
+				<li class="person">
+					<div class="square-image" style="background-image: url({% include relative-src.html src=person.headshot_image %})"></div>
+					<div class="name">{{ person.title }}</div>
+					<div class="button thin"><a href="{{ person.url }}">View profile</a></div>
+					<ul class="social-buttons">
+						{% for network in person.social %}
+						<li>
+							<a target="_blank" href="{{ network.link }}" class="{{ network.icon | slugify }}-icon">
+								{% include social-icon.html icon=network.icon %}
+							</a>
+						</li>
+						{% endfor %}
+					</ul>
+					<div class="title">{{ person.description }}</div>
+				</li>
+			{% endfor %}
+		</ul>
+	</div>
+</section>

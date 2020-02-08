@@ -1,0 +1,19 @@
+
+.iframe-container {
+  padding: 10px 20px 10px 20px;
+  flex: 1 1 auto;
+  display: flex;
+  height: 1050px;
+
+  @media #{$desktop} {
+    padding: 10px 100px 10px 100px;
+  }
+}
+
+.iframe-container iframe {
+  border: 0;
+  height: 100%;
+  left: 0;
+  top: 0;
+  width: 100%;
+}

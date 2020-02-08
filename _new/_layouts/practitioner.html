@@ -1,0 +1,48 @@
+---
+layout: secondary-page
+---
+
+<section class="info">
+    <div class="container flex light-blue">
+        {% if page.headshot_image2 %}{% assign headshot=page.headshot_image2 %}{% else %}{% assign headshot=page.headshot_image %}{% endif %}
+        <div class="square-image" style="background-image: url({% include relative-src.html src=headshot %}); min-width: 200px"></div>
+        <div class="text-container"><p>{{ page.blurb }}</p></div>
+    </div>
+</section>
+
+<section class="info">
+    {{ content }}
+    <div class="container practitioner">
+        <div class="text-box">
+            {% assign person = page.id | split: "/" | last %}
+            <h3>More about {{ person | capitalize }}</h3>
+            <hr>
+            <ul>
+                {% for item in page.social %}{% if item.name %}
+                <li>
+                    {% include social-icon.html icon=item.icon %}
+                    {{ item.icon }}: <a href="{{ item.link }}" target="_blank">{{ item.name }}</a>
+                </li>
+                {% endif %}{% endfor %}
+                <li>{% include social-icon.html icon="Hashtag" %} Social networks: {% for item in page.social %}{% unless item.name %}&nbsp;<a href="{{ item.link }}" target="_blank">{% include social-icon.html icon=item.icon %}</a>{% endunless %}{% endfor %}</li>
+                {% assign posts = site.posts | where: "author_practitioner", person | sort: date | reverse  %}
+                {% if posts.size > 0 %}
+                <li class="nested-list">
+                    {% include social-icon.html icon="RSS" %} Latest blog posts:
+                    <ul>{% for post in posts %}
+                        <li><a href="{% include relative-src.html src=post.url %}">{{ post.title }}</a></li>
+                    {% endfor %}</ul>
+                </li>
+                {% endif %}
+                <li class="nested-list">{% include social-icon.html icon="Modality" %} Modalities:<ul>
+                    {% for modality in site.modalities %}
+                    {% if modality.practitioners contains person %}
+                    <li><a href="{% include relative-src.html src=modality.url %}">{{ modality.title }}</a></li>
+                    {% endif %}
+                    {% endfor %}
+                </ul></li>
+            </ul>
+        </div>
+    </div>
+</section>
+

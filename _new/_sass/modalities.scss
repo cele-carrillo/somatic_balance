@@ -1,0 +1,96 @@
+.modality {
+	padding: 18px 0;
+
+	&:first-child {
+		padding-top: 50px;
+	}
+
+	h3 {
+		margin: 0;
+		a {
+			color: #000;
+			text-decoration: none;
+			font-weight: normal;
+			font-size: 1.3em;
+		}
+	}
+
+	h2 {
+		text-align: left;
+		font-size: 2.6em;
+		margin: 0;
+	}
+
+	.modality-content {
+		padding: 0 0 40px 0;
+
+		.button {
+			margin: 30px 0 0 0;
+		}
+	}
+}
+
+.modality .flex .image {
+	display: none;
+}
+
+@media #{$desktop} {
+	.modality .flex {
+		@include flexbox;
+		align-items: center;
+		flex-direction: row;
+
+		.image {
+			display: block;
+			-webkit-flex: 1;
+			flex: 1%;
+			padding: 0 20px;
+		}
+
+		.text {
+			-webkit-flex: 0 0 65%;
+			flex: 0 0 65%;
+			padding: 0 20px;
+		}
+	}
+}
+
+.faq {
+	p {
+		font-size: 1.3em;
+	}
+
+	.question {
+		background-color: $orange-light;
+		font-size: 1.3em;
+		cursor: pointer;
+		padding: 18px;
+		margin-bottom: 12px;
+		text-align: left;
+	}
+
+	.active, .question:hover {
+		background-color: $orange-dark;
+	}
+
+	.answer {
+		padding: 0 18px;
+		display: none;
+		overflow: hidden;
+		background-color: #fff;
+	}
+
+	.question:before {
+		content: '\02795'; /* (+) */
+		margin-right: 10px;
+	}
+
+	.active:before {
+		content: "\2796"; /* (-) */
+	}
+
+}
+
+section.modality:nth-child(even) .flex {
+	flex-direction: row-reverse;
+}

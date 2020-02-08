@@ -1,0 +1,48 @@
+---
+title: Modalities
+description: Keep up with the latest news.
+image: /images/table.jpg
+---
+
+<section class="hero" style="background-image: url({% include relative-src.html src=page.image %})">
+	<div class="inner-hero text-container">
+		<div class="hero-text-container">
+			<h1 class="editable">Modalities & Offerings</h1>
+			<p class="subtext editable">How we can work together.</p>
+		</div>
+	</div>
+</section>
+
+<section class="info">
+	<div class="container">
+		<p class="editor-link"><a href="cloudcannon:collections/_work_formats" class="btn"><strong>&#9998;</strong> Manage Work Formats</a></p>
+		<ul class="work-formats">
+			{% for format in site.work_formats %}
+			<li class="work-format">
+				<div class="square-image" style="background-image: url({% include relative-src.html src=format.image_path %})"></div>
+				<div class="name">{{ format.name }}</div>
+				<div class="title">{{ format.description }}</div>
+			</li>
+			{% endfor %}
+		</ul>
+	</div>
+</section>
+
+{% for modality in site.modalities %}
+<section class="info modality">
+	<p class="editor-link"><a href="cloudcannon:collections/_modalities" class="btn"><strong>&#9998;</strong> Add Modality</a></p>
+	<div class="container flex">
+		<div class="text">
+			<h2><a href="{% include relative-src.html src=modality.url %}">{{ modality.title }}</a></h2>
+			<div class="modality-content">
+				<p>{{ modality.excerpt | strip_html}}</p>
+				<div class="button"><a href="{% include relative-src.html src=modality.url %}">Read More</a></div>
+			</div>
+		</div>
+
+		<div class="image">
+			<img src="{% include relative-src.html src=modality.thumbnail %}" alt="{{ modality.title }}" />
+		</div>
+	</div>
+</section>
+{% endfor %}
