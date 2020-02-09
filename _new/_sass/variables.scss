@@ -1,11 +1,15 @@
 $orange-dark: #fcd797;
 $orange-light: #ffdd9d;
 
-$primary-color: #f39096;
-$secondary-color: #567e8a;
+$primary-color: #a6c7bd;
+$secondary-color: #c97370;
 $logo-bg-color: #f4f6fc;
 
 
+/* Spacing
+-------------------------------*/
+$space: 20px;
+$space-double: 40px;
 
 /* Breakpoints
 -------------------------------*/
@@ -13,3 +17,19 @@ $tablet: "(min-width: 450px)";
 $max-desktop: "(max-width: 768px)";
 $mid-point: "(min-width: 620px)";
 $desktop: "(min-width: 768px)";
+
+
+/* Breakpoints
+-------------------------------*/
+$screen-xs: 480px;
+$screen-sm: 768px;
+$screen-md: 992px;
+$screen-lg: 1200px;
+
+$bpoints: (
+        'xsmall' : (max-width: $screen-xs),
+        'lsmall' : (min-width: $screen-xs),
+        'small' : (min-width: $screen-sm),
+        'medium' : (min-width: $screen-md),
+        'large' : (min-width: $screen-lg)
+);
