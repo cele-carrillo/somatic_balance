@@ -1,5 +1,5 @@
 $(window).on('load', function () {
-    emailjs.init('user_zrpCVofqoupw5dx1HBxww');
+    emailjs.init('user_SGBCPD2S1ZJ01TaEQGzZR');
 });
 
 $('#contact-form').submit(function (e) {
@@ -15,11 +15,13 @@ $('#contact-form').submit(function (e) {
 function onContactSuccess() {
     $('#contact-form')[0].reset();
     showTemporarily('#msg-success', 3500);
+    gtag('event', 'generate_lead', {event_label: 'success'});
 }
 
 function onContactError(error) {
     console.log(error);
     showTemporarily('#msg-error', 5500);
+    gtag('event', 'exception', {description: error, fatal: true});
 }
 
 function showTemporarily(elementId, time) {

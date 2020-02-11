@@ -2,24 +2,22 @@
 # Site
 
 title: Balance by Celeste
-url: "https://somaticbalance.com.au"
-baseurl:
-google_analytics_key:
+url: ""
+baseurl: ""
+google_analytics_key: UA-126654417-1
+google_verification: _OPZ1XDKeZd_sGEquv49trtNSd9YNLtugRWaLbTvAiY
 google_maps_javascript_api_key: AIzaSyDzB8G0Ol_wvkWDR6VBjKMSk38kgFi_CYc
 disqus_shortname:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description: App marketing template for Jekyll.
-author:
-  name:
-  email:
-  twitter: # twitter username without the @ symbol
+description: Balance by Celeste
 social:
   name: Balance by Celeste
   links:
-    - https://www.facebook.com/balancebyceleste
+    - https://www.facebook.com/balancebyceleste/
     - https://www.linkedin.com/in/celestecarrillo/
+    - https://www.instagram.com/balancebyceleste/
 
 # -----
 # Build
