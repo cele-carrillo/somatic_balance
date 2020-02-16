@@ -1,25 +1,87 @@
-{% include doctype-head.html %}
-<body data-spy="scroll" data-offset="80" data-target=".scrollspy" id="top">
-    {% include svg-defs.svg %}
-    <!--[if lt IE 10]>
-        <p class="oldie">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> to better experience this site.</p>
-    <![endif]-->
+<!DOCTYPE html>
 
-    {% include header.html %}
-    {% include promo.html %}
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 
-    {% if site.bookings_enabled %}
-        {% include cliniko.html %}
-    {% endif %}
+		{% seo %}
+		{% feed_meta %}
 
-    {% include sections.html %}
-        {{ content }}
-    {% include footer.html %}
+		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+		<link rel="manifest" href="/site.webmanifest">
+		<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#a6c7bd">
+		<meta name="msapplication-TileColor" content="#a6c7bd">
+		<meta name="theme-color" content="#a6c7bd">
 
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js" async></script>
-    <script src="//maps.googleapis.com/maps/api/js?key={{ site.map.api_key }}"></script>
-    <script src="https://cdn.emailjs.com/sdk/2.2.4/email.min.js" async></script>
-    <script src="{{ site.baseurl }}/js/all.min.js" async></script>
-    <script src="{{ site.baseurl }}/js/lazysizes.min.js" async></script>
-</body>
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:300">
+		<link rel="stylesheet" href="{{ site.baseurl }}/css/screen.css">
+
+		{% if jekyll.environment == 'production' and site.google_analytics_key != '' %}
+		<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics_key }}"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+
+			gtag('config', '{{ site.google_analytics_key }}');
+		</script>
+		{% endif %}
+
+		{% if site.google_verification %}
+		<meta name="google-site-verification" content="{{ site.google_verification }}">
+		{% endif %}
+	</head>
+
+	<body>
+		<header id="mainHeader">
+			<div class="container">
+				<div class="company-name">
+					<a href="{{ site.baseurl }}/">
+						<div class="dark-logo"><img src="{{ site.baseurl }}/images/logo/dark-wide.png" alt="dark Balance by Celeste logo"></div>
+						<div class="light-logo"><img src="{{ site.baseurl }}/images/logo/light-wide.png" alt="light Balance by Celeste logo"></div>
+					</a>
+				</div>
+				{% include navigation.html %}
+				<p class="editor-link"><a style="display:inline;" href="cloudcannon:collections/_data/navigation.yml" class="btn"><strong>&#9998;</strong> Edit navigation</a></p>
+			</div>
+		</header>
+
+		{{ content }}
+
+		<footer>
+			<div class="container">
+				<p class="editor-link"><a href="cloudcannon:collections/_data/footer.yml" class="btn"><strong>&#9998;</strong> Edit footer</a></p>
+				<ul class="footer-left-links">
+					{% for link in site.data.footer.left_links %}
+						<li>
+							<a {% if link.new_window %}target="_blank"{% endif %} href="{% include relative-src.html src=link.link %}" {% if link.social_icon %}class="{{ link.social_icon | slugify }}-icon"{% endif %}>
+								{% if link.social_icon %}{% include social-icon.html icon=link.social_icon %}{% endif %}
+								{{ link.name }}
+							</a>
+						</li>
+					{% endfor %}
+				</ul>
+				<ul class="footer-right-links">
+					{% for link in site.data.footer.right_links %}
+						<li>
+							<a {% if link.new_window %}target="_blank"{% endif %} href="{% include relative-src.html src=link.link %}" {% if link.social_icon %}class="{{ link.social_icon | slugify }}-icon"{% endif %}>
+								{% if link.social_icon %}{% include social-icon.html icon=link.social_icon %}{% endif %}
+								{{ link.name }}
+							</a>
+						</li>
+					{% endfor %}
+				</ul>
+				<p class="copyright">
+					{{ site.data.details.address }}
+				</p>
+			</div>
+		</footer>
+
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+		<script src="{{ site.baseurl }}/js/main.js"></script>
+		{% for javascript in page.custom_javascript %}<script src="{{ javascript }}"></script>{% endfor %}
+	</body>
 </html>

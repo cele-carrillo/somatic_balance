@@ -1,4 +1,6 @@
+_site/
 .idea/
-_site
-node_modules/
-package-lock.json
+.DS_Store
+.sass-cache/
+.jekyll-metadata
+_tmp/

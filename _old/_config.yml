@@ -1,0 +1,62 @@
+# Site settings
+title: Somatic Balance - Rolfing & Embodied Counselling
+description: Holistic bodywork - Rolfing & Embodied Counselling in Sydney.
+tag_line: Get back to being your best self
+domain: somaticbalance.com.au
+
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the name of your domain
+logo_url: img/logo.png
+
+promo:
+  enabled: false
+  close_cookie_timeout: 1800
+  closable: true
+  img: '/img/mind-body-spirit.jpg'
+
+# Contact info
+contact:
+  # phone: '+61 402 144 408'
+  email: hello@somaticbalance.com.au
+  address-1: 9 Telopea Street
+  address-2: Redfern - NSW - Australia
+# Map
+map:
+  api_key: AIzaSyDzB8G0Ol_wvkWDR6VBjKMSk38kgFi_CYc
+  zoom: 16
+  lat: -33.8946528
+  lng: 151.21089
+  address: 9 Telopea Street - Redfern - NSW - Australia
+  address_details: Somatic Balance - 9 Telopea Street, Redfern
+
+bookings_enabled: true
+
+# Social settings
+#facebook: http://facebook.com
+#twitter: http://twitter.com
+#instagram: http://instagram.com
+#youtube: http://youtube.com
+#skype: skype:obaez_design?userinfo
+#feed: yes
+
+# Footer
+copyright: © 2018 Somatic Balance - All rights reserved
+
+# Build settings
+markdown: kramdown
+
+exclude: [
+  'build/**/*',
+  'node_modules',
+  '.sass-cache',
+  'package.json',
+  'Gruntfile.js',
+  'Gemfile',
+  'jasmine.json',
+  'Gemfile.lock',
+  '.gitignore'
+]
+
+# Theme Settings
+analytics: UA-126654417-1
+google_verification: _OPZ1XDKeZd_sGEquv49trtNSd9YNLtugRWaLbTvAiY

@@ -1,62 +1,124 @@
-# Site settings
-title: Somatic Balance - Rolfing & Embodied Counselling
-description: Holistic bodywork - Rolfing & Embodied Counselling in Sydney.
-tag_line: Get back to being your best self
-domain: somaticbalance.com.au
+# ----
+# Site
 
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the name of your domain
-logo_url: img/logo.png
-
-promo:
-  enabled: false
-  close_cookie_timeout: 1800
-  closable: true
-  img: '/img/mind-body-spirit.jpg'
-
-# Contact info
-contact:
-  # phone: '+61 402 144 408'
-  email: hello@somaticbalance.com.au
-  address-1: 9 Telopea Street
-  address-2: Redfern - NSW - Australia
-# Map
-map:
-  api_key: AIzaSyDzB8G0Ol_wvkWDR6VBjKMSk38kgFi_CYc
-  zoom: 16
-  lat: -33.8946528
-  lng: 151.21089
-  address: 9 Telopea Street - Redfern - NSW - Australia
-  address_details: Somatic Balance - 9 Telopea Street, Redfern
-
-bookings_enabled: true
-
-# Social settings
-#facebook: http://facebook.com
-#twitter: http://twitter.com
-#instagram: http://instagram.com
-#youtube: http://youtube.com
-#skype: skype:obaez_design?userinfo
-#feed: yes
-
-# Footer
-copyright: © 2018 Somatic Balance - All rights reserved
-
-# Build settings
-markdown: kramdown
-
-exclude: [
-  'build/**/*',
-  'node_modules',
-  '.sass-cache',
-  'package.json',
-  'Gruntfile.js',
-  'Gemfile',
-  'jasmine.json',
-  'Gemfile.lock',
-  '.gitignore'
-]
-
-# Theme Settings
-analytics: UA-126654417-1
+title: Balance by Celeste
+url: ""
+baseurl: ""
+google_analytics_key: UA-126654417-1
 google_verification: _OPZ1XDKeZd_sGEquv49trtNSd9YNLtugRWaLbTvAiY
+google_maps_javascript_api_key: AIzaSyDzB8G0Ol_wvkWDR6VBjKMSk38kgFi_CYc
+disqus_shortname:
+
+# Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
+logo: /siteicon.png
+description: Balance by Celeste
+social:
+  name: Balance by Celeste
+  links:
+    - https://www.facebook.com/balancebyceleste/
+    - https://www.linkedin.com/in/celestecarrillo/
+    - https://www.instagram.com/balancebyceleste/
+
+# -----
+# Build
+
+timezone: Etc/UTC
+
+permalink: pretty
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-archives
+
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENCE
+
+collections:
+  practitioners:
+    output: true
+    _icon: account_circle
+  modalities:
+    output: true
+
+paginate: 10
+paginate_path: "/blog/:num/"
+
+jekyll-archives:
+  enabled: ['categories']
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "practitioners"
+    values:
+      _options:
+        image_path:
+          width: 440
+          height: 440
+          uploads_dir: "/images/people"
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+  -
+    scope:
+      type: "posts"
+    values:
+      layout: "post"
+      _options:
+        image:
+          width: 2000
+          height: 1322
+          resize_style: cover
+          uploads_dir: "/images/post_uploads"
+        content:
+          width: 1500
+          height: 2000
+          uploads_dir: "/images/post_uploads"
+  -
+    scope:
+      path: "contact-success.html"
+    values:
+      layout: "page"
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      image:
+        width: 2000
+        height: 1322
+        resize_style: cover
+      bottom_image:
+        width: 2000
+        height: 1322
+        resize_style: cover
+
+# -----------
+# CloudCannon
+
+social_icons:
+  - Facebook
+  - Google Plus
+  - Instagram
+  - LinkedIn
+  - Pinterest
+  - Tumblr
+  - Twitter
+  - YouTube
+  - Email
+  - RSS
+  - Web
+
+_comments:
+  description: Text shown when sharing on social media
+  blurb: Short bio or description of this person
