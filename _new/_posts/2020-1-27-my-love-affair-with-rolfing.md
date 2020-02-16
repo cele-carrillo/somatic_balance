@@ -1,6 +1,6 @@
 ---
 title: My love affair with Rolfing
-date: 2019-10-27
+date: 2020-1-27
 description: A love-at-first-sight story
 categories:
   - rolfing

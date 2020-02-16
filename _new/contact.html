@@ -8,13 +8,13 @@ map:
   address: "9 Telopea St, Redfern, NSW"
   zoom: 16
 email: hello@somaticbalance.com.au
-image: /images/address.jpg
+image: /images/telopea.jpg
 custom_javascript:
  - https://cdn.emailjs.com/sdk/2.2.4/email.min.js
  - /js/contact.js
 ---
 
-<section class="hero" style="background-image: url({% include relative-src.html src=page.image %})">
+<section class="hero half-hero" style="background-image: url({% include relative-src.html src=page.image %})">
 	<div class="inner-hero text-container">
 		<div class="hero-text-container">
 			<h1 class="editable">Get in touch today</h1>
@@ -76,6 +76,7 @@ custom_javascript:
 </script>
 
 
+<script async defer src="https://maps.googleapis.com/maps/api/js?key={{ site.google_maps_javascript_api_key }}&amp;callback=initMap"></script>
 <script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
 <script type="text/javascript">
 	function showSubscribePopUp() {
@@ -88,4 +89,3 @@ custom_javascript:
 	}
 </script>
 
-<script async defer src="https://maps.googleapis.com/maps/api/js?key={{ site.google_maps_javascript_api_key }}&amp;callback=initMap"></script>

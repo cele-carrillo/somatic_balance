@@ -124,6 +124,12 @@ header {
 	}
 }
 
+.untitled-info {
+	&:first-child {
+		padding-top: 10px;
+	}
+}
+
 .collapsed-info {
 	padding: 20px 0 20px 0;
 
@@ -201,6 +207,11 @@ header {
 	.arrow {
 		font-size: .6em;
 	}
+}
+
+.strong {
+	font-weight: bold;
+	font-style: italic;
 }
 
 .editor-link {

@@ -1,25 +1,22 @@
 ---
 title: Book an appointment
 description: Book a session now.
-image: /images/plant-grow.jpg
+image: /images/bookings.jpg
 iframe_url: https://somatic-balance.cliniko.com/bookings?embedded=true
 ---
 
-<section class="hero" style="background-image: url({% include relative-src.html src=page.image %})">
+<section class="hero half-hero" style="background-image: url({% include relative-src.html src=page.image %})">
     <div class="inner-hero text-container">
         <div class="hero-text-container">
             <h1 class="editable">Feels right, doesn't it?</h1>
             <p class="subtext editable">You're in good hands. We're here to help.</p>
         </div>
     </div>
-    <div class="learn-more"><a href="#bookings">Book an appointment <span class="arrow">&#x25BC;</span></a></div>
 </section>
 
 <section class="pad">
     <div class="text-container">
         <p class="subtext editable">Please select one of the services below to start making a change in your life today.</p>
-        <p class="subtext editable">If online booking with your preferred practitioner is not available yet,
-            please <a href="{{site.baseurl}}/contact">contact us</a> and we'll get you booked in.</p>
     </div>
     <div class="iframe-container" id="bookings">
         <iframe src="{{ page.iframe_url }}" scrolling='true'></iframe>

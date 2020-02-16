@@ -1,7 +1,7 @@
 ---
 title: Modalities
 description: Keep up with the latest news.
-image: /images/table.jpg
+image: /images/bonsai.jpg
 ---
 
 <section class="hero" style="background-image: url({% include relative-src.html src=page.image %})">
@@ -13,18 +13,15 @@ image: /images/table.jpg
 	</div>
 </section>
 
-<section class="info">
+
+<section class="info logo-bg-color">
 	<div class="container">
-		<p class="editor-link"><a href="cloudcannon:collections/_work_formats" class="btn"><strong>&#9998;</strong> Manage Work Formats</a></p>
-		<ul class="work-formats">
-			{% for format in site.work_formats %}
-			<li class="work-format">
-				<div class="square-image" style="background-image: url({% include relative-src.html src=format.image_path %})"></div>
-				<div class="name">{{ format.name }}</div>
-				<div class="title">{{ format.description }}</div>
-			</li>
-			{% endfor %}
-		</ul>
+		<div class="text">
+			<p class="editable">
+				Empowering the individual, with a focus on increasing body awareness, physical comfort and connection to self.
+				We offer in person and online sessions.
+			</p>
+		</div>
 	</div>
 </section>
 

@@ -1,12 +1,12 @@
 left_links:
   - name: Modalities
     link: /modalities/
+  - name: Practitioners
+    link: /celeste/
   - name: Bookings
     link: /bookings/
   - name: Contact
     link: /contact/
-  - name: Practitioners
-    link: /celeste/
   - name: Blog
     link: /blog/
 right_links:
@@ -22,6 +22,3 @@ right_links:
     link: https://www.linkedin.com/in/celestecarrillo/
     social_icon: LinkedIn
     new_window: true
-  - name:
-    link: /feed.xml
-    social_icon: RSS

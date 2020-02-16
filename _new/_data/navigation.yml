@@ -1,10 +1,10 @@
 - name: Modalities
   link: /modalities/
+- name: Practitioners
+  link: /celeste/
 - name: Bookings
   link: /bookings/
 - name: Contact
   link: /contact/
-- name: Practitioners
-  link: /celeste/
 - name: Blog
   link: /blog/

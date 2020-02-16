@@ -46,8 +46,6 @@ collections:
     _icon: account_circle
   modalities:
     output: true
-  work_formats:
-    _hide_content: true
 
 paginate: 10
 paginate_path: "/blog/:num/"
