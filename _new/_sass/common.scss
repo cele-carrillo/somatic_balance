@@ -28,10 +28,6 @@
   -webkit-flex: 0 0 45%;
 }
 
-.orange-dark {
-  padding: 10px 10px;
-  background-color: $orange-dark;
-}
 
 .logo-bg-color {
   padding: 10px 10px;
@@ -44,9 +40,14 @@
   }
 }
 
-.light-blue {
+.primary-color-box {
   padding: 10px 10px;
-  background-color: lightblue;
+  background-color: $primary-color;
+}
+
+.secondary-color-lighter-box {
+  padding: 10px 10px;
+  background-color: $secondary-color-lighter-40;
 }
 
 .text-box {

@@ -61,7 +61,7 @@
 	}
 
 	.question {
-		background-color: $orange-light;
+		background-color: $secondary-color-lighter-20;
 		font-size: 1.3em;
 		cursor: pointer;
 		padding: 18px;
@@ -70,7 +70,7 @@
 	}
 
 	.active, .question:hover {
-		background-color: $orange-dark;
+		background-color: $secondary-color-lighter-40;
 	}
 
 	.answer {

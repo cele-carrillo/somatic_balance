@@ -3,7 +3,7 @@ title: How I beat the shoulds
 date: 2019-11-27
 description: Your body holds the key to freedom
 categories:
-  - somatic therapy
+  - somatic explorations
 image: /images/graffiti.jpg
 author_practitioner: celeste
 ---

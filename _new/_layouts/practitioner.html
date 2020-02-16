@@ -3,7 +3,7 @@ layout: secondary-page
 ---
 
 <section class="info">
-    <div class="container flex light-blue">
+    <div class="container flex primary-color-box">
         {% if page.headshot_image2 %}{% assign headshot=page.headshot_image2 %}{% else %}{% assign headshot=page.headshot_image %}{% endif %}
         <div class="square-image" style="background-image: url({% include relative-src.html src=headshot %}); min-width: 200px"></div>
         <div class="text-container"><p>{{ page.blurb }}</p></div>
