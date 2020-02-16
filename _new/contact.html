@@ -57,13 +57,13 @@ custom_javascript:
 				<ul>
 					<li>{% include social-icon.html icon="Home" %}{{ site.data.details.address }}</li>
 					<li>{% include social-icon.html icon="Email" %}<a href="mailto:{{page.email}}">{{page.email}}</a></li>
+					<li><hr></li>
+					<li>
+						Find out all about the latest news, events and promotions
+						<div class="button subscribe"><a onclick ="showSubscribePopUp(); return false;">Join our mailing list</a></div>
+					</li>
 				</ul>
 			</address>
-			<div class="text-box">
-				<h3>Are you interested in joining our team? </h3>
-				<hr>
-				<p>We love meeting like-minded practitioners! Contact us and let's talk about how we can work together.</p>
-			</div>
 		</div>
 	</div>
 </section>
@@ -74,4 +74,18 @@ custom_javascript:
 		createMap({{ page.map | jsonify }});
 	}
 </script>
+
+
+<script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
+<script type="text/javascript">
+	function showSubscribePopUp() {
+		window.dojoRequire(
+			["mojo/signup-forms/Loader"],
+			function(L) { L.start({"baseUrl":"mc.us20.list-manage.com","uuid":"7f2855fbda8a9f5e3c72d4789","lid":"7bf02b8ab9","uniqueMethods":true}) }
+		);
+		document.cookie = 'MCPopupClosed=;path=/;expires=Thu, 01 Jan 1970 00:00:00 UTC;';
+		document.cookie = 'MCPopupSubscribed=;path=/;expires=Thu, 01 Jan 1970 00:00:00 UTC;';
+	}
+</script>
+
 <script async defer src="https://maps.googleapis.com/maps/api/js?key={{ site.google_maps_javascript_api_key }}&amp;callback=initMap"></script>
