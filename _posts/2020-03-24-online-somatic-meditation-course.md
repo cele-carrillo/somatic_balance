@@ -44,8 +44,6 @@ The cost for the for the entire series is $180 (upfront payment - and if you mis
 At the moment there are 3 groups/times available to start in April:
 
 &#9702; Mondays 9:00 am (AEST) 
-
-&#9702;  Wednesdays 12:00 pm (AEST)
  
 &#9702;  Thursdays 9:00 am (AEST)
 
