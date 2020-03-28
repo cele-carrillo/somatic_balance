@@ -41,7 +41,7 @@ For those wanting deeper explorations, I'm offering 10 weeks of guided practice 
 
 The cost for the for the entire series is $180 (upfront payment - and if you miss a class I'll send the video of the corresponding session so you don't miss it).
 
-At the moment there are 3 groups/times available to start in April:
+At the moment there are 2 groups/times available to start in April:
 
 &#9702; Mondays 9:00 am (AEST) 
  
