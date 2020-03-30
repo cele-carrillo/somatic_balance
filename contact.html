@@ -1,7 +1,6 @@
 ---
 title: Contact
-description: Send us a message to find out more!
-
+description: "Send us a message to find out more!"
 map:
   latitude: -33.8946528
   longitude: 151.21089
@@ -9,8 +8,15 @@ map:
 email: hello@somaticbalance.com.au
 image: /images/telopea9.jpg
 custom_javascript:
- - https://cdn.emailjs.com/sdk/2.2.4/email.min.js
- - /js/contact.js
+ - src: 'https://cdn.emailjs.com/sdk/2.2.4/email.min.js'
+ - src: '/js/contact.js'
+ - src: '//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js'
+   attributes:
+     data-dojo-config: 'usePlainJson: true, isDebug: false'
+ - src: 'https://maps.googleapis.com/maps/api/js?key=AIzaSyDzB8G0Ol_wvkWDR6VBjKMSk38kgFi_CYc&amp;callback=initMap'
+   modifiers:
+     - async
+     - defer
 ---
 
 <section class="hero half-hero" style="background-image: url({% include relative-src.html src=page.image %})">
@@ -74,18 +80,3 @@ custom_javascript:
 		createMap({{ page.map | jsonify }});
 	}
 </script>
-
-
-<script async defer src="https://maps.googleapis.com/maps/api/js?key={{ site.google_maps_javascript_api_key }}&amp;callback=initMap"></script>
-<script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
-<script type="text/javascript">
-	function showSubscribePopUp() {
-		window.dojoRequire(
-			["mojo/signup-forms/Loader"],
-			function(L) { L.start({"baseUrl":"mc.us20.list-manage.com","uuid":"7f2855fbda8a9f5e3c72d4789","lid":"7bf02b8ab9","uniqueMethods":true}) }
-		);
-		document.cookie = 'MCPopupClosed=;path=/;expires=Thu, 01 Jan 1970 00:00:00 UTC;';
-		document.cookie = 'MCPopupSubscribed=;path=/;expires=Thu, 01 Jan 1970 00:00:00 UTC;';
-	}
-</script>
-

@@ -64,7 +64,7 @@ function createMap(mapData) {
 
     var map = new google.maps.Map(document.getElementById('map'), options);
 
-    var marker = new google.maps.Marker({
+    new google.maps.Marker({
         map: map,
         position: new google.maps.LatLng(mapData.latitude, mapData.longitude)
     });
@@ -72,4 +72,13 @@ function createMap(mapData) {
     google.maps.event.addDomListener(window, 'resize', function() {
         map.setCenter(options.center);
     });
+}
+
+function showSubscribePopUp() {
+    window.dojoRequire(
+        ["mojo/signup-forms/Loader"],
+        function(L) { L.start({"baseUrl":"mc.us20.list-manage.com","uuid":"7f2855fbda8a9f5e3c72d4789","lid":"7bf02b8ab9","uniqueMethods":true}) }
+    );
+    document.cookie = 'MCPopupClosed=;path=/;expires=Thu, 01 Jan 1970 00:00:00 UTC;';
+    document.cookie = 'MCPopupSubscribed=;path=/;expires=Thu, 01 Jan 1970 00:00:00 UTC;';
 }
