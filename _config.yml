@@ -103,21 +103,6 @@ defaults:
         height: 1322
         resize_style: cover
 
-# -----------
-# CloudCannon
-
-social_icons:
-  - Facebook
-  - Google Plus
-  - Instagram
-  - LinkedIn
-  - Pinterest
-  - Tumblr
-  - Twitter
-  - YouTube
-  - Email
-  - RSS
-  - Web
 
 _comments:
   description: Text shown when sharing on social media
