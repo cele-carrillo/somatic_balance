@@ -9,6 +9,9 @@ google_verification: _OPZ1XDKeZd_sGEquv49trtNSd9YNLtugRWaLbTvAiY
 google_maps_javascript_api_key: AIzaSyDzB8G0Ol_wvkWDR6VBjKMSk38kgFi_CYc
 disqus_shortname:
 
+contact:
+  email: hello@somaticbalance.com.au
+
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
 description: Balance by Celeste
@@ -39,6 +42,7 @@ exclude:
   - Gemfile.lock
   - README.md
   - LICENCE
+  - vendor
 
 collections:
   practitioners:
