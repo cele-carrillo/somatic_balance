@@ -43,6 +43,7 @@ exclude:
   - README.md
   - LICENCE
   - vendor
+  - Rakefile
 
 collections:
   practitioners:
