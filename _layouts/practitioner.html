@@ -29,7 +29,7 @@ half-hero: true
                 {% assign posts = site.posts | where: "author_practitioner", person | sort: date | reverse  %}
                 {% if posts.size > 0 %}
                 <li class="nested-list">
-                    {% include social-icon.html icon="RSS" %} Latest blog posts:
+                    {% include social-icon.html icon="RSS" %} Latest articles:
                     <ul>{% for post in posts %}
                         <li><a href="{% include relative-src.html src=post.url %}">{{ post.title }}</a></li>
                     {% endfor %}</ul>

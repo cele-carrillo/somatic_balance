@@ -53,7 +53,7 @@ collections:
     output: true
 
 paginate: 10
-paginate_path: "/blog/:num/"
+paginate_path: "/resources/:num/"
 
 jekyll-archives:
   enabled: ['categories']

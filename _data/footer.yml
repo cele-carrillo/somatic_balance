@@ -7,8 +7,8 @@ left_links:
     link: /bookings/
   - name: Contact
     link: /contact/
-  - name: Blog
-    link: /blog/
+  - name: Resources
+    link: /resources/
 right_links:
   - name:
     link: https://www.instagram.com/balancebyceleste/
