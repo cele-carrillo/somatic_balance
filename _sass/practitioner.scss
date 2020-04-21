@@ -52,13 +52,6 @@
     li {
       list-style: none;
       font-size: .8em;
-      svg {
-        fill: $primary-color;
-        transition: fill 0.2s ease;
-        vertical-align: middle;
-        width: 18px;
-        height: 18px;
-       }
     }
   }
 }

@@ -13,12 +13,12 @@ right_links:
   - name:
     link: https://www.instagram.com/balancebyceleste/
     new_window: true
-    social_icon: Instagram
+    icon: instagram
   - name:
     link: https://www.facebook.com/balancebyceleste/
     new_window: true
-    social_icon: Facebook
+    icon: facebook
   - name:
     link: https://www.linkedin.com/in/celestecarrillo/
-    social_icon: LinkedIn
     new_window: true
+    icon: linkedin

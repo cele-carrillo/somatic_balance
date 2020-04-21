@@ -21,21 +21,20 @@ half-hero: true
             <ul>
                 {% for item in page.social %}{% if item.name %}
                 <li>
-                    {% include social-icon.html icon=item.icon %}
-                    {{ item.icon }}: <a href="{{ item.link }}" target="_blank">{{ item.name }}</a>
+                    <i class="small-icon fas fa-{{ item.icon }}"></i> {{ item.title }}: <a href="{{ item.link }}" target="_blank">{{ item.name }}</a>
                 </li>
                 {% endif %}{% endfor %}
-                <li>{% include social-icon.html icon="Hashtag" %} Social networks: {% for item in page.social %}{% unless item.name %}&nbsp;<a href="{{ item.link }}" target="_blank">{% include social-icon.html icon=item.icon %}</a>{% endunless %}{% endfor %}</li>
+                <li><i class="small-icon fas fa-hashtag"></i> Social networks: {% for item in page.social %}{% unless item.name %}&nbsp;<a href="{{ item.link }}" target="_blank"> <i class="small-icon fab fa-{{item.icon}}"></i> </a>{% endunless %}{% endfor %}</li>
                 {% assign posts = site.posts | where: "author_practitioner", person | sort: date | reverse  %}
                 {% if posts.size > 0 %}
                 <li class="nested-list">
-                    {% include social-icon.html icon="RSS" %} Latest articles:
+                    <i class="small-icon fas fa-rss"></i> Latest articles:
                     <ul>{% for post in posts %}
                         <li><a href="{% include relative-src.html src=post.url %}">{{ post.title }}</a></li>
                     {% endfor %}</ul>
                 </li>
                 {% endif %}
-                <li class="nested-list">{% include social-icon.html icon="Modality" %} Modalities:<ul>
+                <li class="nested-list"><i class="small-icon fas fa-clipboard-list"></i> Modalities:<ul>
                     {% for modality in site.modalities %}
                     {% if modality.practitioners contains person %}
                     <li><a href="{% include relative-src.html src=modality.url %}">{{ modality.title }}</a></li>

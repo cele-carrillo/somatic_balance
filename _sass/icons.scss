@@ -1,0 +1,25 @@
+@import "./vendor/fontawesome/fontawesome.scss";
+@import "./vendor/fontawesome/solid.scss";
+@import "./vendor/fontawesome/brands.scss";
+
+i.small-icon {
+  @extend %fa-icon;
+  @extend .#{$fa-css-prefix}-lg;
+  color: $primary-color;
+}
+
+i.footer-icon {
+  @extend %fa-icon;
+  @extend .#{$fa-css-prefix}-lg;
+  color: #999;
+}
+
+i.footer-icon:hover {
+  color: #fff;
+}
+
+i.secondary-large-icon {
+  @extend %fa-icon;
+  @extend .#{$fa-css-prefix}-3x;
+  color: $secondary-color;
+}
