@@ -19,18 +19,15 @@ she talking about?"
  
 I present to you *"The Bookworm's Cavern"*:
  
-&bull; We get together every 3 weeks. No tickets, or cost or anything like that.
- 
-&bull; You're invited to bring one book with you that stood out in some way: it was the best you've ever read, the one that
+* We get together every 3 weeks. No tickets, or cost or anything like that.
+* You're invited to bring one book with you that stood out in some way: it was the best you've ever read, the one that
 inspired you to make some kind of change in your life, maybe it was the worst book you've ever read, or the most boring
 one, maybe it's the one you bought 3 years ago because you liked the cover and never got to read it, maybe it's a
 dictionary, maybe it's the only one you have... doesn't really matter, just one.
- 
-&bull; Through your experience with that book others are invited to have a peek into who you really are. By sharing what the
+* Through your experience with that book others are invited to have a peek into who you really are. By sharing what the
 book meant to you, how you changed with it, how you felt, or why you hate the cover, you are sharing a piece of yourself
 through it.
- 
-&bull; We have a drink together; feel, talk, laugh or cry as needed, and then say goodbye with a hug (maybe?), and repeat
+* We have a drink together; feel, talk, laugh or cry as needed, and then say goodbye with a hug (maybe?), and repeat
 all of that again in 3 weeks.
  
 ### What am I expecting will happen?
