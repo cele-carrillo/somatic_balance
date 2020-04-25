@@ -66,6 +66,10 @@ p, address, ul {
 p strong {
   font-weight: 600; }
 
+audio {
+  width: 100%;
+  max-width: 600px; }
+
 /* TESTIMONIALS
 -------------------------------------------------*/
 .testimonials {
