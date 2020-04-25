@@ -1,5 +1,5 @@
 ---
-title: "Video: Exploring breath and space"
+title: Exploring breath and space
 date: 2020-04-01
 description: Connecting to the present moment using our breath
 categories:

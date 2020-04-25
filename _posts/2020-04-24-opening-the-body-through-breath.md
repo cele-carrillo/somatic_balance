@@ -1,5 +1,5 @@
 ---
-title: "Video: Opening your body through the breath"
+title: Opening your body through the breath
 date: 2020-04-24
 description: Creating space inside
 categories:

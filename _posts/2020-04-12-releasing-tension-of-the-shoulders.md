@@ -1,5 +1,5 @@
 ---
-title: "Video: Softening your shoulders"
+title: Softening your shoulders
 date: 2020-04-12
 description: How about taking a five minutes break?
 categories:
