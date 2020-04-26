@@ -9,6 +9,7 @@ half-hero: true
 		{% include post-title.html post=page %}
 
 		<div class="post-content">
+			{% include share-bar.html %}
 			{{ content }}
 			<div class="blog-navigation">
 				{% if page.previous.url %}

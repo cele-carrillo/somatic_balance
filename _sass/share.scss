@@ -1,0 +1,30 @@
+.share-bar {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+
+  .share-buttons {
+    display: flex;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .fa {
+    margin-right: 5px;
+  }
+
+  .share-button {
+    margin: 0 3px;
+    border: 1px solid $primary-color;
+    padding: 5px 10px;
+    color: $primary-color;
+  }
+
+  .share-button:hover {
+    color: $secondary-color;
+    border-color: $secondary-color;
+  }
+}
+
