@@ -2,7 +2,8 @@
 title: Awakening your heart intelligence
 date: 2020-04-25
 description: Experiencing coherence and true wisdom
-categories:
+type: audio
+tags:
   - audios
   - somatic explorations
 image: /images/graffiti.jpg

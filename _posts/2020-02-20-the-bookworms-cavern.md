@@ -2,7 +2,7 @@
 title: "Presenting: The Bookworms Cavern"
 date: 2020-02-20
 description: We lose ourselves in books. We find ourselves there too. 
-categories:
+tags:
   - community
 image: https://source.unsplash.com/6pO3QFkk7hQ/2000x1322?a=.png
 author_practitioner: celeste

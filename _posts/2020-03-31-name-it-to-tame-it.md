@@ -2,7 +2,8 @@
 title: Name it to tame it
 date: 2020-03-31
 description: How your emotions can inform you and not overwhelm you
-categories:
+tags:
+  - articles
   - somatic explorations
 image: https://source.unsplash.com/ilox07iZ5iE/2000x1322?a=.png
 author_practitioner: celeste

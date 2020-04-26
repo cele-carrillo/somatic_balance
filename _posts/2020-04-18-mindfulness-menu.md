@@ -2,7 +2,8 @@
 title: "Mindfulness menu"
 date: 2020-04-18
 description: Bite-sized mindfulness practices for you
-categories:
+tags:
+  - articles
   - somatic explorations
 image: https://source.unsplash.com/7Od26RsZ2Rk/2000x1322?a=.png
 author_practitioner: celeste

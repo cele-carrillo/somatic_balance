@@ -2,7 +2,8 @@
 title: What do you really need?
 date: 2020-04-05
 description: Gaining clarity about what's alive in us
-categories:
+tags:
+  - articles
   - somatic explorations
 image: https://source.unsplash.com/oMpAz-DN-9I/2000x1322?a=.png
 author_practitioner: celeste

@@ -2,7 +2,8 @@
 title: Softening your shoulders
 date: 2020-04-12
 description: How about taking a five minutes break?
-categories:
+type: video
+tags:
   - videos
   - somatic explorations
 image: https://source.unsplash.com/3vc6pAclY-4/2000x1322?a=.png

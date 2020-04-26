@@ -2,7 +2,8 @@
 title: Opening your body through the breath
 date: 2020-04-24
 description: Creating space inside
-categories:
+type: video
+tags:
   - videos
   - somatic explorations
 image: https://source.unsplash.com/Jd2fqoX3z_0/2000x1322?a=.png

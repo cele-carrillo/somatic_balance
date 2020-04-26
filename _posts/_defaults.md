@@ -2,7 +2,7 @@
 title:
 date:
 description:
-categories:
+tags:
 image:
 author_practitioner:
 ---

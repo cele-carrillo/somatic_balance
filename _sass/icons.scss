@@ -23,3 +23,10 @@ i.secondary-large-icon {
   @extend .#{$fa-css-prefix}-3x;
   color: $secondary-color;
 }
+
+i.blog-entry-icon {
+  @extend %fa-icon;
+  font-size: 1em;
+  margin: 0 10px;
+  color: $secondary-color;
+}
