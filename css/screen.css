@@ -5471,6 +5471,25 @@ i.blog-entry-icon {
   margin: 0 10px;
   color: #c97370; }
 
+.share-bar {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center; }
+  .share-bar .share-buttons {
+    display: flex; }
+  .share-bar a {
+    text-decoration: none; }
+  .share-bar .fa {
+    margin-right: 5px; }
+  .share-bar .share-button {
+    margin: 0 3px;
+    border: 1px solid #a6c7bd;
+    padding: 5px 10px;
+    color: #a6c7bd; }
+  .share-bar .share-button:hover {
+    color: #c97370;
+    border-color: #c97370; }
+
 /* 
  *  Core Owl Carousel CSS File
  *  v1.3.3
