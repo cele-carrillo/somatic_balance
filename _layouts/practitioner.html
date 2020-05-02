@@ -6,7 +6,7 @@ half-hero: true
 <section class="info">
     <div class="container flex primary-color-box">
         {% if page.headshot_image2 %}{% assign headshot=page.headshot_image2 %}{% else %}{% assign headshot=page.headshot_image %}{% endif %}
-        <div class="square-image" style="background-image: url({% include relative-src.html src=headshot %}); min-width: 200px"></div>
+        <div class="square-image" style="background-image: url({{ headshot }}); min-width: 200px"></div>
         <div class="text-container"><p>{{ page.blurb }}</p></div>
     </div>
 </section>
@@ -30,14 +30,14 @@ half-hero: true
                 <li class="nested-list">
                     <i class="small-icon fas fa-rss"></i> Latest articles:
                     <ul>{% for post in posts %}
-                        <li><a href="{% include relative-src.html src=post.url %}">{{ post.title }}</a></li>
+                        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
                     {% endfor %}</ul>
                 </li>
                 {% endif %}
                 <li class="nested-list"><i class="small-icon fas fa-clipboard-list"></i> Modalities:<ul>
                     {% for modality in site.modalities %}
                     {% if modality.practitioners contains person %}
-                    <li><a href="{% include relative-src.html src=modality.url %}">{{ modality.title }}</a></li>
+                    <li><a href="{{ modality.url }}">{{ modality.title }}</a></li>
                     {% endif %}
                     {% endfor %}
                 </ul></li>

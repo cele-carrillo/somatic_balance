@@ -2,7 +2,7 @@
 layout: default
 ---
 {% assign half-hero = page.half-hero | default: layout.half-hero %}
-<section class="hero{% if half-hero %} half-hero{% endif %}" style="background-image: url({% include relative-src.html src=page.image %})">
+<section class="hero{% if half-hero %} half-hero{% endif %}" style="background-image: url({{ page.image }})">
 	<div class="inner-hero text-container">
 		<div class="hero-text-container">
 			<h1>{{ page.title }}</h1>

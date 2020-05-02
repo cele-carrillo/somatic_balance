@@ -4,7 +4,7 @@ description: Keep up with the latest news.
 image: /images/bonsai.jpg
 ---
 
-<section class="hero" style="background-image: url({% include relative-src.html src=page.image %})">
+<section class="hero" style="background-image: url({{ page.image }})">
 	<div class="inner-hero text-container">
 		<div class="hero-text-container">
 			<h1 class="editable">Modalities & Offerings</h1>
@@ -30,15 +30,15 @@ image: /images/bonsai.jpg
 	<p class="editor-link"><a href="cloudcannon:collections/_modalities" class="btn"><strong>&#9998;</strong> Add Modality</a></p>
 	<div class="container flex">
 		<div class="text">
-			<h2><a href="{% include relative-src.html src=modality.url %}">{{ modality.title }}</a></h2>
+			<h2><a href="{{ modality.url }}">{{ modality.title }}</a></h2>
 			<div class="modality-content">
 				<p>{{ modality.excerpt | strip_html}}</p>
-				<div class="button"><a href="{% include relative-src.html src=modality.url %}">Read More</a></div>
+				<div class="button"><a href="{{ modality.url }}">Read More</a></div>
 			</div>
 		</div>
 
 		<div class="image">
-			<img src="{% include relative-src.html src=modality.thumbnail %}" alt="{{ modality.title }}" />
+			<img src="{{ modality.thumbnail }}" alt="{{ modality.title }}" />
 		</div>
 	</div>
 </section>

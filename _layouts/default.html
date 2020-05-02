@@ -57,7 +57,7 @@
 				<ul class="footer-left-links">
 					{% for link in site.data.footer.left_links %}
 						<li>
-							<a {% if link.new_window %}target="_blank"{% endif %} href="{% include relative-src.html src=link.link %}">
+							<a {% if link.new_window %}target="_blank"{% endif %} href="{{ link.link }}">
 								{{ link.name }}
 							</a>
 						</li>
@@ -66,7 +66,7 @@
 				<ul class="footer-right-links">
 					{% for link in site.data.footer.right_links %}
 						<li>
-							<a {% if link.new_window %}target="_blank"{% endif %} href="{% include relative-src.html src=link.link %}">
+							<a {% if link.new_window %}target="_blank"{% endif %} href="{{ link.link }}">
 								{% if link.icon %}<i class="footer-icon fab fa-{{link.icon}}"></i>{% endif %}
 								{{ link.name }}
 							</a>
