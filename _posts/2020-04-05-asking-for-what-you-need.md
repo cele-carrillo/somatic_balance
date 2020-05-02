@@ -12,7 +12,7 @@ custom_excerpt: This time our inspiration comes from the ideas and insights of n
 
 ---
 
-```quote
+```
 “When we express our needs indirectly through the use of evaluations, interpretations, and images, others are likely to hear criticism. And when people hear anything that sounds like criticism, they tend to invest their energy in self-defense or counterattack. If we wish for a compassionate response from others, it is self-defeating to express our needs by interpreting or diagnosing their behavior. Instead, the more directly we can connect our feelings to our own needs, the easier it is for others to respond to us compassionately.”
 
 - Marshall B. Rosenberg, Nonviolent Communication: A Language of Life: Life-Changing Tools for Healthy Relationships

@@ -11,7 +11,7 @@ custom_excerpt: Learning how your emotions can inform you instead of overwhelm y
 
 ---
 
-```quote
+```
   “In the brain, naming an emotion can help calm it. Here is where finding words to label an internal experience becomes
   really helpful. We can call this “Name it to tame it”... Your inner sea and your interpersonal relationships will all
   benefit from naming what is going on and bringing more integration into your life.”
