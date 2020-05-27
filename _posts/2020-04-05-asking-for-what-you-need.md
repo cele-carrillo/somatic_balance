@@ -9,7 +9,6 @@ image: https://source.unsplash.com/oMpAz-DN-9I/2000x1322?a=.png
 author_practitioner: celeste
 custom_excerpt: This time our inspiration comes from the ideas and insights of non-violent communication around how to connect with our true needs.
 
-
 ---
 
 ```
