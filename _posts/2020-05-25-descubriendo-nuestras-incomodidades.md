@@ -30,7 +30,7 @@ nos estamos perdiendo la oportunidad de escucharnos y de contactar aquello que v
 perdiendo la oportunidad de comunicarnos con honestidad. Y, sin darnos cuenta, estamos diciendo *“Yo no importo y mis
 necesidades no importan”*... Triste ¿no?
 
-Yo creo que tus necesidades importan! Y Mucho! Y que el mundo sería un lugar mucho más hermoso si cada persona honrrara
+Yo creo que tus necesidades importan! Y Mucho! Y que el mundo sería un lugar mucho más hermoso si cada persona honrara
 sus necesidades y las de los demás.  Así que hoy te invito a explorar una forma gentil y segura de contactar esas
 incomodidades y rigideces que son nuestras, para escuchar qué tienen para decir... te animás?
 
