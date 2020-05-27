@@ -1,4 +1,5 @@
 ---
+lang: en
 title: Energising and Soothing the body
 date: 2020-05-05
 description: Regulating the nervous system

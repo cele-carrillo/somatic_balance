@@ -1,4 +1,5 @@
 ---
+lang: en
 title: Name it to tame it
 date: 2020-03-31
 description: How your emotions can inform you and not overwhelm you

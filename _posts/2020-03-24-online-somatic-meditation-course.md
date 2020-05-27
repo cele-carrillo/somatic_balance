@@ -1,4 +1,5 @@
 ---
+lang: en
 title: Online Somatic Explorations & Meditations
 date: 2020-03-24
 description: Cultivating presence and groundedness

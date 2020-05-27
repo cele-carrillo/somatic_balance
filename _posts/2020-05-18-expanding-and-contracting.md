@@ -1,4 +1,5 @@
 ---
+lang: en
 title: Expanding & Contracting
 date: 2020-05-18
 description: Balancing the cycles of our experience
