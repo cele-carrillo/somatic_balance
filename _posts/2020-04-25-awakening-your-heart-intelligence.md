@@ -1,5 +1,5 @@
 ---
-lang: en
+locale: en
 title: Awakening your heart intelligence
 date: 2020-04-25
 description: Experiencing coherence and true wisdom

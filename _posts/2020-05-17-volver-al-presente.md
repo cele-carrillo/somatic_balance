@@ -1,12 +1,11 @@
 ---
-lang: es
+locale: es
 title: Volviendo al Presente
 date: 2020-05-17
 description: Que lindo es sentirse en casa, ¿no?
 type: audio
 tags:
-  - audios
-  - somatic explorations
+  - meditaciones
 image: https://source.unsplash.com/_Zd6COnH5E8/2000x1322?a=.png
 author_practitioner: celeste
 audio_file: /res/audio/recorriendonos_en_el_cuerpo.mp3

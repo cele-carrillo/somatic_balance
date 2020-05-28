@@ -1,5 +1,5 @@
 ---
-lang: en
+locale: en
 title: What do you really need?
 date: 2020-04-05
 description: Gaining clarity about what's alive in us

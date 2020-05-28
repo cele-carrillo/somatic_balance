@@ -5,12 +5,12 @@ half-hero: true
 
 <section>
 	<div class="blog-post text-container">
-		<p class="editor-link"><a href="cloudcannon:collections/{{ page.path }}" class="btn"><strong>&#9998;</strong> Edit Post</a></p>
 		{% include post-title.html post=page %}
 
 		<div class="post-content">
 			{% include share-bar.html %}
 			{{ content }}
+			{%- if site.data.feature_flags.blog_navigation -%}
 			<div class="blog-navigation">
 				{% if page.previous.url %}
 					<a class="prev" href="{{ page.previous.url }}">&laquo; {{ page.previous.title }}</a>
@@ -19,6 +19,7 @@ half-hero: true
 					<a class="next" href="{{ page.next.url }}">{{ page.next.title }} &raquo;</a>
 				{% endif %}
 			</div>
+			{%- endif -%}
 
 			{% if site.disqus_shortname and page.comments %}
 				<div id="disqus_thread"></div>

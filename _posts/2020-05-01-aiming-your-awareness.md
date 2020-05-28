@@ -1,5 +1,5 @@
 ---
-lang: en
+locale: en
 title: Aiming your Awareness
 date: 2020-05-01
 description: What are you paying attention to?

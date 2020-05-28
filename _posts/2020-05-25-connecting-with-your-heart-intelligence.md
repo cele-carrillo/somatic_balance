@@ -1,5 +1,5 @@
 ---
-lang: en
+locale: en
 title: Connecting with your Heart Intelligence
 date: 2020-05-25
 description: Tune out the noise & tune into your heart

@@ -1,3 +1,4 @@
+{%- assign texts = site.data.localization[page.locale] -%}
 {% for post in include.posts %}
 	{% if post.type == "video" %}
 		{% assign icon = "video" %}
@@ -15,7 +16,7 @@
 			{% else %}
 				{{ post.excerpt || truncatewords:75 }}
 			{% endif %}
-			<div class="button"><a href="{{ post.url }}">View</a></div>
+			<div class="button"><a href="{{ post.url }}">{{ texts.view_more }}</a></div>
 		</div>
 	</li>
 {% endfor %}

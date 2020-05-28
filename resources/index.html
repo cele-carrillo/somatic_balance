@@ -1,40 +1,11 @@
 ---
+layout: resources
+locale: en
+image: https://source.unsplash.com/0gkw_9fy0eQ/2000x1322?a=.png
 title: Resources
 description: Practices, meditations, tips and ideas
-image: https://source.unsplash.com/0gkw_9fy0eQ/2000x1322?a=.png
+intro: We're happy to share with you practices, meditations, tips and ideas that have been meaningful in our own journeys. Hope you enjoy them!
+pagination:
+  enabled: true
+  locale: en
 ---
-
-<section class="hero half-hero" style="background-image: url({{ page.image }})">
-	<div class="inner-hero text-container">
-		<div class="hero-text-container">
-			<h1 class="editable">Resources</h1>
-			<p class="subtext editable">
-				We're happy to share with you practices, meditations, tips and ideas that have been meaningful in our own journeys. Hope you enjoy them!
-			</p>
-		</div>
-	</div>
-</section>
-
-<section>
-	<div class="text-container">
-		<p class="editor-link"><a href="cloudcannon:collections/_posts" class="btn"><strong>&#9998;</strong> Add Post</a></p>
-		<ul class="blog-posts">
-			{% assign posts = paginator.posts | where: "lang", "en" %}
-			{% include list-posts.html posts=posts %}
-		</ul>
-
-		{% if paginator.total_pages > 1 %}
-			<div class="pagination">
-				{% if paginator.previous_page %}
-					<a href="{{ site.baseurl }}{{ paginator.previous_page_path }}" class="previous btn">&larr; Newer posts</a>
-				{% endif %}
-
-				<span class="page_number ">{{ paginator.page }} of {{ paginator.total_pages }}</span>
-
-				{% if paginator.next_page %}
-					<a href="{{ site.baseurl }}{{ paginator.next_page_path }}" class="next btn">Older posts &rarr;</a>
-				{% endif %}
-			</div>
-		{% endif %}
-	</div>
-</section>

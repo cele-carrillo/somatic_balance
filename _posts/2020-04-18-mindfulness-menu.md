@@ -1,5 +1,5 @@
 ---
-lang: en
+locale: en
 title: "Mindfulness menu"
 date: 2020-04-18
 description: Bite-sized mindfulness practices for you

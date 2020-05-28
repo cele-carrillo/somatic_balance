@@ -1,12 +1,11 @@
 ---
-lang: es
+locale: es
 title: Descubriendo nuestras incomodidades
 date: 2020-05-25
 description: Cómo soltarnos naturalmente
 type: audio
 tags:
-  - audios
-  - somatic explorations
+  - meditaciones
 image: https://source.unsplash.com/1OtUkD_8svc/2000x1322?a=.png
 author_practitioner: celeste
 audio_file: /res/audio/descubriendo-nuestras-incomodidades.mp3

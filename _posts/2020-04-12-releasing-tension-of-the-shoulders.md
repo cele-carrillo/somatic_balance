@@ -1,5 +1,5 @@
 ---
-lang: en
+locale: en
 title: Softening your shoulders
 date: 2020-04-12
 description: How about taking a five minutes break?

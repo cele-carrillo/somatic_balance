@@ -1,6 +1,7 @@
 ---
 layout: page
 half-hero: true
+locale: en
 ---
 
 <section class="info">
@@ -25,7 +26,7 @@ half-hero: true
                 </li>
                 {% endif %}{% endfor %}
                 <li><i class="small-icon fas fa-hashtag"></i> Social networks: {% for item in page.social %}{% unless item.name %}&nbsp;<a href="{{ item.link }}" target="_blank"> <i class="small-icon fab fa-{{item.icon}}"></i> </a>{% endunless %}{% endfor %}</li>
-                {% assign posts = site.posts | where: "author_practitioner", person | sort: date | reverse | slice:0,3 %}
+                {% assign posts = site.posts | where: "author_practitioner", person | where: "locale", layout.locale | sort: date | reverse | slice:0,3 %}
                 {% if posts.size > 0 %}
                 <li class="nested-list">
                     <i class="small-icon fas fa-rss"></i> Latest articles:
