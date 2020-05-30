@@ -17,3 +17,35 @@
   top: 0;
   width: 100%;
 }
+
+.warning-box {
+  padding: 10px 10px;
+  background-color: #ffeead;
+  margin-bottom: 25px;
+  p {
+    margin: 5px;
+    font-size: 1em;
+  }
+  ul {
+    margin: 5px;
+  }
+  li {
+    font-size: 1rem;
+  }
+
+  @media #{$mid-point} {
+    > ul {
+      columns: 2;
+      -webkit-columns: 2;
+      -moz-columns: 2;
+    }
+  }
+
+  @media #{$desktop} {
+    > ul {
+      columns: 3;
+      -webkit-columns: 3;
+      -moz-columns: 3;
+    }
+  }
+}
