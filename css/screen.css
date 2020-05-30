@@ -761,6 +761,28 @@ footer {
   top: 0;
   width: 100%; }
 
+.warning-box {
+  padding: 10px 10px;
+  background-color: #ffeead;
+  margin-bottom: 25px; }
+  .warning-box p {
+    margin: 5px;
+    font-size: 1em; }
+  .warning-box ul {
+    margin: 5px; }
+  .warning-box li {
+    font-size: 1rem; }
+  @media (min-width: 620px) {
+    .warning-box > ul {
+      columns: 2;
+      -webkit-columns: 2;
+      -moz-columns: 2; } }
+  @media (min-width: 768px) {
+    .warning-box > ul {
+      columns: 3;
+      -webkit-columns: 3;
+      -moz-columns: 3; } }
+
 .modality {
   padding: 18px 0; }
   .modality:first-child {
