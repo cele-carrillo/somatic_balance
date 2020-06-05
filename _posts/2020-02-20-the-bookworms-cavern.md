@@ -48,5 +48,3 @@ Interested? If so please [get it touch](/contact/) so I can add you to "The Book
 posted.
  
 Hope to see you there and maybe borrow a book from you some time ;)
-
-COVID-19 is not stopping us! We're just meeting in a virtual space for now.
