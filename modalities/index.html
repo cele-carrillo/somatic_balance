@@ -26,7 +26,7 @@ image: /images/bonsai.jpg
 	</div>
 </section>
 
-{% for modality in site.modalities %}
+{%- for modality in site.modalities -%}
 <section class="info modality">
 	<p class="editor-link"><a href="cloudcannon:collections/_modalities" class="btn"><strong>&#9998;</strong> Add Modality</a></p>
 	<div class="container flex">
@@ -43,4 +43,4 @@ image: /images/bonsai.jpg
 		</div>
 	</div>
 </section>
-{% endfor %}
+{%- endfor -%}

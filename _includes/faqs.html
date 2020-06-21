@@ -1,14 +1,14 @@
 <section class="info">
     <div class="container faq">
         <h2>Frequently Asked Questions</h2>
-        {% for faq in include.faqs %}
+        {%- for faq in include.faqs -%}
         <div class="question">{{ faq.question }}</div>
         <div class="answer">
-        {% for paragraph in faq.answer %}
+        {%- for paragraph in faq.answer -%}
             <p>{{ paragraph }}</p>
-        {% endfor %}
+        {%- endfor -%}
         </div>
-        {% endfor %}
+        {%- endfor -%}
     </div>
 </section>
 

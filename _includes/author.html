@@ -1,6 +1,6 @@
 <div class="author">
-    {% assign author_url = include.practitioner | prepend: "/practitioners/" | append: "/" %}
-    {% assign author = site.practitioners | where: "url", author_url | first %}
+    {%- assign author_url = include.practitioner | prepend: "/practitioners/" | append: "/" -%}
+    {%- assign author = site.practitioners | where: "url", author_url | first -%}
     <div class="square-image" style="background-image: url('{{ author.headshot_image }}')">
         <a href="{{ author_url }}">profile</a>
     </div>

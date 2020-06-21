@@ -20,18 +20,16 @@ image: https://source.unsplash.com/0gkw_9fy0eQ/2000x1322?a=.png
             {% include list-posts.html posts=paginator.posts %}
         </ul>
 
-        {% if paginator.total_pages > 1 %}
+        {%- if paginator.total_pages > 1 -%}
         <div class="pagination">
-            {% if paginator.previous_page %}
+            {%- if paginator.previous_page -%}
             <a href="{{ site.baseurl }}{{ paginator.previous_page_path }}" class="previous btn">&larr; {{ texts.new_posts }}</a>
-            {% endif %}
-
-            <span class="page_number ">{{ paginator.page }} {{ texts.of }} {{ paginator.total_pages }}</span>
-
-            {% if paginator.next_page %}
+            {%- endif -%}
+            <span class="page_number "> {{ paginator.page }} {{ texts.of }} {{ paginator.total_pages }} </span>
+            {%- if paginator.next_page -%}
             <a href="{{ site.baseurl }}{{ paginator.next_page_path }}" class="next btn">{{ texts.old_posts }} &rarr;</a>
-            {% endif %}
+            {%- endif -%}
         </div>
-        {% endif %}
+        {%- endif -%}
     </div>
 </section>

@@ -1,6 +1,6 @@
 <div class="share-bar">
     {% capture encoded_url %}{{ site.url }}{{ site.baseurl }}{{ page.url | url_encode}}{% endcapture %}
-    {% assign encoded_title = page.title | url_encode %}
+    {%- assign encoded_title = page.title | url_encode -%}
     <div class="share-buttons">
         <a href="https://www.facebook.com/sharer/sharer.php?u={{ encoded_url }}&display=page"
            target="_blank"

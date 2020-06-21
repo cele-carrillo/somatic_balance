@@ -6,7 +6,11 @@ locale: en
 
 <section class="info">
     <div class="container flex primary-color-box">
-        {% if page.headshot_image2 %}{% assign headshot=page.headshot_image2 %}{% else %}{% assign headshot=page.headshot_image %}{% endif %}
+        {%- if page.headshot_image2 -%}
+            {%- assign headshot=page.headshot_image2 -%}
+        {%- else %}
+            {%- assign headshot=page.headshot_image -%}
+        {%- endif -%}
         <div class="square-image" style="background-image: url({{ headshot }}); min-width: 200px"></div>
         <div class="text-container"><p>{{ page.blurb }}</p></div>
     </div>
@@ -16,31 +20,35 @@ locale: en
     {{ content }}
     <div class="container practitioner">
         <div class="text-box">
-            {% assign person = page.id | split: "/" | last %}
+            {%- assign person = page.id | split: "/" | last -%}
             <h3>More about {{ person | capitalize }}</h3>
             <hr>
             <ul>
-                {% for item in page.social %}{% if item.name %}
+                {%- for item in page.social -%}
+                {%- if item.name -%}
                 <li>
                     <i class="small-icon fas fa-{{ item.icon }}"></i> {{ item.title }}: <a href="{{ item.link }}" target="_blank">{{ item.name }}</a>
                 </li>
-                {% endif %}{% endfor %}
+                {%- endif -%}
+                {%- endfor -%}
                 <li><i class="small-icon fas fa-hashtag"></i> Social networks: {% for item in page.social %}{% unless item.name %}&nbsp;<a href="{{ item.link }}" target="_blank"> <i class="small-icon fab fa-{{item.icon}}"></i> </a>{% endunless %}{% endfor %}</li>
-                {% assign posts = site.posts | where: "author_practitioner", person | where: "locale", layout.locale | sort: date | reverse | slice:0,3 %}
-                {% if posts.size > 0 %}
+                {%- assign posts = site.posts | where: "author_practitioner", person | where: "locale", layout.locale | sort: date | reverse | slice:0,3 -%}
+                {%- if posts.size > 0 -%}
                 <li class="nested-list">
                     <i class="small-icon fas fa-rss"></i> Latest articles:
-                    <ul>{% for post in posts %}
+                    <ul>
+                    {%- for post in posts -%}
                         <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-                    {% endfor %}</ul>
+                    {%- endfor -%}
+                    </ul>
                 </li>
-                {% endif %}
+                {%- endif -%}
                 <li class="nested-list"><i class="small-icon fas fa-clipboard-list"></i> Modalities:<ul>
-                    {% for modality in site.modalities %}
-                    {% if modality.practitioners contains person %}
+                    {%- for modality in site.modalities -%}
+                    {%- if modality.practitioners contains person -%}
                     <li><a href="{{ modality.url }}">{{ modality.title }}</a></li>
-                    {% endif %}
-                    {% endfor %}
+                    {%- endif -%}
+                    {%- endfor -%}
                 </ul></li>
             </ul>
         </div>

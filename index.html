@@ -85,14 +85,14 @@ custom_javascript:
 				<div class="container">
 					<i class="secondary-large-icon fas fa-quote-right"></i>
 					<div id="testimonial-carousel">
-						{% for testimonial in site.data.testimonials %}
+						{%- for testimonial in site.data.testimonials -%}
 						<div class="testimonial-item">
 							<blockquote>
 								<p>{{ testimonial.description }}</p>
 								<p class="footer">{{ testimonial.name }}</p>
 							</blockquote>
 						</div>
-						{% endfor %}
+						{%- endfor -%}
 					</div>
 				</div>
 			</div>
