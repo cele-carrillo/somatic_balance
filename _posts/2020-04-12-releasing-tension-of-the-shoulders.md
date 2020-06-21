@@ -10,6 +10,9 @@ tags:
 image: https://source.unsplash.com/3vc6pAclY-4/2000x1322?a=.png
 author_practitioner: celeste
 vimeo_id: 408244968
+unsplash:
+  name: Ksenia Makagonova
+  user: dearseymour
 ---
 Carrying tension on your shoulders? Stiff neck? Join us in this practice and find a simple way to allow your shoulders
 to soften. The best part? It takes less than 5 minutes, and you can practice it anywhere. 

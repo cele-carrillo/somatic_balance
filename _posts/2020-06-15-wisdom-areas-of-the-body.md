@@ -10,6 +10,9 @@ tags:
 image: https://source.unsplash.com/hbkWMj41Y0I/2000x1322?a=.png
 author_practitioner: celeste
 audio_file: /res/audio/wisdom-areas-of-the-body.mp3
+unsplash:
+  name: Jen Theodore
+  user: jentheodore
 ---
 
 This exploration invites you to go back to your body and tune into its wisdom.

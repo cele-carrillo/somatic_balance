@@ -10,6 +10,9 @@ tags:
 image: https://source.unsplash.com/omeaSFHIxYk/2000x1322?a=.png
 author_practitioner: celeste
 audio_file: /res/audio/finding-balance-within.mp3
+unsplash:
+  name: Samuel Austin
+  user: samaustin
 ---
 
 What comes up for you when you think of the word “Rigid” or “Inflexible”? Have you noticed your emotions, thoughts, or

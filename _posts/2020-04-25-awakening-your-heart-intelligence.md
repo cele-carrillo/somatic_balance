@@ -11,6 +11,9 @@ image: /images/graffiti.jpg
 author_practitioner: celeste
 audio_file: /res/audio/01_heart-connection.mp3
 excerpt_separator: <!--more-->
+unsplash:
+  name: Karim Manjra
+  user: karim_manjra
 ---
 
 Many cultures believe the heart, rather than the brain, is the centre of life and the source of true wisdom. In this

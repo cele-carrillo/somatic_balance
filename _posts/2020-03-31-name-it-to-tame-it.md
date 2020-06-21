@@ -9,6 +9,9 @@ tags:
 image: https://source.unsplash.com/ilox07iZ5iE/2000x1322?a=.png
 author_practitioner: celeste
 custom_excerpt: Learning how your emotions can inform you instead of overwhelm you.
+unsplash:
+  name: Jez Timms
+  user: jeztimms
 
 ---
 

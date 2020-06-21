@@ -9,6 +9,9 @@ tags:
 image: https://source.unsplash.com/nXnUZGf_lx8/2000x1322?a=.png
 author_practitioner: celeste
 audio_file: /res/audio/connecting_with_your_heart_intelligence.mp3
+unsplash:
+  name: Jude Beck
+  user: judebeck
 excerpt_separator: <!--more-->
 ---
 

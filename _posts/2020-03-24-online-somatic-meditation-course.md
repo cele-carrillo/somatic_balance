@@ -8,6 +8,10 @@ tags:
   - somatic explorations
 image: /images/meditation.jpg
 author_practitioner: celeste
+unsplash:
+  name: Simon Migaj
+  user: simonmigaj
+
 ---
 In these uncertain times, it's equally important and challenging to be present and stay grounded. And that's why I'm
 offering these **Somatic Meditations and Explorations**.

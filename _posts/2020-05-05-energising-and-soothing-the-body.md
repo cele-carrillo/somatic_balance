@@ -9,7 +9,10 @@ tags:
   - somatic explorations
 image: https://source.unsplash.com/cYpqYxGeqts/2000x1322?a=.png
 author_practitioner: celeste
-audio_file: /res/audio/03_energising_and_soothing.mp3 
+audio_file: /res/audio/03_energising_and_soothing.mp3
+unsplash:
+  name: Saad Chaudhry
+  user: saadchdhry
 ---
 
 This Somatic Exploration is a great yet simple way to start regulating our nervous system, and finding balance in our

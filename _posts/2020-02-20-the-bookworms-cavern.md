@@ -7,6 +7,9 @@ tags:
   - community
 image: https://source.unsplash.com/6pO3QFkk7hQ/2000x1322?a=.png
 author_practitioner: celeste
+unsplash:
+  name: Stanislav Kondratiev
+  user: technobulka
 ---
 
 Have you ever wished you could "read" someone? Maybe take a peek through their past stories and hopes for the future,

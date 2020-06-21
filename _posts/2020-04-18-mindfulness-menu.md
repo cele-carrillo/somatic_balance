@@ -8,6 +8,9 @@ tags:
   - somatic explorations
 image: https://source.unsplash.com/7Od26RsZ2Rk/2000x1322?a=.png
 author_practitioner: celeste
+unsplash:
+  name: Adam Wilson
+  user: fourcolourblack
 ---
 
 It can be difficult to tend to our needs when we don’t exactly know what to do especially during high-stress moments.

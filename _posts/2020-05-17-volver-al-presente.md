@@ -12,8 +12,6 @@ audio_file: /res/audio/recorriendonos_en_el_cuerpo.mp3
 unsplash:
   name: Kira auf der Heide
   user: kadh
-  collection: body
-
 ---
 
 La intención de esta exploración es volver a conectarnos con nuestro cuerpo, de una forma lenta y segura, usando nuestra respiración como guía para explorarnos, sentirnos, conocernos, y conectarnos con el momento presente… Te invito a explorar!

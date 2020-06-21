@@ -1,3 +1,4 @@
+default: en
 
 en:
   view_more: View more
@@ -6,6 +7,7 @@ en:
   old_posts: Older posts
   of: of
 
+  photo_by: Photo by
 
 es:
   view_more: Ver más
@@ -13,3 +15,5 @@ es:
   new_posts: Nuevas publicaciones
   old_posts: Publicaciones anteriores
   of: de
+
+  photo_by: Foto de

@@ -13,7 +13,6 @@ audio_file: /res/audio/expanding_and_contracting.mp3
 unsplash:
   name: Alex
   user: worthyofelegance
-  collection: yang
 
 ---
 

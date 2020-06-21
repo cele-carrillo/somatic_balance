@@ -9,6 +9,9 @@ tags:
 image: https://source.unsplash.com/LAEPsbXOhIM/2000x1322?a=.png
 author_practitioner: celeste
 audio_file: /res/audio/sintiendo-nuestros-huesos.mp3
+unsplash:
+  name: Joyce McCown
+  user: moonshadowpress
 excerpt_separator: <!--more-->
 ---
 

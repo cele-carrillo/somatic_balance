@@ -9,6 +9,9 @@ tags:
 image: https://source.unsplash.com/C7B-ExXpOIE/2000x1322?a=.png
 author_practitioner: celeste
 audio_file: /res/audio/enfocando-la-atencion.mp3
+unsplash:
+  name: Javier Allegue Barros
+  user: soymeraki
 excerpt_separator: <!--more-->
 ---
 

@@ -10,6 +10,9 @@ tags:
 image: https://source.unsplash.com/Jd2fqoX3z_0/2000x1322?a=.png
 author_practitioner: celeste
 vimeo_id: 408246718
+unsplash:
+  name: Grant Ritchie
+  user: grantritchie
 ---
 
 This short practice is perfect for those moments where everything seems to be too much and we can't find space for

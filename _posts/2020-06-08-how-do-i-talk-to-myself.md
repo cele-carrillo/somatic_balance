@@ -10,6 +10,9 @@ tags:
 image: https://source.unsplash.com/jG1z5o7NCq4/2000x1322?a=.png
 author_practitioner: celeste
 audio_file: /res/audio/inner-dialogue.mp3
+unsplash:
+  name: Mario Purisic
+  user: mariopurisic
 ---
 
 Without even realising, we are constantly shaping an aspect of reality through our inner dialogue. We can create a great

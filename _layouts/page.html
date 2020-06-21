@@ -1,6 +1,8 @@
 ---
 layout: default
 ---
+{%- assign locale = page.locale | default: site.data.localization.default -%}
+{%- assign texts = site.data.localization[locale] -%}
 {% assign half-hero = page.half-hero | default: layout.half-hero %}
 <section class="hero{% if half-hero %} half-hero{% endif %}" style="background-image: url({{ page.image }})">
 	<div class="inner-hero text-container">
@@ -8,6 +10,11 @@ layout: default
 			<h1>{{ page.title }}</h1>
 			<p class="subtext">{{ page.description }}</p>
 		</div>
+		{%- if page.unsplash -%}
+		<div class="photo-credits">
+			{{ texts.photo_by }} <a href="https://unsplash.com/@{{page.unsplash.user}}">{{ page.unsplash.name }}</a>
+		</div>
+		{%- endif -%}
 	</div>
 </section>
 

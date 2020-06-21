@@ -10,6 +10,9 @@ tags:
 image: https://source.unsplash.com/NqJYQ3m_rVA/2000x1322?a=.png
 author_practitioner: celeste
 audio_file: /res/audio/02_aiming-awareness.mp3
+unsplash:
+  name: Derek Thomson
+  user: derekthomson
 custom_excerpt: >
     We are not prisoners of our perceptions. We do have the power to decide what we want to pay attention to, and where
     we want to remove our attention from. But sometimes it does get a little tricky, doesn't it? 
