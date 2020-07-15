@@ -34,9 +34,45 @@
   background-color: $logo-bg-color;
 }
 
+.warning-bg-color {
+  background-color: #ffeead;
+}
+
 .small-text {
   p {
     font-size: 1.30em;
+  }
+}
+
+
+.info-box {
+  padding: 10px 10px;
+  margin-bottom: 25px;
+  p {
+    margin: 5px;
+    font-size: 1em;
+  }
+  ul {
+    margin: 5px;
+  }
+  li {
+    font-size: 1rem;
+  }
+
+  @media #{$mid-point} {
+    > ul {
+      columns: 2;
+      -webkit-columns: 2;
+      -moz-columns: 2;
+    }
+  }
+
+  @media #{$desktop} {
+    > ul {
+      columns: 3;
+      -webkit-columns: 3;
+      -moz-columns: 3;
+    }
   }
 }
 
