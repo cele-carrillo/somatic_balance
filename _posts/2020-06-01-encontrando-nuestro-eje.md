@@ -25,4 +25,4 @@ centrarnos, a conectarnos, y a re-descubrirnos.  Espero que la disfrutes!
 
 {% include audio.html  file=page.audio_file %}
 
-Si necesitás apoyo adicional, o si querés profundizar en estas prácticas, escribime a [hello@somaticbalance.com.au](mailto:hello@somaticbalance.com.au).
+Si necesitás apoyo adicional, o si querés profundizar en estas prácticas, escribime a {% include email.html %}.

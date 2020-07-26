@@ -20,5 +20,4 @@ volver a mi. Dale?
 
 {% include audio.html  file=page.audio_file %}
 
-Si necesitás apoyo adicional, o si querés profundizar en estas prácticas, escribime a
-[hello@somaticbalance.com.au](mailto:hello@somaticbalance.com.au).
+Si necesitás apoyo adicional, o si querés profundizar en estas prácticas, escribime a {% include email.html %}.

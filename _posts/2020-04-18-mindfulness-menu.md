@@ -27,4 +27,4 @@ We’d love to hear about the ideas that would go on your Mindfulness Menu!
 [Contact us](/contact/) or tag us on [Instagram @balancebyceleste](https://www.instagram.com/balancebyceleste/) with a
 picture of your menu. If you are needing additional support at the moment or want to learn how to deepen your
 mindfulness practice, we are available for online sessions.
-Drop us a message for more information: [hello@somaticbalance.com.au](mailto:hello@somaticbalance.com.au).
+Drop us a message for more information: {% include email.html %}.
