@@ -1,0 +1,78 @@
+---
+layout: page
+title: Somatic Explorations
+description: Finding new ways to be embodied and present in life
+image: https://source.unsplash.com/Y6nFvt1ebyw/2000x1322?a=.png
+thumbnail: /images/loto-thumbnail.png
+permalink: /somatic-explorations/
+unsplash:
+    name: Dorota Dylka
+    user: dylka
+half-hero: true
+
+entries:
+    - title: "Exploration 1: Being one with breath"
+      description: >
+        This time I invite you to go back to the roots: let's be present in the cycle of breath.
+      audio_file: /res/audio/being-one-with-breath.mp3
+
+---
+
+<section class="info">
+    <div class="container flex primary-color-box">
+        <div class="square-image" style="background-image: url({{ page.thumbnail }}); min-width: 200px"></div>
+        <div class="text-container">
+            <p>
+                The goal of these explorations is finding new ways to be more embodied and present in life, and also
+                exploring different tools and resources that can help you create your own practice, or deepen it if you
+                already have one.
+            </p>
+        </div>
+    </div>
+</section>
+
+<section class="info">
+    <div class="container">
+        <div class="text">
+            <p>
+                Together we'll create a safe space in which we can explore different aspects of ourselves - of that
+                fantastic and mysterious whole that we are. We'll be using different modalities, tools, gestures,
+                movements, concepts and ideas to support us exploring  our sensations, feelings, thoughts, beliefs and
+                actions; in order to discover ourselves more and more.
+            </p>
+            <p>
+                I invite you to come back to these explorations as many times as you consider necessary, and to also
+                create your own explorations, changing or adjusting these ideas to what you might need at different
+                times. Remember that we are exploring ourselves; we are playing with these meditations to see what we
+                discover. Because of this, there is no "right or wrong" exploring, and we are not expecting a specific
+                result. We are walking our own path of self-discovery; and no two paths are the same. I invite you to
+                enjoy and respect yours.
+            </p>
+        </div>
+    </div>
+</section>
+
+<section class="collapsed-info">
+    <div class="container table">
+        {%- for entry in page.entries -%}
+        <div class="row">
+            <div class="column">
+                <strong>{{ entry.title }}</strong><br>
+                {{ entry.description }}
+            </div>
+            <div class="column">{% include audio.html file=entry.audio_file %}</div>
+        </div>
+        {%- endfor -%}
+    </div>
+</section>
+
+<section class="info logo-bg-color">
+    <div class="container">
+        <div class="text">
+            <p>
+                As always, if you require additional support or want to deepen these practices, I am here for you.
+                Drop me a message for more information: {% include email.html %}
+            </p>
+        </div>
+    </div>
+</section>

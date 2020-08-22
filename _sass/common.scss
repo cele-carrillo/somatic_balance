@@ -96,3 +96,24 @@
     margin: 10px 0;
   }
 }
+
+.table {
+  .row {
+    border-bottom: 1px solid $primary-color;
+    padding: 10px;
+  }
+
+  .column {
+    align-items: center;
+    padding-top: 10px;
+  }
+
+  @media #{$mid-point} {
+    .row {
+      display: flex;
+    }
+    .column {
+      flex: 50%;
+    }
+  }
+}

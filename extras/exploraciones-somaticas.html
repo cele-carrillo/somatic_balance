@@ -1,0 +1,73 @@
+---
+layout: page
+title: Exploraciones Somáticas
+description: Descubriéndonos en el estar presente
+image: https://source.unsplash.com/Y6nFvt1ebyw/2000x1322?a=.png
+thumbnail: /images/loto-thumbnail.png
+permalink: /exploraciones-somaticas/
+unsplash:
+    name: Dorota Dylka
+    user: dylka
+half-hero: true
+
+entries:
+    - title: "Exploración 1: Estando presente en la respiración"
+      description: >
+        Les propongo volver a lo básico: explorarnos en el ciclo de la respiración.
+      audio_file: /res/audio/estando-presente-en-la-respiracion.mp3
+
+---
+
+<section class="info">
+    <div class="container flex primary-color-box">
+        <div class="square-image" style="background-image: url({{ page.thumbnail }}); min-width: 200px"></div>
+        <div class="text-container">
+            <p>
+                La idea de estas exploraciones -o meditaciones- es generar un espacio seguro en el que nos podamos explorar
+                en distintos aspectos de ese todo fantástico y misterioso que somos. Usando distintas modalidades,
+                herramientas, gestos, movimientos, conceptos e ideas, nos exploramos en nuestras sensaciones, sentimientos,
+                pensamientos, creencias y acciones; para así ir descubriéndonos cada vez más.
+            </p>
+        </div>
+    </div>
+</section>
+
+<section class="info">
+    <div class="container">
+        <div class="text">
+            <p>
+                Te invito a que vuelvas sobre estas exploraciones las veces que consideres necesario, y a que también
+                hagas tus propias exploraciones, cambiando o ajustando estas ideas a lo que vos necesitás a cada
+                momento. Recordá que nos estamos explorando; estamos jugando con estas meditaciones para ver qué
+                descubrimos. Por esto, no hay "bien o mal" en el explorar, y no estamos esperando un resultado
+                específico. Estamos recorriendo nuestro propio camino de autodescubrimiento; y no hay dos caminos que
+                sean iguales. Te invito a disfrutar y respetar el tuyo.
+            </p>
+        </div>
+    </div>
+</section>
+
+<section class="collapsed-info">
+    <div class="container table">
+        {%- for entry in page.entries -%}
+        <div class="row">
+            <div class="column">
+                <strong>{{ entry.title }}</strong><br>
+                {{ entry.description }}
+            </div>
+            <div class="column">{% include audio.html file=entry.audio_file %}</div>
+        </div>
+        {%- endfor -%}
+    </div>
+</section>
+
+<section class="info logo-bg-color">
+    <div class="container">
+        <div class="text">
+            <p>
+                Si en este explorar te das cuenta de que necesitás apoyo adicional, o si querés profundizar en estas
+                prácticas, o tenés alguna sugerencia, escribime a: {% include email.html %}
+            </p>
+        </div>
+    </div>
+</section>
