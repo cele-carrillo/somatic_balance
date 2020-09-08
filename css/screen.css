@@ -908,6 +908,9 @@ section.modality:nth-child(even) .flex {
     border: 1px solid #eee;
     margin: 10px 0; }
 
+.table h3 {
+  background: #a6c7bd;
+  padding: 10px; }
 .table .row {
   border-bottom: 1px solid #a6c7bd;
   padding: 10px; }
