@@ -11,6 +11,11 @@ unsplash:
 half-hero: true
 
 entries:
+    - title: "Exploration 4: Free expressions"
+      description: >
+        We use sound as a mean to relax the muscles around the mouth and throat.
+      audio_file: /res/audio/free-expressions.mp3
+
     - title: "Exploration 1: Being one with breath"
       description: >
         This time I invite you to go back to the roots: let's be present in the cycle of breath.
@@ -63,7 +68,18 @@ entries:
 
 <section class="collapsed-info">
     <div class="container table">
-        {%- for entry in page.entries -%}
+        <h3>Our last exploration</h3>
+        {%- assign entry = page.entries.first -%}
+        <div class="row">
+            <div class="column">
+                <strong>{{ entry.title }}</strong><br>
+                {{ entry.description }}
+            </div>
+            <div class="column">{% include audio.html file=entry.audio_file %}</div>
+        </div>
+
+        <h3>Previous explorations</h3>
+        {%- for entry in page.entries offset:1 -%}
         <div class="row">
             <div class="column">
                 <strong>{{ entry.title }}</strong><br>

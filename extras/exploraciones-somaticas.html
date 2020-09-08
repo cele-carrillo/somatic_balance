@@ -11,6 +11,11 @@ unsplash:
 half-hero: true
 
 entries:
+    - title: "Exploración 4: Expresándonos con libertad"
+      description: >
+       Recurrimos al sonido para empezar a relajar los músculos alrededor de la boca y la garganta.
+      audio_file: /res/audio/expresandonos-con-libertad.mp3
+
     - title: "Exploración 1: Estando presente en la respiración"
       description: >
         Les propongo volver a lo básico: explorarnos en el ciclo de la respiración.
@@ -58,7 +63,17 @@ entries:
 
 <section class="collapsed-info">
     <div class="container table">
-        {%- for entry in page.entries -%}
+        <h3>Nuestra última exploración</h3>
+        {%- assign entry = page.entries.first -%}
+        <div class="row">
+            <div class="column">
+                <strong>{{ entry.title }}</strong><br>
+                {{ entry.description }}
+            </div>
+            <div class="column">{% include audio.html file=entry.audio_file %}</div>
+        </div>
+        <h3>Exploraciones anteriores</h3>
+        {%- for entry in page.entries offset:1 -%}
         <div class="row">
             <div class="column">
                 <strong>{{ entry.title }}</strong><br>

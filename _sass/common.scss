@@ -98,6 +98,10 @@
 }
 
 .table {
+  h3 {
+    background: $primary-color;
+    padding: 10px;
+  }
   .row {
     border-bottom: 1px solid $primary-color;
     padding: 10px;
