@@ -43,6 +43,7 @@ exclude:
   - LICENCE
   - vendor
   - Rakefile
+  - makefile
 
 collections:
   practitioners:
