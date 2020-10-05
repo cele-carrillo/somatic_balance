@@ -11,4 +11,8 @@ test:
 
 .PHONY: watch
 watch:
-	open http://localhost:4000 && bundle exec jekyll serve
+	bundle exec jekyll serve
+
+.PHONY: travis
+travis:
+	open https://travis-ci.org/github/cele-carrillo/somatic_balance/builds/

@@ -11,11 +11,6 @@ unsplash:
 half-hero: true
 
 entries:
-    - title: "Exploration 7: Pauses in the breath"
-      description: >
-        We keep exploring our inner selves through breathing, this time we focus on pauses.
-      audio_file: /res/audio/pauses-in-the-breath.mp3
-
     - title: "Exploration 1: Being one with breath"
       description: >
         This time I invite you to go back to the roots: let's be present in the cycle of breath.
@@ -45,6 +40,16 @@ entries:
       description: >
         We connect to the here and now through breath to start discovering our true needs.
       audio_file: /res/audio/starting-to-discover-needs.mp3
+
+    - title: "Exploration 7: Pauses in the breath"
+      description: >
+        We keep exploring our inner selves through breathing, this time we focus on pauses.
+      audio_file: /res/audio/pauses-in-the-breath.mp3
+
+    - title: "Exploration 8: Feeling for what's a Yes or a No"
+      description: >
+        Awakening an embodied response to what we want to welcome and what we need to distance ourselves from.
+      audio_file: /res/audio/feeling-for-whats-a-yes-or-a-no.mp3
 
 ---
 
@@ -85,7 +90,7 @@ entries:
 <section class="collapsed-info">
     <div class="container table">
         <h3>Our last exploration</h3>
-        {%- assign entry = page.entries.first -%}
+        {%- assign entry = page.entries.last -%}
         <div class="row">
             <div class="column">
                 <strong>{{ entry.title }}</strong><br>
@@ -95,7 +100,9 @@ entries:
         </div>
 
         <h3>Previous explorations</h3>
-        {%- for entry in page.entries offset:1 -%}
+        {%- assign old_count = page.entries.size | minus:1 -%}
+        {%- assign old_entries = page.entries | slice: 0, old_count -%}
+        {%- for entry in old_entries -%}
         <div class="row">
             <div class="column">
                 <strong>{{ entry.title }}</strong><br>
