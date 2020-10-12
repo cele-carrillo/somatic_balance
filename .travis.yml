@@ -4,6 +4,9 @@ script:
   - JEKYLL_ENV=production bundle exec jekyll build
   - bundle exec rake test
 
+git:
+  depth: 1
+
 branches:
   only:
     - gh-pages
