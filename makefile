@@ -20,3 +20,7 @@ travis:
 .PHONY: compress-audio
 compress-audio:
 	python _scripts/audio-compress.py
+
+.PHONY: purge-cache
+purge-cache:
+	./_scripts/purge-cache.sh
