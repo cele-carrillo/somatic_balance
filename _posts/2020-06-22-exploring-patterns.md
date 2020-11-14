@@ -32,7 +32,7 @@ are creating the dynamics in the situation I'm trying to understand. Many times 
 light on some options and alternatives I hadn't noticed before.
 
 This time the inspiration came from my beautiful friend, and amazing practitioner,
-[Meredith Dolan](http://meredithdolan.ntpages.com.au){:target="_blank"}
+[Meredith Dolan](https://meredithdolan.ntpages.com.au){:target="_blank"}
 who invited me to explore and play with a few patterns that are present in nature. The following exploration is the
 result of that. Hope you like it!
 

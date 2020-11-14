@@ -12,7 +12,7 @@ author_practitioner: celeste
 audio_file: /res/audio/somatic-midline.mp3
 unsplash:
   name: Zane Lee
-  user: zane4004
+  user: zane404
 ---
 
 Once again we connect with the somatic aspect of our experience in an attempt to support presence and discover how to

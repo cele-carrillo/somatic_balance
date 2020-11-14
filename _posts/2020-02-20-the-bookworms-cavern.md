@@ -5,11 +5,11 @@ date: 2020-02-20
 description: We lose ourselves in books. We find ourselves there too. 
 tags:
   - community
-image: https://source.unsplash.com/6pO3QFkk7hQ/2000x1322?a=.png
+image: https://source.unsplash.com/6ywyo2qtaZ8/2000x1322?a=.png
 author_practitioner: celeste
 unsplash:
-  name: Stanislav Kondratiev
-  user: technobulka
+  name: Eugenio Mazzone
+  user: eugi1492
 ---
 
 Have you ever wished you could "read" someone? Maybe take a peek through their past stories and hopes for the future,
