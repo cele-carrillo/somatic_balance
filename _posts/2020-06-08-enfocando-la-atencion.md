@@ -21,7 +21,7 @@ disfrutar... <!--more-->Muchas veces podemos sentir que no tenemos control sobre
 que podamos elegir. Y la verdad es que podemos aprender a elegir, a enfocarnos, a prestar atención a aquello que nos
 interesa de verdad. 
 
-En esta meditación, te invito a explorar tu percepciones - tus cinco sentidos, tu vida mental, tus sensaciones físicas,
+En esta meditación, te invito a explorar tus percepciones - tus cinco sentidos, tu vida mental, tus sensaciones físicas,
 y tu relación con lo que te rodea - para así poder empezar a notar qué aspectos están más presentes, qué aspectos pasan
 desapercibidos, y a aprender a enfocarte cada uno de ellos. 
 
