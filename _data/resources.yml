@@ -376,3 +376,11 @@ audio:
     lang: es
     selectors:
       - exploraciones-somaticas-web
+
+  - title: "Descubriendo el sentir"
+    description: Exploramos el sentir, conectándonos con nuestro aspecto físico en el momento presente, sin describir, juzgar o interpretar nuestras sensaciones.
+    path: "/res/audio/descubriendo-el-sentir.mp3"
+    author: Celeste
+    lang: es
+    selectors:
+      - exploraciones-somaticas-web
