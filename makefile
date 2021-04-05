@@ -24,3 +24,11 @@ compress-audio:
 .PHONY: purge-cache
 purge-cache:
 	./_scripts/purge-cache.sh
+
+.PHONY: add-exploration
+add-exploration:
+	./_scripts/add-exploration.sh
+
+.PHONY: publish-exploration
+publish-exploration:
+	./_scripts/publish-exploration.sh
