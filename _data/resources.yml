@@ -384,3 +384,11 @@ audio:
     lang: es
     selectors:
       - exploraciones-somaticas-web
+
+  - title: "Ideas y Necesidades"
+    description: "Exploramos lo que motiva nuestro hacer, para discernir entre ideas y necesidades"
+    path: "/res/audio/ideasynecesidades.mp3"
+    author: Celeste
+    lang: es
+    selectors:
+      - exploraciones-somaticas-web
