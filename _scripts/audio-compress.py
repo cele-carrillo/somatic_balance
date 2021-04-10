@@ -3,6 +3,13 @@ import os
 import numpy as np
 import subprocess
 
+# see https://trac.ffmpeg.org/wiki/Encode/MP3
+def constant_bit_rate_command(src, dst, bitrate):
+    return ["ffmpeg", "-i", src, "-map", "0:a:0", "-b:a", bitrate, dst]
+
+def variable_bit_rate_command(src, dst, level):
+    return ["ffmpeg", "-i", src, "-codec:a", "libmp3lame", "-q:a", str(level), dst]
+
 def convert():
     this_dir = os.path.dirname(os.path.realpath(__file__))
 
@@ -20,7 +27,8 @@ def convert():
     for f in files_to_convert:
         src = os.path.join(src_audio_dir, f)
         dst = os.path.join(dst_audio_dir, f)
-        command = ["ffmpeg", "-i", src, "-map", "0:a:0", "-b:a", "96k", dst]
+        # command = constant_bit_rate_command(src, dst, "96k")
+        command = variable_bit_rate_command(src, dst, "5")
         subprocess.check_call(command)
 
 if __name__ == '__main__':
