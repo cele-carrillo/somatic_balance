@@ -400,3 +400,11 @@ audio:
     lang: es
     selectors:
       - exploraciones-somaticas-web
+
+  - title: "Soltando rigideces para dejarme sostener"
+    description: "Contactamos nuestras propias rigideces, las invitamos a aflojarse, y nos dejamos sostener."
+    path: "/res/audio/sueltorigideces-medejosostener.mp3"
+    author: Celeste
+    lang: es
+    selectors:
+      - exploraciones-somaticas-web
