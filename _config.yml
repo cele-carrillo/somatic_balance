@@ -51,6 +51,8 @@ collections:
     _icon: account_circle
   modalities:
     output: true
+  courses:
+    output: true
 
 pagination:
   enabled: true

@@ -34,6 +34,16 @@ h1 {
 	margin: 0;
 }
 
+h1.new {
+	font-weight: 300;
+	font-size: 3em;
+	margin: 0;
+	color: $primary-color;
+	border-bottom:1px solid $primary-color;
+	width:100%;
+	padding-bottom:3px;
+}
+
 h2 {
 	font-weight: 300;
 	font-size: 3em;
