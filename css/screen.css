@@ -42,6 +42,15 @@ h1 {
   font-size: 3.8em;
   margin: 0; }
 
+h1.new {
+  font-weight: 300;
+  font-size: 3em;
+  margin: 0;
+  color: #a6c7bd;
+  border-bottom: 1px solid #a6c7bd;
+  width: 100%;
+  padding-bottom: 3px; }
+
 h2 {
   font-weight: 300;
   font-size: 3em;
@@ -611,6 +620,20 @@ header {
   color: #fff;
   text-shadow: none; }
 
+.button.alt.disabled a {
+  background: #ccc;
+  border-color: #ccc;
+  color: #000; }
+
+.button.alt.disabled a:hover {
+  background: #ddd;
+  border-color: #ddd;
+  color: #000;
+  text-shadow: none; }
+
+.button.margin-sides {
+  margin: 0 20px; }
+
 .button.thin a {
   padding: 5px 25px;
   margin: 10px 10px; }
@@ -921,7 +944,9 @@ section.modality:nth-child(even) .flex {
   .table .row {
     display: flex; }
   .table .column {
-    flex: 50%; } }
+    flex: 50%; }
+  .table .column.column-15 {
+    flex: 15%; } }
 
 .author {
   padding: 30px 20px 0 20px;
