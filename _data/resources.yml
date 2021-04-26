@@ -408,3 +408,11 @@ audio:
     lang: es
     selectors:
       - exploraciones-somaticas-web
+
+  - title: "Expandiendome al Respirar"
+    description: "Esta exploración nos invita a expandir nuestra respiración para abrazar toe integrar todos nuestros distintos aspectos."
+    path: "/res/audio/extendiendo-nuestra-respiracion.mp3"
+    author: Celeste
+    lang: es
+    selectors:
+      - exploraciones-somaticas-web
