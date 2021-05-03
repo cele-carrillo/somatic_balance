@@ -416,3 +416,11 @@ audio:
     lang: es
     selectors:
       - exploraciones-somaticas-web
+
+  - title: "Contactando el Silencio Interior"
+    description: "Exploramos cómo contactar nuestra profundidad para que el silencio interno pueda surgir."
+    path: "/res/audio/silencio-y-profundidad.mp3"
+    author: Celeste
+    lang: es
+    selectors:
+      - exploraciones-somaticas-web
