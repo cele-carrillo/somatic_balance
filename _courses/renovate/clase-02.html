@@ -10,8 +10,11 @@ res:
     audio_exploration: "/res/courses/renovate/audio/session2-somaticexploration1-spanish.mp3"
     img_polivagal_chart: "/res/courses/renovate/img/polyvagal-chart-charcters-spanish-1.png "
     img_characters: "/res/courses/renovate/img/characters_polyvagal.png"
-    img_pies_thumbnail: "/res/courses/renovate/img/pies_thumbnail.png"
-    doc_pies: "/res/courses/renovate/docs/pies.pdf"
+    doc_pies:
+        href: /res/courses/renovate/docs/pies.pdf
+        filename: pies.pdf
+        thumbnail: /res/courses/renovate/img/pies_thumbnail.png
+        alt: Descargar modelo PIES
 ---
 
 <section class="info">
@@ -122,9 +125,7 @@ res:
                 <strong>Hacé click en la imágen para descargar el PDF: </strong>
             </p>
             <p>
-                <a href="{{ page.res.doc_pies}}" download="pies.pdf">
-                    <img src="{{ page.res.img_pies_thumbnail }}" alt="descargar modelo pies" width="200px">
-                </a>
+                {% include doc-download.html doc=page.res.doc_pies %}
             </p>
             <p>
                 Te invito a que juegues y explores esta práctica, por unos 6 o 7 días, antes de continuar con la clase
