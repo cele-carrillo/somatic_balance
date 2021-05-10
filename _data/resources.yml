@@ -424,3 +424,11 @@ audio:
     lang: es
     selectors:
       - exploraciones-somaticas-web
+
+  - title: "Explorando Nuestro Sentir Físico y Emocional"
+    description: "Exploramos cómo salir del relato o diálogo interno para conectarnos con nuestras sensaciones y emociones."
+    path: "/res/audio/sensaciones-y-emociones.mp3"
+    author: Celeste
+    lang: es
+    selectors:
+      - exploraciones-somaticas-web
