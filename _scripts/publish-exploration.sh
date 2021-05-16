@@ -2,7 +2,7 @@
 
 set -eu
 
-make
+JEKYLL_ENV=production make
 git add _data/
 git add res
 
