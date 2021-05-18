@@ -432,3 +432,11 @@ audio:
     lang: es
     selectors:
       - exploraciones-somaticas-web
+
+  - title: "Mente + Cuerpo"
+    description: "Abrimos en diálogo entre nuestra mente y nuestro cuerpo, explorando qué necesita cada uno de estos aspectos para sentirse a salvo."
+    path: "/res/audio/mind-body-dialogues1.mp3"
+    author: Celeste
+    lang: es
+    selectors:
+      - exploraciones-somaticas-web
