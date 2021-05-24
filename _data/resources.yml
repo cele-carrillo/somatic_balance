@@ -440,3 +440,11 @@ audio:
     lang: es
     selectors:
       - exploraciones-somaticas-web
+
+  - title: "Los Tres Silencios"
+    description: "Exploramos cómo invitar a nuestra experiencia interna el silencio físico, el mental, y el del querer."
+    path: "/res/audio/tressilencios.mp3"
+    author: Celeste
+    lang: es
+    selectors:
+      - exploraciones-somaticas-web
