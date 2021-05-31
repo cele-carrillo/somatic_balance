@@ -448,3 +448,11 @@ audio:
     lang: es
     selectors:
       - exploraciones-somaticas-web
+
+  - title: "Estando presentes en el Respirar"
+    description: "Nos damos tiempo para respirar y ver qué nos sucede interiormente."
+    path: "/res/audio/tiempo_para_respirar.mp3"
+    author: Celeste
+    lang: es
+    selectors:
+      - exploraciones-somaticas-web
