@@ -456,3 +456,11 @@ audio:
     lang: es
     selectors:
       - exploraciones-somaticas-web
+
+  - title: "Soltando los Conflictos"
+    description: "Me animo a soltar mis conflictos? Y qué puede surgir cuando lo hago?"
+    path: "/res/audio/soltandoelconflicto.mp3"
+    author: Celeste
+    lang: es
+    selectors:
+      - exploraciones-somaticas-web
