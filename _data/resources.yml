@@ -464,3 +464,11 @@ audio:
     lang: es
     selectors:
       - exploraciones-somaticas-web
+
+  - title: "La Magia del Tacto"
+    description: "Nos recorremos usando el tacto para sentirnos y conectarnos con el presente."
+    path: "/res/audio/nos_acariciamos.mp3"
+    author: Celeste
+    lang: es
+    selectors:
+      - exploraciones-somaticas-web
