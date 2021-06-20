@@ -15,7 +15,7 @@ watch:
 
 .PHONY: travis
 travis:
-	open https://travis-ci.org/github/cele-carrillo/somatic_balance/builds/
+	open https://travis-ci.com/github/cele-carrillo/somatic_balance/builds/
 
 .PHONY: compress-audio
 compress-audio:
