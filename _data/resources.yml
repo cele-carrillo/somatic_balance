@@ -472,3 +472,11 @@ audio:
     lang: es
     selectors:
       - exploraciones-somaticas-web
+
+  - title: "Mi Ombligo y Yo :)"
+    description: "Hoy exploramos el reconectarnos con nuestros ombligos, llevando una sensaciónn de protección y seguridad."
+    path: "/res/audio/navel_radiation.mp3"
+    author: Celeste
+    lang: es
+    selectors:
+      - exploraciones-somaticas-web
