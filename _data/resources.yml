@@ -480,3 +480,11 @@ audio:
     lang: es
     selectors:
       - exploraciones-somaticas-web
+
+  - title: "Tacto y Presencia"
+    description: "Exploramos cómo el tacto nos ayuda a volver al presente y descansar en nuestro  propio centro."
+    path: "/res/audio/tacto-y-presencia.mp3"
+    author: Celeste
+    lang: es
+    selectors:
+      - exploraciones-somaticas-web
