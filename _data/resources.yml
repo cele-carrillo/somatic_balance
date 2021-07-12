@@ -488,3 +488,11 @@ audio:
     lang: es
     selectors:
       - exploraciones-somaticas-web
+
+  - title: "Soltando Bloqueos"
+    description: "Al sentirnos en el cuerpo, aprendemos a flexibilizarnos y desbloquear aquellas áreas corporales, mentales y emocionales que así lo necesiten."
+    path: "/res/audio/aflojando-bloqueos.mp3"
+    author: Celeste
+    lang: es
+    selectors:
+      - exploraciones-somaticas-web
