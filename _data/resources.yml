@@ -496,3 +496,11 @@ audio:
     lang: es
     selectors:
       - exploraciones-somaticas-web
+
+  - title: "Abriendo las Puertas"
+    description: "Hoy exploramos cómo soltarnos en distintas 'puertas' o 'pasajes' del cuerpo para permitir que las sensaciones, energía, e información fluja n libremente por nuestros cuerpos."
+    path: "/res/audio/opening-gateways.mp3"
+    author: Celeste
+    lang: es
+    selectors:
+      - exploraciones-somaticas-web
