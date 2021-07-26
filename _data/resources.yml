@@ -504,3 +504,11 @@ audio:
     lang: es
     selectors:
       - exploraciones-somaticas-web
+
+  - title: "Abrirnos a la Plenitud"
+    description: "Exploramos cómo el tacto y nuestra intención pueden ayudarnos a traer mayor plenitud a nuestras vidas."
+    path: "/res/audio/tactoyregulacion.mp3"
+    author: Celeste
+    lang: es
+    selectors:
+      - exploraciones-somaticas-web
