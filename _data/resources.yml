@@ -512,3 +512,11 @@ audio:
     lang: es
     selectors:
       - exploraciones-somaticas-web
+
+  - title: "Profundizamos en el Silencio"
+    description: "Una vez más exploramos el silencio interior, con la intención de observar qué surge cuando el ruido desaparece."
+    path: "/res/audio/silencio.mp3"
+    author: Celeste
+    lang: es
+    selectors:
+      - exploraciones-somaticas-web
