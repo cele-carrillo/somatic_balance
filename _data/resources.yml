@@ -520,3 +520,11 @@ audio:
     lang: es
     selectors:
       - exploraciones-somaticas-web
+
+  - title: "Las Interrupciones"
+    description: "Exploramos las formas en las que interrumpimos el contacto con lo que surge en nuestro interior"
+    path: "/res/audio/interrupciones.mp3"
+    author: Celeste
+    lang: es
+    selectors:
+      - exploraciones-somaticas-web
