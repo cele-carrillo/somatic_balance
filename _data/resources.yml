@@ -528,3 +528,11 @@ audio:
     lang: es
     selectors:
       - exploraciones-somaticas-web
+
+  - title: "Exploramos el Respirar"
+    description: "Exploramos distintas formas de respirar y observamos qué cambia y qué surge al hacerlo."
+    path: "/res/audio/respiracion-polaridades.mp3"
+    author: Celeste
+    lang: es
+    selectors:
+      - exploraciones-somaticas-web
