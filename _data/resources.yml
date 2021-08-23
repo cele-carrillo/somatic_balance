@@ -536,3 +536,11 @@ audio:
     lang: es
     selectors:
       - exploraciones-somaticas-web
+
+  - title: "Relajación Profunda"
+    description: "Nos relajamos en el cuerpo, las emociones, y la mente, para dejarnos sostener y desde ahí contactar lo que nos sucede."
+    path: "/res/audio/elumbral.mp3"
+    author: Celeste
+    lang: es
+    selectors:
+      - exploraciones-somaticas-web
