@@ -544,3 +544,11 @@ audio:
     lang: es
     selectors:
       - exploraciones-somaticas-web
+
+  - title: "Sentir físico y emocional"
+    description: "Exploramos nuestras sensaciones físicas y emocionales."
+    path: "/res/audio/sentir.mp3"
+    author: Celeste
+    lang: es
+    selectors:
+      - exploraciones-somaticas-web
