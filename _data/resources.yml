@@ -552,3 +552,12 @@ audio:
     lang: es
     selectors:
       - exploraciones-somaticas-web
+
+
+  - title: "Explorando el Ritmo"
+    description: "Con la ayuda de la respiración, exploramos cómo volver a conectarnos con el ritmo orgánico."
+    path: "/res/audio/ritmo-organico-2.mp3"
+    author: Celeste
+    lang: es
+    selectors:
+      - exploraciones-somaticas-web
