@@ -561,3 +561,11 @@ audio:
     lang: es
     selectors:
       - exploraciones-somaticas-web
+
+  - title: "Espejito, espejito..."
+    description: "La exploración de hoy nos invita a observar qué cambia en nuestra experiencia cuando aquello que le pedimos nuestro entorno lo vemos como una invitación a cultivar algo en nuestro interior."
+    path: "/res/audio/espejito.mp3"
+    author: Celeste
+    lang: es
+    selectors:
+      - exploraciones-somaticas-web
