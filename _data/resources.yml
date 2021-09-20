@@ -569,3 +569,11 @@ audio:
     lang: es
     selectors:
       - exploraciones-somaticas-web
+
+  - title: "Explorando las Pausas"
+    description: "Esxploramos cómo nos sentimos y qué surge al habitar las pausas."
+    path: "/res/audio/pausas.mp3"
+    author: Celeste
+    lang: es
+    selectors:
+      - exploraciones-somaticas-web
