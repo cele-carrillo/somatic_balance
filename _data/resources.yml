@@ -585,3 +585,11 @@ audio:
     lang: es
     selectors:
       - exploraciones-somaticas-web
+
+  - title: "Profundizando el Contacto con el Presente"
+    description: "Esta exploración nos invita a entrar en contacto con el momento presente, dejando de lado críticas, justificaciones, expectativas, etc."
+    path: "/res/audio/cultivando-presencia.mp3"
+    author: Celeste
+    lang: es
+    selectors:
+      - exploraciones-somaticas-web
