@@ -593,3 +593,11 @@ audio:
     lang: es
     selectors:
       - exploraciones-somaticas-web
+
+  - title: "Explorando la Compasión"
+    description: "La invitación es esta vez a explorar qué significa la compasión para cada una/o de nosotres, e imaginar qué cambiaría en nuestra experiencia interna si nos permitieramos tratarnos con mayor compasión."
+    path: "/res/audio/compassion.mp3"
+    author: Celeste
+    lang: es
+    selectors:
+      - exploraciones-somaticas-web
