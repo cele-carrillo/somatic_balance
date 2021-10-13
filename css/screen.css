@@ -931,6 +931,9 @@ section.modality:nth-child(even) .flex {
     border: 1px solid #eee;
     margin: 10px 0; }
 
+.popup {
+  display: none; }
+
 .table h3 {
   background: #a6c7bd;
   padding: 10px; }
