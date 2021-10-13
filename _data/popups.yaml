@@ -1,0 +1,10 @@
+
+covid:
+  title: 'Bookings unavailable'
+  text:
+  content: >
+    <p>Due to COVID-19 restrictions and changes in the practice there will be no available appointments until 2022.
+    Please check back then for availability.</p><p>All the best - Celeste</p>
+  button: 'Close'
+  cookie_name: 'covid-bookings-unavailable'
+  cookie_duration_seconds: 86400

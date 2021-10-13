@@ -1,0 +1,15 @@
+{%- assign title = include.config.title -%}
+{%- assign text = include.config.text -%}
+{%- assign button = include.config.button -%}
+{%- assign content = include.config.content -%}
+{%- assign cookie_name = include.config.cookie_name -%}
+{%- assign cookie_duration_seconds = include.config.cookie_duration_seconds -%}
+<div class="popup"
+     data-title="{{ title }}"
+     data-text="{{ text }}"
+     data-button="{{ button }}"
+     data-cookie-name="{{ cookie_name }}"
+     data-cookie-duration-seconds="{{ cookie_duration_seconds }}"
+>
+    <div class="popup-content">{{ content }}</div>
+</div>
