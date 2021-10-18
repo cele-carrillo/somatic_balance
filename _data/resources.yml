@@ -601,3 +601,11 @@ audio:
     lang: es
     selectors:
       - exploraciones-somaticas-web
+
+  - title: "Estableciendo el Diálogo"
+    description: "Exploramos cómo establecer el diálogo entre nuestra mente, nuestro corazón y nuestro cuerpo."
+    path: "/res/audio/mente-corazon-cuerpo.mp3"
+    author: Celeste
+    lang: es
+    selectors:
+      - exploraciones-somaticas-web
