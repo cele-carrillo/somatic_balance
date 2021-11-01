@@ -609,3 +609,11 @@ audio:
     lang: es
     selectors:
       - exploraciones-somaticas-web
+
+  - title: "El Eterno Presente"
+    description: "Exploramos cómo entrar en contacto con nuestro presente, soltando ideas, opiniones e interrupciones."
+    path: "/res/audio/presencia.mp3"
+    author: Celeste
+    lang: es
+    selectors:
+      - exploraciones-somaticas-web
