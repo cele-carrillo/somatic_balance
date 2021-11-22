@@ -617,3 +617,11 @@ audio:
     lang: es
     selectors:
       - exploraciones-somaticas-web
+
+  - title: "Evocando Sensaciones"
+    description: "Exploramos qué cambia en nuestra experiencia interior al evocar distintas sensaciones."
+    path: "/res/audio/lenguaje evocativo.mp3"
+    author: Celeste
+    lang: es
+    selectors:
+      - exploraciones-somaticas-web
