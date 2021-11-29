@@ -1,5 +1,6 @@
 import glob
 import os
+import re
 import numpy as np
 import subprocess
 
@@ -9,6 +10,13 @@ def constant_bit_rate_command(src, dst, bitrate):
 
 def variable_bit_rate_command(src, dst, level):
     return ["ffmpeg", "-i", src, "-codec:a", "libmp3lame", "-q:a", str(level), dst]
+
+def check_file_names(filenames):
+    pattern = "^[a-z0-9\\_\\-]+\\.mp3$"
+    for filename in filenames:
+        if not re.match(pattern, filename):
+            raise Exception("file name must contain only lower case letters, digits, '-', or '_', got: " + filename)
+
 
 def convert():
     this_dir = os.path.dirname(os.path.realpath(__file__))
@@ -24,6 +32,7 @@ def convert():
     dst_files = [os.path.basename(f) for f in dst_paths]
 
     files_to_convert = np.setdiff1d(src_files, dst_files)
+    check_file_names(files_to_convert)
     for f in files_to_convert:
         src = os.path.join(src_audio_dir, f)
         dst = os.path.join(dst_audio_dir, f)
