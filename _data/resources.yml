@@ -625,3 +625,11 @@ audio:
     lang: es
     selectors:
       - exploraciones-somaticas-web
+
+  - title: "La Vida que Somos"
+    description: "Exploramos qué sucede en nuestra experiencia interior al dejar de lado las ideas de lo que somos para contactarnos con la Vida que se manifiesta en nosotres."
+    path: "/res/audio/explorando_vida.mp3"
+    author: Celeste
+    lang: es
+    selectors:
+      - exploraciones-somaticas-web
