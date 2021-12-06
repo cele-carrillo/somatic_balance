@@ -633,3 +633,11 @@ audio:
     lang: es
     selectors:
       - exploraciones-somaticas-web
+
+  - title: "Soltando Tensiones"
+    description: "Exploramos qué pasa cuando nos permitimos soltar aquellas tensiones que msurgen en nuestro cuerpo como respuesta ante distintos pensamientos, situaciones, emociones, etc."
+    path: "/res/audio/soltando-tensiones.mp3"
+    author: Celeste
+    lang: es
+    selectors:
+      - exploraciones-somaticas-web
