@@ -641,3 +641,11 @@ audio:
     lang: es
     selectors:
       - exploraciones-somaticas-web
+
+  - title: "Integrando Aspectos"
+    description: "En esta oportunidad exploramos qué sucede al entrar en contacto y amigarnos con aquellos aspectos propios que a veces olvidamos, ignoramos o rechazamos."
+    path: "/res/audio/integrando_aspectos.mp3"
+    author: Celeste
+    lang: es
+    selectors:
+      - exploraciones-somaticas-web
