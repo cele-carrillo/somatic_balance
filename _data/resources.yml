@@ -649,3 +649,11 @@ audio:
     lang: es
     selectors:
       - exploraciones-somaticas-web
+
+  - title: "Nuestra Máscara"
+    description: "Exploramos cómo nos presentamos ante el mundo, y las rigideces que surgen de nuestras identificaciones con ciertos aspectos. ¿Qué surge cuando nos permitimos aflojar rigideces?"
+    path: "/res/audio/nuestra_mascara.mp3"
+    author: Celeste
+    lang: es
+    selectors:
+      - exploraciones-somaticas-web
