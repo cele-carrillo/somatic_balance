@@ -894,6 +894,9 @@ section.modality:nth-child(even) .flex {
 .small-text p {
   font-size: 1.30em; }
 
+.smaller-text p {
+  font-size: 1.10em; }
+
 .info-box {
   padding: 10px 10px;
   margin-bottom: 25px; }
@@ -933,6 +936,10 @@ section.modality:nth-child(even) .flex {
 
 .popup {
   display: none; }
+
+div.valign-center {
+  display: flex;
+  align-items: center; }
 
 .table h3 {
   background: #a6c7bd;
