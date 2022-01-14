@@ -1,0 +1,30 @@
+{%- assign locale = page.locale | default: site.data.localization.default -%}
+{%- assign texts = site.data.localization[locale] -%}
+<section class="collapsed-info">
+    <a id="class-index"></a>
+    <div class="container table">
+        <div class="text">
+            <h3>
+                {{ texts.course.course_sessions }}
+            </h3>
+        </div>
+        {%- assign classes = site.courses | where:"course_id",include.course_id -%}
+        {%- for class in classes -%}
+        <div class="row">
+            <div class="column margin-sides small-text">
+                <p><strong>{{ texts.course.session }} {{ forloop.index }}:</strong> {{ class.title }}</p>
+                {%- if class.excerp -%}
+                <div class="smaller-text"><p>{{ class.excerp }}</p></div>
+                {%- endif -%}
+            </div>
+            <div class="column column-15 valign-center">
+                {%- if class.available -%}
+                <div class="button alt dark margin-sides"><a href="{{ class.url }}">{{ texts.course.go_to_session }}</a></div>
+                {%- else -%}
+                <div class="button alt disabled margin-sides"><a>{{ texts.course.coming_soon }}</a></div>
+                {%- endif -%}
+            </div>
+        </div>
+        {%- endfor -%}
+    </div>
+</section>

@@ -9,6 +9,12 @@ en:
 
   photo_by: Photo by
 
+  course:
+    course_sessions: Course Sessions
+    go_to_session: Go to session
+    coming_soon: Comming soon
+    session: Session
+
 es:
   view_more: Ver más
 
@@ -17,3 +23,9 @@ es:
   of: de
 
   photo_by: Foto de
+
+  course:
+    course_sessions: Sesiones del Curso
+    go_to_session: Ir a la sesión
+    coming_soon: Próximamente
+    session: Sesión

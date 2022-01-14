@@ -43,6 +43,11 @@
     font-size: 1.30em;
   }
 }
+.smaller-text {
+  p {
+    font-size: 1.10em;
+  }
+}
 
 
 .info-box {
@@ -99,6 +104,11 @@
 
 .popup {
   display: none;
+}
+
+div.valign-center {
+  display: flex;
+  align-items: center;
 }
 
 .table {
