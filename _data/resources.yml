@@ -657,3 +657,11 @@ audio:
     lang: es
     selectors:
       - exploraciones-somaticas-web
+
+  - title: "Curiosidad y Compasión"
+    description: "Exploramos qué nos sucede al entrar en contacto con nuestra curiosidad natural y con una sensación de compasión ante nosotra/os misma/os."
+    path: "/res/audio/curiosidad_compasion.mp3"
+    author: Celeste
+    lang: es
+    selectors:
+      - exploraciones-somaticas-web
