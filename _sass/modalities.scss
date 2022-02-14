@@ -55,42 +55,6 @@
 	}
 }
 
-.faq {
-	p {
-		font-size: 1.3em;
-	}
-
-	.question {
-		background-color: $secondary-color-lighter-20;
-		font-size: 1.3em;
-		cursor: pointer;
-		padding: 18px;
-		margin-bottom: 12px;
-		text-align: left;
-	}
-
-	.active, .question:hover {
-		background-color: $secondary-color-lighter-40;
-	}
-
-	.answer {
-		padding: 0 18px;
-		display: none;
-		overflow: hidden;
-		background-color: #fff;
-	}
-
-	.question:before {
-		content: '\02795'; /* (+) */
-		margin-right: 10px;
-	}
-
-	.active:before {
-		content: "\2796"; /* (-) */
-	}
-
-}
-
 section.modality:nth-child(even) .flex {
 	flex-direction: row-reverse;
 }

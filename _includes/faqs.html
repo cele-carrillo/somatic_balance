@@ -1,9 +1,9 @@
 <section class="info">
-    <div class="container faq">
+    <div class="container collapsible">
         <h2>Frequently Asked Questions</h2>
         {%- for faq in include.faqs -%}
-        <div class="question">{{ faq.question }}</div>
-        <div class="answer">
+        <div class="collapsible-title">{{ faq.question }}</div>
+        <div class="collapsible-content">
         {%- for paragraph in faq.answer -%}
             <p>{{ paragraph }}</p>
         {%- endfor -%}
@@ -11,19 +11,4 @@
         {%- endfor -%}
     </div>
 </section>
-
-<script>
-    const questions = document.getElementsByClassName('question');
-
-    function handler(event) {
-        event.preventDefault();
-        this.classList.toggle('active');
-        const content = this.nextElementSibling;
-        content.style.display = content.style.display === 'block' ? 'none' : 'block';
-    }
-
-    for (let i = 0; i < questions.length; i++) {
-        questions[i].addEventListener('click', handler);
-        questions[i].addEventListener('touchstart', handler);
-    }
-</script>
+{% include collapsible-js.html %}

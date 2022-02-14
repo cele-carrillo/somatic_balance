@@ -136,5 +136,18 @@ div.valign-center {
     .column.column-15 {
       flex: 15%;
     }
+    .column.column-5 {
+      flex: 5%;
+    }
+  }
+}
+
+.table.thin {
+  .row {
+    border-bottom: 0;
+    padding: 0;
+  }
+  .column {
+    padding: 0;
   }
 }

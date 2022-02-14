@@ -1,0 +1,15 @@
+<script>
+    const collapsibleElements = document.getElementsByClassName('collapsible-title');
+
+    function handler(event) {
+        event.preventDefault();
+        this.classList.toggle('active');
+        const content = this.nextElementSibling;
+        content.style.display = content.style.display === 'block' ? 'none' : 'block';
+    }
+
+    for (let i = 0; i < collapsibleElements.length; i++) {
+        collapsibleElements[i].addEventListener('click', handler);
+        collapsibleElements[i].addEventListener('touchstart', handler);
+    }
+</script>

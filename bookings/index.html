@@ -6,6 +6,7 @@ description: Book a session now.
 intro-title: Feels right, doesn't it?
 intro-description: You're in good hands. We're here to help.
 image: https://source.unsplash.com/FoKO4DpXamQ/2000x1322?a=.png
+image-overlay: true
 unsplash:
     name: Eric Rothermel
     user: erothermel
@@ -13,15 +14,18 @@ iframe_url: https://somatic-balance.cliniko.com/bookings?embedded=true
 ---
 
 <section class="pad">
-    <div class="container info-box warning-bg-color">
-        <p><strong>Bookings unavailable</strong></p>
-        <p>Due to COVID-19 restrictions and changes in the practice there will be
-        <strong>no available appointments until 2022</strong>. Please check back then for availability.</p>
+    <div class="container">
+        <p><strong>Hi there,</strong></p>
+        <p>Thanks for your interest. At the moment online bookings are unavailable.
+            Please check out our <a href="/offerings-2022/">Programmes and Offerings for 2022</a>
+            and get in touch to book a session or join one of our groups.
     </div>
+    {%- if site.bookings_enabled -%}
     <div class="container">
         <p>Please select one of the services below to start making a change in your life today.</p>
     </div>
     <div class="iframe-container" id="bookings">
         <iframe src="{{ page.iframe_url }}" scrolling='true'></iframe>
     </div>
+    {%- endif -%}
 </section>
