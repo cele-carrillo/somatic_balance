@@ -665,3 +665,11 @@ audio:
     lang: es
     selectors:
       - exploraciones-somaticas-web
+
+  - title: "Estando Presentes con la Respiración"
+    description: "Exploramos qué sucede al establecer presencia en nuestra respiración y cómo esta respiración nos ayuda a expandir la fuerza vital que habita en nuestro interior."
+    path: "/res/audio/chaturanga.mp3"
+    author: Celeste
+    lang: es
+    selectors:
+      - exploraciones-somaticas-web
