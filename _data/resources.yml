@@ -673,3 +673,11 @@ audio:
     lang: es
     selectors:
       - exploraciones-somaticas-web
+
+  - title: "Orientarse Desde el Propio Centro"
+    description: "Exploramos cómo descubrir nuestro propio centro e invitar a nuestra atención a descansar allí y habitar ese espacio. Observamos qué cambia en nuestra experiencia interior al habitar este centro."
+    path: "/res/audio/el-propio-centro.mp3"
+    author: Celeste
+    lang: es
+    selectors:
+      - exploraciones-somaticas-web
