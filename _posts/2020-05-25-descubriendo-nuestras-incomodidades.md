@@ -11,7 +11,7 @@ author_practitioner: celeste
 audio_file: /res/audio/descubriendo-nuestras-incomodidades.mp3
 unsplash:
   name: Mark Basarab
-  user: ignitedit
+  user: markbasarabvisuals
 ---
 
 A veces estamos tan enfocados en sentirnos bien que nos olvidamos de los mensajes y la sabiduría que tienen nuestras

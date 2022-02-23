@@ -64,10 +64,12 @@ function createMap(mapData) {
 
     var map = new google.maps.Map(document.getElementById('map'), options);
 
-    new google.maps.Marker({
-        map: map,
-        position: new google.maps.LatLng(mapData.latitude, mapData.longitude)
-    });
+    if (!mapData.hideMarker) {
+        new google.maps.Marker({
+            map: map,
+            position: new google.maps.LatLng(mapData.latitude, mapData.longitude)
+        });
+    }
 
     google.maps.event.addDomListener(window, 'resize', function() {
         map.setCenter(options.center);

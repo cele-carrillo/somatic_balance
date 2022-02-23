@@ -11,8 +11,8 @@ image: https://source.unsplash.com/VxtWBOQjGdI/2000x1322?a=.png
 author_practitioner: celeste
 audio_file: /res/audio/expanding_and_contracting.mp3
 unsplash:
-  name: Alex
-  user: worthyofelegance
+  name: Alex Padurariu
+  user: alexpadurariu
 
 ---
 

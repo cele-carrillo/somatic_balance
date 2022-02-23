@@ -3,10 +3,11 @@ layout: default
 title: Contact
 description: "Send us a message to find out more!"
 map:
-  latitude: -33.8946528
-  longitude: 151.21089
-  zoom: 16
-image: /images/telopea9.jpg
+  latitude: -33.113479
+  longitude: 151.5514829
+  zoom: 15
+  hideMarker: true
+image: /images/mirrabooka.jpg
 custom_javascript:
  - src: 'https://cdn.emailjs.com/sdk/2.2.4/email.min.js'
  - src: '/js/contact.js'
@@ -34,8 +35,8 @@ custom_javascript:
 		<div class="text contact-details">
 			<address>
 				<ul>
-<!--					<li><i class="small-icon fas fa-home"></i>{{ site.data.details.address }}</li>-->
-<!--					<li>Open by appointment only</li>-->
+					<li><i class="small-icon fas fa-home"></i>{{ site.data.details.address }}</li>
+					<li>Open by appointment only</li>
 					<li><i class="small-icon fas fa-envelope"></i>{% include email.html %}</li>
 					<li><hr></li>
 					<li>

@@ -9,9 +9,6 @@ tags:
 image: https://source.unsplash.com/YAh2Ty8fSYA/2000x1322?a=.png
 author_practitioner: celeste
 audio_file: /res/audio/encontrando-nuestro-eje.mp3
-unsplash:
-  name: Matthew T Rader
-  user: matthew_t_rader
 ---
 
 ¿Cuántas veces has sentido que has perdido tu centro, tu eje? ¿O que te has desconectado de tu creatividad, de tu
