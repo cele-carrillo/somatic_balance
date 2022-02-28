@@ -681,3 +681,11 @@ audio:
     lang: es
     selectors:
       - exploraciones-somaticas-web
+
+  - title: "Habitando nuestro propio cuerpo"
+    description: "En esta oportunidad exploramos el encontrarnos con el propio cuerpo, y el sentirnos usando el tactoo. Así nos hacemos cada vez más consicente s de nuestro sentido de propiocepción (saber dónde está nuestro cuerpo en el espacio) y de interocepción (saber qué sensaciones están presentes en nuestro interior). Ambos sentidos nos ayudan a desarrollar nuestra capacidad de estar presentes."
+    path: "/res/audio/propio-interoception.mp3"
+    author: Celeste
+    lang: es
+    selectors:
+      - exploraciones-somaticas-web
