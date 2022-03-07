@@ -689,3 +689,11 @@ audio:
     lang: es
     selectors:
       - exploraciones-somaticas-web
+
+  - title: "Explorando Cómo Interrumpimos el Contancto con el Presente"
+    description: "Exploramos cómo volver al presente, a habitar en el aquí y ahora, y qcómo es que interrumpimos ese contacto."
+    path: "/res/audio/el-presente-y-las-interrupciones.mp3"
+    author: Celeste
+    lang: es
+    selectors:
+      - exploraciones-somaticas-web
