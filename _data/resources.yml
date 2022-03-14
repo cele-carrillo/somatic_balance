@@ -697,3 +697,11 @@ audio:
     lang: es
     selectors:
       - exploraciones-somaticas-web
+
+  - title: "Explorando la Inhalación"
+    description: "En esta oportunidad nos enfocamos en la inhalación y exploramos qué cambia en nuestra experiencia interior al darnos tiempo para respirar y para encontrar el  propio ritmo."
+    path: "/res/audio/breath.mp3"
+    author: Celeste
+    lang: es
+    selectors:
+      - exploraciones-somaticas-web
