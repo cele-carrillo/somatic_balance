@@ -1,4 +1,3 @@
-mmakeMake
 Subir exploraciones
 -------------------
 
