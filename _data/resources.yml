@@ -705,3 +705,11 @@ audio:
     lang: es
     selectors:
       - exploraciones-somaticas-web
+
+  - title: "Cultivando una Sensación de Seguridad Interior"
+    description: "Esta exploración nos invita a  encontrarnos con el propio cuerpo y estimular el sistema nervioso para cultivar una mayor sensación de seguridad y bienestar interior."
+    path: "/res/audio/seguridad-y-presencia.mp3"
+    author: Celeste
+    lang: es
+    selectors:
+      - exploraciones-somaticas-web
