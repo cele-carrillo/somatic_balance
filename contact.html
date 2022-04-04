@@ -11,13 +11,13 @@ image: /images/mirrabooka.jpg
 custom_javascript:
  - src: 'https://cdn.emailjs.com/sdk/2.2.4/email.min.js'
  - src: '/js/contact.js'
- - src: '//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js'
-   attributes:
-     data-dojo-config: 'usePlainJson: true, isDebug: false'
  - src: 'https://maps.googleapis.com/maps/api/js?key=AIzaSyDzB8G0Ol_wvkWDR6VBjKMSk38kgFi_CYc&amp;callback=initMap'
    modifiers:
      - async
      - defer
+# - src: '//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js'
+#   attributes:
+#     data-dojo-config: 'usePlainJson: true, isDebug: false'
 ---
 
 <section class="hero half-hero" style="background-image: url({{ page.image }})">
@@ -35,14 +35,16 @@ custom_javascript:
 		<div class="text contact-details">
 			<address>
 				<ul>
+					<li>Please be aware there are no available appointments at the moment</li>
 					<li><i class="small-icon fas fa-home"></i>{{ site.data.details.address }}</li>
-					<li>Open by appointment only</li>
 					<li><i class="small-icon fas fa-envelope"></i>{% include email.html %}</li>
 					<li><hr></li>
+					{%- if false -%}
 					<li>
 						Find out all about the latest news, events and promotions
 						<div class="button subscribe"><a onclick ="showSubscribePopUp(); return false;">Join our mailing list</a></div>
 					</li>
+					{%- endif -%}
 				</ul>
 			</address>
 		</div>
