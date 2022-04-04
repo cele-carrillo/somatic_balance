@@ -713,3 +713,11 @@ audio:
     lang: es
     selectors:
       - exploraciones-somaticas-web
+
+  - title: "Cultivando el Silencio Interior"
+    description: "Exploramos cómo empezar a cultivar una actitud o intención de silencio en nuestro interior."
+    path: "/res/audio/silencios.mp3"
+    author: Celeste
+    lang: es
+    selectors:
+      - exploraciones-somaticas-web
