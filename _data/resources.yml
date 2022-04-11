@@ -721,3 +721,11 @@ audio:
     lang: es
     selectors:
       - exploraciones-somaticas-web
+
+  - title: "El Presente y la Respiración"
+    description: "Exploramos cómo la respiración puede ayudarnos a profundizar nuestro contacto con el momento presente, y a la vez soltar aquello que nos interrumpe."
+    path: "/res/audio/respiracion-atencion-presente.mp3"
+    author: Celeste
+    lang: es
+    selectors:
+      - exploraciones-somaticas-web
