@@ -29,9 +29,9 @@ embodiments and meditations can support you and bring many benefits, such as:
 * and since body and mind cannot be separate, you might notice more openness toward the environment and other people, a
 sense of security and more energy overall.
 
-The following series have been inspired by my training in Rolfing, Embodied Counselling, Yoga -and some other
+The following series have been inspired by my training in Structural Integration, Embodied Counselling, Yoga -and some other
 modalities- as well as on my own explorations of different types of somatic movement
-practices, such as Hanna Somatics, Feldenkrais, and Rolfing movement.
+practices, such as Hanna Somatics and Feldenkrais.
 
 We are meeting **every Monday at 8:10 AM Sydney Time** to explore together for 15 minutes. These sessions are free of
 charge and all you have to do is [contact me](/contact/) expressing your interest, and I'll send you all the info so you
