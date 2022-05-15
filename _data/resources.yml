@@ -729,3 +729,11 @@ audio:
     lang: es
     selectors:
       - exploraciones-somaticas-web
+
+  - title: "Descubriéndonos en la piel"
+    description: "Nos conectamos con nuestra experiencia interior y del mundo exterior desde nuestra piel."
+    path: "/res/audio/descubriendonos-en-la-piel.mp3"
+    author: Sebastián
+    lang: es
+    selectors:
+      - exploraciones-somaticas-web
