@@ -737,3 +737,11 @@ audio:
     lang: es
     selectors:
       - exploraciones-somaticas-web
+
+  - title: "Explorándonos desde los huesos"
+    description: "Llevamos nuestra atención a la experiencia del presente desde nuestros huesos."
+    path: "/res/audio/explorandonos-desde-los-huesos.mp3"
+    author: Sebastián
+    lang: es
+    selectors:
+      - exploraciones-somaticas-web
