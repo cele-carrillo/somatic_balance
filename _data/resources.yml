@@ -745,3 +745,11 @@ audio:
     lang: es
     selectors:
       - exploraciones-somaticas-web
+
+  - title: "Nos conectamos con la plenitud"
+    description: "Nos exploramos para descubrir que se interpone en este momento entre yo y mi plenitud."
+    path: "/res/audio/entre-yo-y-mi-plenitud.mp3"
+    author: Sebastián
+    lang: es
+    selectors:
+      - exploraciones-somaticas-web
