@@ -761,3 +761,11 @@ audio:
     lang: es
     selectors:
       - exploraciones-somaticas-web
+
+  - title: "Ampliando el Contacto con el Presente"
+    description: "Exploramos cómo suavizar o aflojar nuestro apego al pasado y al futuro, para así poder habitar con mayor plenitud el presente."
+    path: "/res/audio/centroypresente.mp3"
+    author: Celeste
+    lang: es
+    selectors:
+      - exploraciones-somaticas-web
