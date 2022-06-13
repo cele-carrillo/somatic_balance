@@ -769,3 +769,11 @@ audio:
     lang: es
     selectors:
       - exploraciones-somaticas-web
+
+  - title: "Soltando la Historia"
+    description: "Exploramos qué sucede al intentar soltar la narrativa que tenemos de nuestra experiencia interna del momento presente. La respiración nos ayuda a posar nuestra atención en lo que sucede más allá de las palabras."
+    path: "/res/audio/sin_narrativa.mp3"
+    author: Celeste
+    lang: es
+    selectors:
+      - exploraciones-somaticas-web
