@@ -777,3 +777,11 @@ audio:
     lang: es
     selectors:
       - exploraciones-somaticas-web
+
+  - title: "Observando nuestra Orientación Interior"
+    description: "Exploramos cómo nos orientamos o predisponemos internamente ante las distintas situaciones qué vivimos."
+    path: "/res/audio/predisposicion.mp3"
+    author: Celeste
+    lang: es
+    selectors:
+      - exploraciones-somaticas-web
