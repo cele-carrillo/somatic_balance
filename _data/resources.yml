@@ -785,3 +785,11 @@ audio:
     lang: es
     selectors:
       - exploraciones-somaticas-web
+
+  - title: "Observando dónde está nuestra Atención"
+    description: "Exploramos cómo viaja nuestra atención y en qué elige posarse, a la vez que nuestra respiración nos ayuda a volver al presente."
+    path: "/res/audio/observando_la_atencion.mp3"
+    author: Celeste
+    lang: es
+    selectors:
+      - exploraciones-somaticas-web
