@@ -793,3 +793,11 @@ audio:
     lang: es
     selectors:
       - exploraciones-somaticas-web
+
+  - title: "Contactando lo que Habita en el Cuerpo"
+    description: "Exploramos qué surge al habitar nuestro cuerpo, con la intención de sidentificar qué está presente, aceptando lo que surje, y dándole permiso al cuerpo para soltar aquello que ya no necesita."
+    path: "/res/audio/cuerpo-emociones.mp3"
+    author: Celeste
+    lang: es
+    selectors:
+      - exploraciones-somaticas-web
