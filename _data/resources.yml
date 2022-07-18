@@ -801,3 +801,11 @@ audio:
     lang: es
     selectors:
       - exploraciones-somaticas-web
+
+  - title: "Cualidades del Presente"
+    description: "Con base en 7 principios propuestos por algunas tradiciones exploramos cómo ciertas cualidades y principios se manifiestan en nuestra experiencia interna a cada momento, así como nuestra relación con ellos."
+    path: "/res/audio/principios_orden_universal.mp3"
+    author: Celeste
+    lang: es
+    selectors:
+      - exploraciones-somaticas-web
