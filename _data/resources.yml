@@ -809,3 +809,11 @@ audio:
     lang: es
     selectors:
       - exploraciones-somaticas-web
+
+  - title: "Explorando los Mapas que nos Guian"
+    description: "Exploramos las diferentes dimensiones de nuestra realidad, y los mapas que usamos para orientarnos y movernos en esa realidad."
+    path: "/res/audio/mapas.mp3"
+    author: Celeste
+    lang: es
+    selectors:
+      - exploraciones-somaticas-web
