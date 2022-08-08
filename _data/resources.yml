@@ -817,3 +817,11 @@ audio:
     lang: es
     selectors:
       - exploraciones-somaticas-web
+
+  - title: "Balance y Equilibrio"
+    description: "Exploramos cómo cultivar una sensación de balance y equilibrio entre nuestros pensamientos, sentimientos y sensaciones físicas. ¿En qué otros aspectos de nuestras vidas queremos cultivar mayor equilibrio?"
+    path: "/res/audio/balance.mp3"
+    author: Celeste
+    lang: es
+    selectors:
+      - exploraciones-somaticas-web
