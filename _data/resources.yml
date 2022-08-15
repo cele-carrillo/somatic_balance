@@ -825,3 +825,11 @@ audio:
     lang: es
     selectors:
       - exploraciones-somaticas-web
+
+  - title: "Descubriendo Nuestro Hacer Automático"
+    description: "Exploramos qué sucede en nuestros cuerpos, corazones y mentes cuando respondemos a lo que nos rodea de forma automática."
+    path: "/res/audio/automaticos.mp3"
+    author: Celeste
+    lang: es
+    selectors:
+      - exploraciones-somaticas-web
