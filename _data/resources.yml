@@ -833,3 +833,11 @@ audio:
     lang: es
     selectors:
       - exploraciones-somaticas-web
+
+  - title: "Creando Espacio para Observar"
+    description: "Exploramos qué surge cuando volvemos a nuestro propio centro y desde ahí creamos el espacio para observar y tener una perspectiva más clara de lo que sucede en nustra vida y a nuestro alrededor."
+    path: "/res/audio/perspectiva.mp3"
+    author: Celeste
+    lang: es
+    selectors:
+      - exploraciones-somaticas-web
