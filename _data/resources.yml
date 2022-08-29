@@ -841,3 +841,11 @@ audio:
     lang: es
     selectors:
       - exploraciones-somaticas-web
+
+  - title: "Explorando cómo nos decimos NO"
+    description: "En esta exploración tenemos la intención de descubrir de qué formas, con qué palabras, y ante qué situaciones negamos lo que deseamos, cortamos nuestra espontáneidad, y no nos damos permiso de jugar y explorar."
+    path: "/res/audio/negandonos.mp3"
+    author: Celeste
+    lang: es
+    selectors:
+      - exploraciones-somaticas-web
