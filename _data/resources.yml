@@ -849,3 +849,11 @@ audio:
     lang: es
     selectors:
       - exploraciones-somaticas-web
+
+  - title: "Soltando el Esfuerzo"
+    description: "Exploramos el esfuerzo en nuestros cuerpos, emociones y mentes, para empezar a descubrir cómo se presenta y qué sucede al intentar soltarlo."
+    path: "/"
+    author: Celeste
+    lang: es
+    selectors:
+      - exploraciones-somaticas-web
