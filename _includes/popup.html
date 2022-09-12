@@ -11,7 +11,7 @@
      data-button="{{ button }}"
      data-cookie-name="{{ cookie_name }}"
      data-cookie-duration-seconds="{{ cookie_duration_seconds }}"
-     {%- if wide -%}data-custom-class="popup-wide"{%- endif -%}
+     {% if wide %}data-custom-class="popup-wide"{% endif %}
 >
     <div class="popup-content smaller-text">{{ content }}</div>
 </div>
