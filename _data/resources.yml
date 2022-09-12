@@ -856,3 +856,11 @@ audio:
     lang: es
     selectors:
       - exploraciones-somaticas-web
+
+  - title: "Expandir y Contraer"
+    description: "Exploramos cómo los movimientos de expansión y contracción están presentes en  nosotros, en nuestra respiración, en nuestro accionar, en nuestro pensar, etc. Y al explorar estos movimientos, ¿qué descubrimos sobre nosotros? ¿Cuáles son nuestras tendencias y qué necesitamos para traer mayor equilibrio a nuestra vida?"
+    path: "/res/audio/contraccion-expansion.mp3"
+    author: Celeste
+    lang: es
+    selectors:
+      - exploraciones-somaticas-web
