@@ -8,3 +8,28 @@ covid:
   button: 'Close'
   cookie_name: 'covid-bookings-unavailable'
   cookie_duration_seconds: 86400
+
+
+eol:
+  title: 'Thank you!'
+  text:
+  content: >
+    <p>
+    As you may know, my time in Australia has come to an end and I have closed my professional practice. It's been a great pleasure
+    working with each of you and as much as I'm excited about this new adventure in my life, I will genuinely miss working with you.
+    </p>
+    <p>
+    The resources on this website will continue to be available until the end of 2023. I hope you find them useful.
+    </p>
+    <p>
+    Thank you for your continuous support, and please do keep in touch.
+    </p>
+    <p>
+    If there's anything I can still do for you, don't hesitate to contact me.
+    </p>
+    <p>With gratitude,</p>
+    <p>Celeste</p>
+  button: 'Close'
+  wide: true
+  cookie_name: 'balance-eol'
+  cookie_duration_seconds: 86400

@@ -3,6 +3,7 @@
 {%- assign button = include.config.button -%}
 {%- assign content = include.config.content -%}
 {%- assign cookie_name = include.config.cookie_name -%}
+{%- assign wide = include.config.wide -%}
 {%- assign cookie_duration_seconds = include.config.cookie_duration_seconds -%}
 <div class="popup"
      data-title="{{ title }}"
@@ -10,6 +11,7 @@
      data-button="{{ button }}"
      data-cookie-name="{{ cookie_name }}"
      data-cookie-duration-seconds="{{ cookie_duration_seconds }}"
+     {%- if wide -%}data-custom-class="popup-wide"{%- endif -%}
 >
-    <div class="popup-content">{{ content }}</div>
+    <div class="popup-content smaller-text">{{ content }}</div>
 </div>

@@ -1,5 +1,5 @@
-function showPopup({content, title, text, icon, button}) {
-    return swal({content, title, text, icon, button});
+function showPopup({content, title, text, icon, button, className}) {
+    return swal({content, title, text, icon, button, className});
 }
 
 function setCookie({name, duration, useCookie}) {
@@ -45,6 +45,7 @@ function processPopupDiv(popupDiv) {
     var icon = popupDiv.getAttribute('data-icon');
     var button = popupDiv.getAttribute('data-button');
     var cookieName = popupDiv.getAttribute('data-cookie-name');
+    var className = popupDiv.getAttribute('data-custom-class');
     var cookieDuration = popupDiv.getAttribute('data-cookie-duration-seconds');
     var cookie = {
         useCookie: Boolean(cookieName),
@@ -53,7 +54,7 @@ function processPopupDiv(popupDiv) {
     };
     console.log(JSON.stringify(cookie));
     if (shouldShowPopup(cookie)) {
-        showPopup({content, title, text, icon, button})
+        showPopup({content, title, text, icon, button, className})
             .then(() => setCookie(cookie));
     }
 }

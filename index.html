@@ -6,7 +6,13 @@ image: /images/home.jpg
 custom_javascript:
  - src: '/js/owl.carousel.js'
  - src: '/js/home.js'
+ - src: 'https://unpkg.com/sweetalert/dist/sweetalert.min.js'
+ - src: '/js/popup.js'
+
 ---
+
+{% include popup.html config=site.data.popups.eol %}
+
 <section class="hero" style="background-image: url({{ page.image }})">
 	<div class="inner-hero text-container">
 		<div class="hero-text-container">
