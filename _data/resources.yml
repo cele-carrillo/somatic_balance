@@ -864,3 +864,11 @@ audio:
     lang: es
     selectors:
       - exploraciones-somaticas-web
+
+  - title: "Amando la totalidad de quienes somos"
+    description: "Exploramos las distintas partes o aspectos de quienes somos internamente, y cómo empezar a desarrollar una relación de verdadera curisidad, compasión y amor con cada una de esas partes."
+    path: "/res/audio/amando-nuestras-partes.mp3"
+    author: Celeste
+    lang: es
+    selectors:
+      - exploraciones-somaticas-web
