@@ -28,6 +28,9 @@ a {
   color: #00a4ca;
   text-decoration: none; }
 
+a.light {
+  color: #41753F; }
+
 a:hover {
   text-decoration: underline; }
 
@@ -983,7 +986,8 @@ section.modality:nth-child(even) .flex {
   display: none; }
 
 .popup-wide {
-  width: 650px !important; }
+  width: 95%;
+  max-width: 650px !important; }
 
 div.valign-center {
   display: flex;
